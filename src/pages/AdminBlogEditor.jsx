@@ -1,0 +1,4 @@
+import { Link } from 'react-router-dom';
+export default function AdminBlogEditor() {
+  return <section className="content-page"><h1>Publish a Markdown article</h1><p>This site now publishes articles from local Markdown files.</p><ol><li>Create a lowercase hyphenated .md file in src/content/blog/ with title, excerpt, date, author, and tags in its frontmatter.</li><li>Run npm run build to generate the article page and update the archive and sitemap.</li><li>Upload the contents of dist to Hostinger.</li></ol><p>The online database editor is disabled. No sign-in is needed for the microphone tester.</p><Link to="/blog">Read the published guides</Link></section>;
+}

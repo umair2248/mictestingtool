@@ -1,0 +1,14 @@
+.speaker-page #speaker-volume { display: block; width: 100%; margin: 12px 0; accent-color: var(--accent); min-height: 32px; cursor: pointer; }
+.speaker-breadcrumb { font-size: 0.78rem; color: var(--muted); margin-bottom: 20px; line-height: 1.6; }
+.speaker-breadcrumb a { color: var(--muted); text-decoration: none; }
+.speaker-breadcrumb a:hover { color: var(--text); }
+.speaker-controls { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin: 20px 0; }
+.speaker-channel-display { display: flex; align-items: center; justify-content: center; gap: 28px; padding: 18px 0; border: 1px solid var(--border); border-radius: 16px; background: rgba(3, 6, 12, 0.5); color: var(--muted); }
+.speaker-channel-display span { display: grid; place-items: center; width: 56px; height: 56px; border: 1px solid var(--border-strong); border-radius: 50%; font: 700 1rem var(--font-head); transition: all 0.2s ease; }
+.speaker-channel-display .is-playing { background: var(--gradient); border-color: transparent; color: #fff; box-shadow: 0 0 0 8px rgba(79, 140, 255, 0.14), 0 10px 30px -8px rgba(79, 140, 255, 0.8); }
+.mic-home .speaker-volume-note { font-size: 0.9rem; line-height: 1.65; color: var(--text-soft); }
+.mic-home .speaker-output-note { margin-top: 16px; }
+.speaker-page .home-button-stop { width: 100%; }
+.speaker-page button:disabled { cursor: default; opacity: 0.5; }
+@media (max-width: 400px) { .speaker-controls { grid-template-columns: 1fr; } }
+@media (max-width: 600px) { .speaker-page .home-tool > .home-card-icon { display: none; } }

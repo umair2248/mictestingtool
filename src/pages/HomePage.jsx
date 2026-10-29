@@ -1,0 +1,53 @@
+import { Link } from 'react-router-dom';
+import { Mic, ShieldCheck, Download, Play, Check, Volume2 } from 'lucide-react';
+import MicrophoneTool from '../components/MicrophoneTool';
+import LanguageLinks from '../components/LanguageLinks';
+import { languageVersions } from '../data/locales';
+
+import { homeSteps, homeResults, homeTroubleshooting, homeDevices, homeUseCases, homeFaqs } from '../data/homepage';
+import '../styles/home.css';
+
+export default function HomePage() {
+  return <div className="mic-home">
+    <section className="home-hero" aria-labelledby="home-title">
+      <div className="home-container home-hero-grid">
+        <div>
+          <span className="home-eyebrow">Free browser microphone tester</span>
+          <h1 id="home-title">Mic Test — Free Online Microphone Tester</h1>
+          <p className="home-lead">Run a free mic test online. Check live microphone input, record your voice, and listen back or download a clip. No installation or sign-up.</p>
+          <ul className="home-trust"><li><Check size={16} aria-hidden="true" />No sign-up</li><li><ShieldCheck size={16} aria-hidden="true" />Local audio processing</li><li><Download size={16} aria-hidden="true" />Playback and download</li></ul>
+          <div className="home-stats"><div><strong>100% free</strong><span>No limits or account</span></div><div><strong>0 uploads</strong><span>Audio stays in your browser</span></div><div><strong>{languageVersions.length} languages</strong><span>Translated mic test pages</span></div></div>
+        </div>
+        <MicrophoneTool />
+      </div>
+    </section>
+
+    <div className="home-container home-intro-strip"><p>Checking a headset? <Link to="/speaker-test">Test your speakers and headphones</Link>, then use this microphone tool to check its input. Getting ready for a video call? Run the <Link to="/webcam-test">webcam and mic test</Link> to check your camera and microphone together.</p><LanguageLinks /></div>
+    <nav className="home-container home-jump-links" aria-label="Microphone test guide"><a href="#how-to-test">How to test</a><a href="#test-results">Understand results</a><a href="#microphone-not-working">Fix mic problems</a><a href="#devices">Device help</a><a href="#mic-faq">Questions</a></nav>
+
+    <section className="home-section" aria-labelledby="test-record-download"><div className="home-container">
+      <div className="home-section-intro"><h2 id="test-record-download">One mic tester: test, record, listen, and download</h2><p>Use this microphone test to answer a practical question: can your browser receive your voice clearly? You can check an input signal and hear a real recording, rather than relying only on a device being listed as connected.</p></div>
+      <div className="home-grid home-grid-three">
+        <div className="home-card"><Mic className="home-card-icon" aria-hidden="true" /><h3>Check live microphone input</h3><p>Speak and watch the input meter and frequency bars respond. Pick a different input when you want to test a headset, USB mic, webcam, or your device’s built-in microphone.</p></div>
+        <div className="home-card"><Play className="home-card-icon" aria-hidden="true" /><h3>Record and listen to your voice</h3><p>Make a short voice recording, stop, and play it back. Listen for clear speech, unwanted noise, echo, or distortion. Optional live monitoring lets you hear input while recording.</p></div>
+        <div className="home-card"><Download className="home-card-icon" aria-hidden="true" /><h3>Download your audio clip</h3><p>Save the recording on your device to keep a reference or compare setups. The browser selects a supported format, and the download button shows its extension before you save.</p></div>
+      </div>
+    </div></section>
+
+    <section className="home-section home-section-alt" id="how-to-test"><div className="home-container"><div className="home-section-intro"><h2>How to test your microphone online</h2><p>No account or software installation is needed. For a useful comparison, keep your speaking volume and distance consistent between recordings.</p></div><ol className="home-steps">{homeSteps.map(step => <li key={step.title}><h3>{step.title}</h3><p>{step.text}</p></li>)}</ol><a className="home-button" href="#microphone-test"><Mic size={18} aria-hidden="true" />Start your online mic test</a></div></section>
+
+    <section className="home-section" id="test-results"><div className="home-container"><div className="home-section-intro"><h2>What do your microphone test results mean?</h2><p>The meter shows relative digital input level while recording. Playback is the best part of this test for judging whether your own voice sounds clear. There is no single ideal meter percentage for every microphone, voice, and distance.</p></div><div className="home-grid">{homeResults.map(item => <div className="home-card" key={item.title}><h3>{item.title}</h3><p>{item.text}</p></div>)}</div><p className="home-note home-more">Measurement limits: input level is not calibrated sound pressure in dB. The displayed sample rate is the browser audio context rate. This tool does not measure end-to-end latency, certify hardware, or give an automatic quality score.</p></div></section>
+
+    <section className="home-section home-section-alt" id="microphone-not-working"><div className="home-container"><div className="home-section-intro"><h2>Why is my microphone not working?</h2><p>A silent recording can come from a permission, device selection, mute, connection, or app-setting problem. Check these common causes before assuming the mic needs replacing.</p></div><div className="home-grid">{homeTroubleshooting.map(item => <div className="home-card" key={item.title}><h3>{item.title}</h3><p>{item.text}</p></div>)}</div><p className="home-more">Still silent? Follow the full <Link to="/blog/microphone-not-working">microphone not working fix guide</Link> for Windows, Mac, laptops, headsets and phones. <Link to="/faq">Get more microphone troubleshooting help</Link> or <Link to="/contact">contact support</Link> if the problem continues.</p></div></section>
+
+    <section className="home-section" id="devices"><div className="home-container"><div className="home-section-intro"><h2>Test a mic on your computer, phone, or tablet</h2><p>The tester needs a secure connection, microphone permission, and a browser with audio recording support. Available inputs and recording formats depend on your browser and device.</p></div><div className="home-grid">{homeDevices.map(item => <div key={item.title}><h3>{item.title}</h3><p>{item.text}</p></div>)}</div><p className="home-more">For external equipment, connect the headset or microphone before starting. Bluetooth input availability can change with the active connection or audio mode. If your device is not listed, check the operating system first and reload the page.</p></div></section>
+
+    <section className="home-section home-section-alt" id="clearer-audio"><div className="home-container home-columns"><div><Volume2 className="home-card-icon" aria-hidden="true" /><h2>Get a clearer voice recording</h2><p>A useful audio test is repeatable. Record one short sentence, change one setting, then record it again. That makes it easier to hear whether the change helped.</p><ul className="home-help-list"><li>Choose a quieter place and move away from fans or keyboard noise.</li><li>Keep a steady distance from the microphone; avoid covering a phone’s mic opening.</li><li>Lower excessive input gain if your voice sounds harsh or distorted.</li><li>Use headphones to avoid recording speaker playback or creating a feedback loop.</li><li>Listen to both speech and a short pause so you can compare background noise.</li></ul></div><div><ShieldCheck className="home-card-icon" aria-hidden="true" /><h2>Your microphone recording stays local</h2><p>The mic test uses browser audio capture for recording and playback. It does not send your test audio to a server. Microphone permission is requested only after you start, and stopping the test releases the input stream.</p><p>The clip is temporary until you download it. Refreshing, closing the page, discarding the clip, or starting another recording removes access to the previous unsaved test. A downloaded copy is yours to keep or delete.</p><p>This describes test audio, not every website request: your browser still loads page assets and fonts. Read the <Link to="/privacy">privacy policy</Link> for broader website information.</p></div></div></section>
+
+    <section className="home-section" id="before-your-call"><div className="home-container"><div className="home-section-intro"><h2>When is a quick microphone check useful?</h2></div><div className="home-grid home-grid-three">{homeUseCases.map(item => <div key={item.title}><h3>{item.title}</h3><p>{item.text}</p></div>)}</div><p className="home-more">For a longer walkthrough, read <Link to="/blog/how-to-test-your-microphone">how to test your microphone</Link> or <Link to="/blog/how-to-connect-set-up-microphone">connect and set up a microphone on PC or Mac</Link>, explore <Link to="/features">microphone tester features</Link>, or browse the <Link to="/blog">audio testing guides</Link>.</p></div></section>
+
+    <section className="home-section home-section-alt" id="mic-faq"><div className="home-container"><div className="home-section-intro"><h2>Online mic test: frequently asked questions</h2></div><div className="home-faq-list">{homeFaqs.map(item => <details className="home-faq" key={item.q}><summary>{item.q}</summary><p>{item.a}</p></details>)}</div><p className="home-more"><Link to="/faq">Read all microphone help answers</Link>.</p></div></section>
+
+    <section className="home-section"><div className="home-container"><div className="home-bottom"><h2>Check your microphone before you go live</h2><p>Run a free online microphone test, listen to your voice, and save a clip if you need one. Start with the input you plan to use for your next call or recording.</p><a className="home-button" href="#microphone-test"><Mic size={18} aria-hidden="true" />Back to Microphone Test</a></div></div></section>
+  </div>;
+}
