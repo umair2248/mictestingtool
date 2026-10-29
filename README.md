@@ -1,7 +1,5 @@
 ﻿# Mic Testing Tool
 
-[![CI](../../actions/workflows/ci.yml/badge.svg)](../../actions/workflows/ci.yml)
-
 **Live site: [mictestingtool.com](https://mictestingtool.com)**
 
 A free, private, browser-based toolkit for checking audio and video devices. Record and play back your microphone, watch the live input level, test your webcam and mic together, and check left/right speaker output. Everything runs in the browser and nothing is uploaded.
@@ -47,7 +45,7 @@ npm run test:localized:browser    # translations, articles and the speaker test 
 npm run test:article              # article source checks
 ```
 
-CI runs lint, the build and both browser suites on every push and pull request.
+The CI workflow (`.github/workflows/ci.yml`) runs lint, the build and both browser suites. It is triggered manually from the Actions tab.
 
 ## Project structure
 
