@@ -15,7 +15,8 @@
     "test:article": "node scripts/check-article-source.mjs",
     "test:article:browser": "playwright test --config playwright.localized.config.js article.spec.js",
     "test:speaker": "node scripts/check-speaker-source.mjs",
-    "test:speaker:browser": "playwright test --config playwright.localized.config.js speaker.spec.js"
+    "test:speaker:browser": "playwright test --config playwright.localized.config.js speaker.spec.js",
+    "deploy": "node scripts/deploy.mjs"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.110.9",

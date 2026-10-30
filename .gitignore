@@ -28,3 +28,5 @@ playwright-report/
 .env
 .env.local
 hostinger-*.zip
+.env.deploy
+deploy-*.tar.gz
