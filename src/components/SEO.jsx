@@ -23,7 +23,7 @@ export function getSchemas(seo) {
   if (seo.isWebcam) schemas.push({ '@context': 'https://schema.org', '@type': 'WebApplication', name: 'Webcam and Microphone Test', url: seo.canonical, inLanguage: 'en', applicationCategory: 'MultimediaApplication', operatingSystem: 'Web browser', description: seo.description, isAccessibleForFree: true, offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' }, featureList: ['Live webcam preview', 'Camera resolution and frame rate', 'Microphone input level', 'Video and audio test recording', 'Webcam snapshot'] });
   if (seo.post) {
     const p = seo.post;
-    schemas.push({ '@context': 'https://schema.org', '@type': 'BlogPosting', '@id': `${seo.canonical}#article`, url: seo.canonical, headline: p.title, description: p.excerpt, inLanguage: 'en', mainEntityOfPage: { '@type': 'WebPage', '@id': seo.canonical }, ...(p.date ? { datePublished: p.date } : {}), ...(p.modified ? { dateModified: p.modified } : {}), author: { '@type': 'Organization', name: p.author || siteName, url: `${seo.canonical}#article-author` }, publisher: { '@type': 'Organization', name: siteName, url: `${siteUrl}/` }, isAccessibleForFree: true });
+    schemas.push({ '@context': 'https://schema.org', '@type': 'BlogPosting', '@id': `${seo.canonical}#article`, url: seo.canonical, headline: p.title, description: p.excerpt, inLanguage: 'en', mainEntityOfPage: { '@type': 'WebPage', '@id': seo.canonical }, ...(p.date ? { datePublished: p.date } : {}), ...(p.modified ? { dateModified: p.modified } : {}), ...(p.image ? { image: `${siteUrl}${p.image}` } : {}), author: { '@type': 'Organization', name: p.author || siteName, url: `${seo.canonical}#article-author` }, publisher: { '@type': 'Organization', name: siteName, url: `${siteUrl}/` }, isAccessibleForFree: true });
   }
   if (seo.path !== '/' && !seo.noindex && !seo.locale) {
     const items = [{ name: 'Home', item: `${siteUrl}/` }];
@@ -37,6 +37,8 @@ export function getSchemas(seo) {
 export default function SEO() {
   const { pathname } = useLocation();
   const seo = getSEO(pathname);
+  const image = seo.post?.image ? `${siteUrl}${seo.post.image}` : `${siteUrl}/social-card.png`;
+  const imageAlt = seo.post?.imageAlt || seo.locale?.h1 || 'Mic Testing Tool — record, listen, and check your microphone input';
   useEffect(() => { document.documentElement.lang = seo.language; document.documentElement.dir = 'ltr'; }, [seo.language]);
   return <>
     <title>{seo.title}</title>
@@ -54,14 +56,14 @@ export default function SEO() {
     <meta property="og:title" content={seo.title} />
     <meta property="og:description" content={seo.description} />
     <meta property="og:url" content={seo.canonical} />
-    <meta property="og:image" content={`${siteUrl}/social-card.png`} />
+    <meta property="og:image" content={image} />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
-    <meta property="og:image:alt" content={seo.locale?.h1 || 'Mic Testing Tool — record, listen, and check your microphone input'} />
+    <meta property="og:image:alt" content={imageAlt} />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={seo.title} />
     <meta name="twitter:description" content={seo.description} />
-    <meta name="twitter:image" content={`${siteUrl}/social-card.png`} />
+    <meta name="twitter:image" content={image} />
     <script id="structured-data" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(getSchemas(seo)).replace(/</g, '\\u003c') }} />
   </>;
 }

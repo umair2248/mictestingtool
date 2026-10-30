@@ -45,6 +45,8 @@ export function getAllBlogPosts() {
         readTime: metadata.readTime ?? `${Math.max(1, Math.ceil(content.split(/\s+/).filter(Boolean).length / 225))} min read`,
         author: metadata.author ?? 'Mic Testing Tool',
         modified: metadata.modified ?? '',
+        image: metadata.image ?? '',
+        imageAlt: metadata.imageAlt ?? '',
         content,
       };
     })

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="t">
+  <title id="t">Where is Listen to this device in Windows 11: Microphone Properties dialog, Listen tab, with the Listen to this device checkbox ticked</title>
+  <rect width="1200" height="675" fill="#0f172e"/>
+  <g font-family="Segoe UI, system-ui, -apple-system, Arial, sans-serif">
+    <!-- path breadcrumb -->
+    <text x="600" y="62" fill="#b8c4e0" font-size="20" text-anchor="middle">Sound settings  ›  More sound settings  ›  Recording  ›  Properties  ›  Listen</text>
+    <rect x="300" y="92" width="600" height="550" rx="10" fill="#f3f5fa"/>
+    <rect x="300" y="92" width="600" height="44" rx="10" fill="#e4e8f2"/>
+    <rect x="300" y="122" width="600" height="14" fill="#e4e8f2"/>
+    <text x="322" y="121" fill="#1d2433" font-size="17">Microphone Properties</text>
+    <text x="878" y="122" fill="#5b6478" font-size="20" text-anchor="end">✕</text>
+    <!-- tabs -->
+    <g font-size="16" fill="#3c4458">
+      <text x="330" y="174">General</text>
+      <rect x="404" y="150" width="70" height="34" fill="#ffffff" stroke="#c5ccdc"/>
+      <text x="439" y="174" text-anchor="middle" font-weight="600" fill="#1d2433">Listen</text>
+      <text x="492" y="174">Levels</text>
+      <text x="560" y="174">Enhancements</text>
+      <text x="690" y="174">Advanced</text>
+    </g>
+    <rect x="322" y="184" width="556" height="390" fill="#ffffff" stroke="#c5ccdc"/>
+    <text x="344" y="222" fill="#3c4458" font-size="15">You can listen to a portable music player or other device</text>
+    <text x="344" y="242" fill="#3c4458" font-size="15">through this microphone jack.</text>
+    <!-- checkbox -->
+    <rect x="336" y="264" width="380" height="44" rx="6" fill="#eaf1ff" stroke="#4f8cff" stroke-width="3"/>
+    <rect x="350" y="276" width="20" height="20" rx="3" fill="#4f8cff"/>
+    <path d="M354 286 l5 5 l8 -10" fill="none" stroke="#fff" stroke-width="3"/>
+    <text x="382" y="293" fill="#1d2433" font-size="17" font-weight="600">Listen to this device</text>
+    <text x="344" y="346" fill="#3c4458" font-size="15">Playback through this device:</text>
+    <rect x="344" y="358" width="400" height="34" rx="4" fill="#ffffff" stroke="#9aa4bb"/>
+    <text x="356" y="381" fill="#1d2433" font-size="15">Headphones (default playback device)</text>
+    <text x="728" y="381" fill="#5b6478" font-size="14" text-anchor="end">⌄</text>
+    <text x="344" y="432" fill="#3c4458" font-size="15" font-weight="600">Power Management</text>
+    <circle cx="354" cy="460" r="8" fill="#fff" stroke="#4f8cff" stroke-width="5"/>
+    <text x="372" y="465" fill="#3c4458" font-size="15">Continue running when on battery power</text>
+    <circle cx="354" cy="490" r="8" fill="#fff" stroke="#9aa4bb" stroke-width="2"/>
+    <text x="372" y="495" fill="#3c4458" font-size="15">Disable automatically to save power</text>
+    <!-- buttons -->
+    <g font-size="15" text-anchor="middle">
+      <rect x="586" y="592" width="86" height="32" rx="4" fill="#4f8cff"/><text x="629" y="613" fill="#fff">OK</text>
+      <rect x="682" y="592" width="86" height="32" rx="4" fill="#fff" stroke="#9aa4bb"/><text x="725" y="613" fill="#1d2433">Cancel</text>
+      <rect x="778" y="592" width="100" height="32" rx="4" fill="#fff" stroke="#4f8cff" stroke-width="3"/><text x="828" y="613" fill="#1d2433" font-weight="600">Apply</text>
+    </g>
+    <!-- side notes -->
+    <text x="60" y="290" fill="#ffffff" font-size="20" font-weight="600">Tick the box,</text>
+    <text x="60" y="318" fill="#b8c4e0" font-size="18">use headphones,</text>
+    <text x="60" y="344" fill="#b8c4e0" font-size="18">then select Apply.</text>
+    <text x="930" y="290" fill="#ffffff" font-size="20" font-weight="600">Untick it when</text>
+    <text x="930" y="318" fill="#b8c4e0" font-size="18">you finish, or your</text>
+    <text x="930" y="344" fill="#b8c4e0" font-size="18">voice keeps echoing.</text>
+  </g>
+</svg>

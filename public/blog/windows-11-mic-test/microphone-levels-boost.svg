@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="t">
+  <title id="t">How to change microphone sensitivity in Windows 11: Levels tab with the Microphone level slider and Microphone Boost slider</title>
+  <rect width="1200" height="675" fill="#0f172e"/>
+  <g font-family="Segoe UI, system-ui, -apple-system, Arial, sans-serif">
+    <text x="600" y="62" fill="#b8c4e0" font-size="20" text-anchor="middle">Recording tab  ›  Microphone  ›  Properties  ›  Levels</text>
+    <rect x="300" y="92" width="600" height="480" rx="10" fill="#f3f5fa"/>
+    <rect x="300" y="92" width="600" height="44" rx="10" fill="#e4e8f2"/>
+    <rect x="300" y="122" width="600" height="14" fill="#e4e8f2"/>
+    <text x="322" y="121" fill="#1d2433" font-size="17">Microphone Properties</text>
+    <g font-size="16" fill="#3c4458">
+      <text x="330" y="174">General</text>
+      <text x="404" y="174">Listen</text>
+      <rect x="466" y="150" width="70" height="34" fill="#ffffff" stroke="#c5ccdc"/>
+      <text x="501" y="174" text-anchor="middle" font-weight="600" fill="#1d2433">Levels</text>
+      <text x="556" y="174">Enhancements</text>
+      <text x="686" y="174">Advanced</text>
+    </g>
+    <rect x="322" y="184" width="556" height="320" fill="#ffffff" stroke="#c5ccdc"/>
+    <!-- mic level -->
+    <rect x="336" y="200" width="528" height="120" rx="6" fill="#eaf1ff" stroke="#4f8cff" stroke-width="3"/>
+    <text x="352" y="234" fill="#1d2433" font-size="17" font-weight="600">Microphone</text>
+    <rect x="352" y="266" width="380" height="6" rx="3" fill="#d6dbe8"/>
+    <rect x="352" y="266" width="304" height="6" rx="3" fill="#4f8cff"/>
+    <rect x="648" y="252" width="14" height="34" rx="3" fill="#4f8cff"/>
+    <rect x="752" y="254" width="52" height="30" rx="4" fill="#fff" stroke="#9aa4bb"/>
+    <text x="778" y="275" fill="#1d2433" font-size="16" text-anchor="middle">80</text>
+    <text x="352" y="306" fill="#5b6478" font-size="14">Main input level. Raise it first.</text>
+    <!-- boost -->
+    <rect x="336" y="336" width="528" height="120" rx="6" fill="#fff6ee" stroke="#ff8a3d" stroke-width="3"/>
+    <text x="352" y="370" fill="#1d2433" font-size="17" font-weight="600">Microphone Boost</text>
+    <rect x="352" y="402" width="380" height="6" rx="3" fill="#d6dbe8"/>
+    <rect x="352" y="402" width="127" height="6" rx="3" fill="#ff8a3d"/>
+    <rect x="472" y="388" width="14" height="34" rx="3" fill="#ff8a3d"/>
+    <text x="352" y="436" fill="#5b6478" font-size="14">0 dB</text>
+    <text x="472" y="436" fill="#5b6478" font-size="14">+10 dB</text>
+    <text x="592" y="436" fill="#5b6478" font-size="14">+20 dB</text>
+    <text x="702" y="436" fill="#5b6478" font-size="14">+30 dB</text>
+    <text x="760" y="410" fill="#5b6478" font-size="14">+10.0 dB</text>
+    <text x="352" y="488" fill="#5b6478" font-size="14">Only shown if your audio driver supports it. Adds noise.</text>
+    <g font-size="15" text-anchor="middle">
+      <rect x="586" y="524" width="86" height="32" rx="4" fill="#4f8cff"/><text x="629" y="545" fill="#fff">OK</text>
+      <rect x="682" y="524" width="86" height="32" rx="4" fill="#fff" stroke="#9aa4bb"/><text x="725" y="545" fill="#1d2433">Cancel</text>
+      <rect x="778" y="524" width="100" height="32" rx="4" fill="#fff" stroke="#9aa4bb"/><text x="828" y="545" fill="#1d2433">Apply</text>
+    </g>
+    <text x="60" y="262" fill="#ffffff" font-size="20" font-weight="600">Step 1</text>
+    <text x="60" y="290" fill="#b8c4e0" font-size="18">Microphone</text>
+    <text x="60" y="316" fill="#b8c4e0" font-size="18">level: 70–90</text>
+    <text x="60" y="398" fill="#ff8a3d" font-size="20" font-weight="600">Step 2</text>
+    <text x="60" y="426" fill="#b8c4e0" font-size="18">Boost only if</text>
+    <text x="60" y="452" fill="#b8c4e0" font-size="18">still too quiet</text>
+    <text x="600" y="620" fill="#b8c4e0" font-size="18" text-anchor="middle">Windows has no separate "sensitivity" control — input level and boost do that job.</text>
+  </g>
+</svg>

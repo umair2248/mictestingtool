@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="t">
+  <title id="t">Windows 11 Settings, Privacy and security, Microphone page with microphone access, app access and desktop app access switched on</title>
+  <rect width="1200" height="675" fill="#0f172e"/>
+  <g font-family="Segoe UI, system-ui, -apple-system, Arial, sans-serif">
+    <rect x="60" y="40" width="1080" height="595" rx="18" fill="#f3f5fa"/>
+    <rect x="60" y="40" width="1080" height="52" rx="18" fill="#e4e8f2"/>
+    <rect x="60" y="70" width="1080" height="22" fill="#e4e8f2"/>
+    <text x="90" y="74" fill="#2b3245" font-size="18">Settings</text>
+    <rect x="60" y="92" width="240" height="543" fill="#eaedf5"/>
+    <g font-size="17" fill="#3c4458">
+      <text x="88" y="140">Home</text>
+      <text x="88" y="185">System</text>
+      <text x="88" y="230">Bluetooth &amp; devices</text>
+      <text x="88" y="275">Personalization</text>
+      <text x="88" y="320">Apps</text>
+      <rect x="76" y="340" width="208" height="38" rx="8" fill="#dbe4fb"/>
+      <rect x="76" y="348" width="4" height="22" rx="2" fill="#4f8cff"/>
+      <text x="88" y="365" font-weight="600" fill="#1d2433">Privacy &amp; security</text>
+      <text x="88" y="410">Windows Update</text>
+    </g>
+    <text x="340" y="148" fill="#1d2433" font-size="30" font-weight="600">Privacy &amp; security  ›  Microphone</text>
+    <!-- rows -->
+    <g font-size="17">
+      <rect x="340" y="180" width="760" height="78" rx="10" fill="#ffffff" stroke="#4f8cff" stroke-width="3"/>
+      <text x="364" y="214" fill="#1d2433">Microphone access</text>
+      <text x="364" y="238" fill="#5b6478" font-size="14">Anyone using this device can choose if their apps have access</text>
+      <rect x="342" y="268" width="756" height="78" rx="10" fill="#ffffff" stroke="#4f8cff" stroke-width="3"/>
+      <text x="364" y="302" fill="#1d2433">Let apps access your microphone</text>
+      <text x="364" y="326" fill="#5b6478" font-size="14">Choose which Microsoft Store apps can use the mic</text>
+      <rect x="340" y="356" width="760" height="56" rx="10" fill="#ffffff"/>
+      <text x="380" y="390" fill="#3c4458">Camera</text>
+      <rect x="340" y="420" width="760" height="56" rx="10" fill="#ffffff"/>
+      <text x="380" y="454" fill="#3c4458">Voice recorder</text>
+      <rect x="340" y="490" width="760" height="78" rx="10" fill="#ffffff" stroke="#4f8cff" stroke-width="3"/>
+      <text x="364" y="524" fill="#1d2433">Let desktop apps access your microphone</text>
+      <text x="364" y="548" fill="#5b6478" font-size="14">Browsers, Zoom, Discord and other desktop apps</text>
+    </g>
+    <!-- toggles on -->
+    <g>
+      <g transform="translate(1010 205)"><rect width="52" height="26" rx="13" fill="#4f8cff"/><circle cx="39" cy="13" r="8" fill="#fff"/></g>
+      <g transform="translate(1010 293)"><rect width="52" height="26" rx="13" fill="#4f8cff"/><circle cx="39" cy="13" r="8" fill="#fff"/></g>
+      <g transform="translate(1010 371)"><rect width="52" height="26" rx="13" fill="#4f8cff"/><circle cx="39" cy="13" r="8" fill="#fff"/></g>
+      <g transform="translate(1010 435)"><rect width="52" height="26" rx="13" fill="#4f8cff"/><circle cx="39" cy="13" r="8" fill="#fff"/></g>
+      <g transform="translate(1010 515)"><rect width="52" height="26" rx="13" fill="#4f8cff"/><circle cx="39" cy="13" r="8" fill="#fff"/></g>
+    </g>
+    <text x="980" y="222" fill="#3c4458" font-size="16" text-anchor="end">On</text>
+    <text x="980" y="310" fill="#3c4458" font-size="16" text-anchor="end">On</text>
+    <text x="980" y="532" fill="#3c4458" font-size="16" text-anchor="end">On</text>
+  </g>
+</svg>

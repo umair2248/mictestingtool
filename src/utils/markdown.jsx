@@ -10,7 +10,10 @@ export function BlogMarkdown({ content, className = '' }) {
           h1: ({ node, ...props }) => <h2 id={headingId(node)} className="markdown-h2" {...props} />,
           h2: ({ node, ...props }) => <h2 id={headingId(node)} className="markdown-h2" {...props} />,
           h3: ({ node, ...props }) => <h3 id={headingId(node)} className="markdown-h3" {...props} />,
-          p: ({ node: _node, ...props }) => <p className="markdown-p" {...props} />,
+          // A paragraph holding only an image becomes a <figure>, which may not sit inside <p>.
+          p: ({ node, ...props }) => node?.children?.length === 1 && node.children[0].tagName === 'img' ? props.children : <p className="markdown-p" {...props} />,
+          // Article illustrations are drawn at 1200x675 so the space is reserved before they load.
+          img: ({ node: _node, title, alt, ...props }) => <figure className="markdown-figure"><img alt={alt} width="1200" height="675" loading="lazy" decoding="async" {...props} />{title && <figcaption>{title}</figcaption>}</figure>,
           ul: ({ node: _node, ...props }) => <ul className="markdown-list" {...props} />,
           ol: ({ node: _node, ...props }) => <ol className="markdown-list" {...props} />,
           li: ({ node: _node, ...props }) => <li className="markdown-list-item" {...props} />,

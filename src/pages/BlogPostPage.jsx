@@ -43,6 +43,8 @@ export default function BlogPostPage() {
         </div>
       </header>
 
+      {post.image && <img className="article-cover" src={post.image} alt={post.imageAlt || post.title} width="1200" height="630" fetchPriority="high" />}
+
       <article className="article-body">
         <div className="article-start"><p>Check your input, then listen to a short recording before your next call.</p><Link to="/#microphone-test" className="btn btn-primary"><Mic size={16} aria-hidden="true" />Open the free microphone test</Link></div>
         {contents.length > 0 && <nav className="article-contents" aria-label="On this page"><details><summary>On this page</summary><ol>{contents.map(item => <li key={item.id}><a href={`#${item.id}`}>{item.title}</a></li>)}</ol></details></nav>}

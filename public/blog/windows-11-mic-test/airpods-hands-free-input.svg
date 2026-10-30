@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="t">
+  <title id="t">AirPods 4 on Windows 11: stereo mode for listening versus hands-free mode used when the microphone is active, which lowers sound quality and volume</title>
+  <rect width="1200" height="675" fill="#0f172e"/>
+  <g font-family="Segoe UI, system-ui, -apple-system, Arial, sans-serif">
+    <text x="600" y="78" fill="#ffffff" font-size="32" font-weight="700" text-anchor="middle">Why AirPods 4 sound quiet on Windows 11 calls</text>
+    <text x="600" y="116" fill="#b8c4e0" font-size="20" text-anchor="middle">Bluetooth switches profiles as soon as an app opens the microphone</text>
+    <!-- left card -->
+    <rect x="80" y="160" width="480" height="400" rx="20" fill="#16224a" stroke="#4f8cff" stroke-width="2"/>
+    <text x="320" y="214" fill="#8db4ff" font-size="22" font-weight="700" text-anchor="middle">Stereo (listening)</text>
+    <g transform="translate(320 300)">
+      <ellipse cx="-40" cy="0" rx="26" ry="32" fill="#f3f5fa"/><rect x="-50" y="18" width="16" height="60" rx="8" fill="#f3f5fa"/>
+      <ellipse cx="40" cy="0" rx="26" ry="32" fill="#f3f5fa"/><rect x="34" y="18" width="16" height="60" rx="8" fill="#f3f5fa"/>
+    </g>
+    <g font-size="19" fill="#e6ebf7">
+      <text x="120" y="440">✓ Full-quality music and video</text>
+      <text x="120" y="474">✓ Normal volume</text>
+      <text x="120" y="508">✕ Microphone not in use</text>
+    </g>
+    <!-- arrow -->
+    <path d="M580 360 h40" stroke="#ff8a3d" stroke-width="6" stroke-linecap="round"/>
+    <path d="M612 346 l16 14 l-16 14" fill="none" stroke="#ff8a3d" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- right card -->
+    <rect x="640" y="160" width="480" height="400" rx="20" fill="#2a1d18" stroke="#ff8a3d" stroke-width="2"/>
+    <text x="880" y="214" fill="#ffb27a" font-size="22" font-weight="700" text-anchor="middle">Hands-free (mic active)</text>
+    <g transform="translate(880 300)">
+      <ellipse cx="-40" cy="0" rx="26" ry="32" fill="#f3f5fa"/><rect x="-50" y="18" width="16" height="60" rx="8" fill="#f3f5fa"/>
+      <ellipse cx="40" cy="0" rx="26" ry="32" fill="#f3f5fa"/><rect x="34" y="18" width="16" height="60" rx="8" fill="#f3f5fa"/>
+      <circle cx="80" cy="-30" r="20" fill="#ff8a3d"/>
+      <rect x="74" y="-42" width="12" height="18" rx="6" fill="#fff"/>
+    </g>
+    <g font-size="19" fill="#f3e6dc">
+      <text x="680" y="440">✓ Microphone works</text>
+      <text x="680" y="474">! Mono, lower-quality sound</text>
+      <text x="680" y="508">! Often quieter in your ears</text>
+    </g>
+    <text x="600" y="616" fill="#b8c4e0" font-size="19" text-anchor="middle">Fix: pick the AirPods input in Sound settings, raise Input volume, and close apps holding the mic.</text>
+  </g>
+</svg>
