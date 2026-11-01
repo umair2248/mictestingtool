@@ -2,6 +2,8 @@ Options -Indexes -MultiViews
 DirectoryIndex index.html
 DirectorySlash Off
 ErrorDocument 404 /404.html
+AddType application/manifest+json .webmanifest
+AddType image/x-icon .ico
 
 <IfModule mod_rewrite.c>
   RewriteEngine On
