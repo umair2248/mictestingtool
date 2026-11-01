@@ -15,6 +15,7 @@ try {
     'how-to-test-your-microphone': { modified: '2026-10-26', sources: ['support.microsoft.com','support.apple.com','support.google.com'] },
     'how-to-connect-set-up-microphone': { modified: '2026-10-26', sources: ['support.microsoft.com','support.apple.com','playstation.com','xbox.com'] },
     'how-to-test-mic-windows-11': { modified: '2026-10-31', sources: ['support.microsoft.com'] },
+    'how-to-test-microphone-windows-10': { modified: '2026-11-01', sources: ['support.microsoft.com'] },
   };
   for (const [slug, expected] of Object.entries(articles)) {
   const path = `/blog/${slug}`;

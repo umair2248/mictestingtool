@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="t">
+  <title id="t">Windows 10 microphone privacy settings: Microphone access for this device, Allow apps to access your microphone and Allow desktop apps to access your microphone turned on</title>
+  <rect width="1200" height="675" fill="#0f172e"/>
+  <g font-family="Segoe UI, system-ui, -apple-system, Arial, sans-serif">
+    <rect x="60" y="40" width="1080" height="595" rx="6" fill="#f3f5fa"/>
+    <rect x="60" y="40" width="1080" height="44" rx="6" fill="#e4e8f2"/>
+    <rect x="60" y="70" width="1080" height="14" fill="#e4e8f2"/>
+    <text x="86" y="69" fill="#2b3245" font-size="17">Settings</text>
+    <rect x="60" y="84" width="270" height="551" fill="#eaedf5"/>
+    <g font-size="17" fill="#3c4458">
+      <text x="88" y="124">⌂  Home</text>
+      <text x="88" y="170" font-weight="600" fill="#1d2433">Privacy</text>
+      <text x="88" y="214">Location</text>
+      <text x="88" y="258">Camera</text>
+      <rect x="76" y="276" width="238" height="38" fill="#dbe4fb"/>
+      <rect x="76" y="276" width="4" height="38" fill="#0078d4"/>
+      <text x="88" y="301" font-weight="600" fill="#1d2433">Microphone</text>
+      <text x="88" y="346">Voice activation</text>
+      <text x="88" y="390">Notifications</text>
+    </g>
+    <text x="370" y="134" fill="#1d2433" font-size="32" font-weight="600">Microphone</text>
+    <text x="370" y="178" fill="#1d2433" font-size="19" font-weight="600">Allow access to the microphone on this device</text>
+    <text x="370" y="206" fill="#3c4458" font-size="16">Microphone access for this device is on</text>
+    <rect x="370" y="220" width="96" height="34" fill="#e4e8f2" stroke="#ff8a3d" stroke-width="3"/>
+    <text x="418" y="243" fill="#1d2433" font-size="16" text-anchor="middle">Change</text>
+
+    <text x="370" y="300" fill="#1d2433" font-size="19" font-weight="600">Allow apps to access your microphone</text>
+    <rect x="370" y="316" width="52" height="26" rx="13" fill="#0078d4"/><circle cx="409" cy="329" r="8" fill="#fff"/>
+    <text x="436" y="335" fill="#1d2433" font-size="16">On</text>
+    <text x="370" y="378" fill="#3c4458" font-size="15">Choose which Microsoft Store apps can access your microphone</text>
+    <text x="390" y="408" fill="#1d2433" font-size="16">Camera</text><rect x="660" y="392" width="52" height="26" rx="13" fill="#0078d4"/><circle cx="699" cy="405" r="8" fill="#fff"/>
+    <text x="390" y="444" fill="#1d2433" font-size="16">Voice Recorder</text><rect x="660" y="428" width="52" height="26" rx="13" fill="#0078d4"/><circle cx="699" cy="441" r="8" fill="#fff"/>
+
+    <text x="370" y="504" fill="#1d2433" font-size="19" font-weight="600">Allow desktop apps to access your microphone</text>
+    <rect x="370" y="520" width="52" height="26" rx="13" fill="#0078d4"/><circle cx="409" cy="533" r="8" fill="#fff"/>
+    <text x="436" y="539" fill="#1d2433" font-size="16">On</text>
+    <text x="370" y="582" fill="#3c4458" font-size="15">Chrome, Edge, Firefox, Zoom, Teams and Discord are desktop apps.</text>
+  </g>
+  <g font-family="Segoe UI, system-ui, -apple-system, Arial, sans-serif">
+    <circle cx="500" cy="237" r="22" fill="#ff8a3d"/><text x="500" y="245" fill="#fff" font-size="22" font-weight="700" text-anchor="middle">1</text>
+    <circle cx="500" cy="329" r="22" fill="#ff8a3d"/><text x="500" y="337" fill="#fff" font-size="22" font-weight="700" text-anchor="middle">2</text>
+    <circle cx="500" cy="533" r="22" fill="#ff8a3d"/><text x="500" y="541" fill="#fff" font-size="22" font-weight="700" text-anchor="middle">3</text>
+    <rect x="800" y="240" width="300" height="140" rx="10" fill="#fff6ee" stroke="#ff8a3d" stroke-width="2"/>
+    <text x="820" y="276" fill="#1d2433" font-size="18" font-weight="600">All three must be On</text>
+    <text x="820" y="306" fill="#3c4458" font-size="16">If one is Off, browsers and</text>
+    <text x="820" y="330" fill="#3c4458" font-size="16">call apps hear silence even</text>
+    <text x="820" y="354" fill="#3c4458" font-size="16">though the mic works.</text>
+  </g>
+</svg>

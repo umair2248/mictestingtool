@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="t">
+  <title id="t">How to test your microphone on Windows 10: Sound settings with the input device and the Test your microphone level bar</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1020"/><stop offset="1" stop-color="#14224a"/></linearGradient>
+    <radialGradient id="glow" cx="0.76" cy="0.46" r="0.5"><stop offset="0" stop-color="#4f8cff" stop-opacity="0.45"/><stop offset="1" stop-color="#4f8cff" stop-opacity="0"/></radialGradient>
+    <linearGradient id="mic" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8db4ff"/><stop offset="1" stop-color="#3a6fe0"/></linearGradient>
+  </defs>
+  <g font-family="Segoe UI, system-ui, -apple-system, Arial, sans-serif">
+    <rect width="1200" height="630" fill="url(#bg)"/>
+    <rect width="1200" height="630" fill="url(#glow)"/>
+    <text x="72" y="118" fill="#8db4ff" font-size="26" font-weight="600" letter-spacing="3">WINDOWS 10 GUIDE</text>
+    <text x="72" y="196" fill="#ffffff" font-size="62" font-weight="700">How to Test Your</text>
+    <text x="72" y="270" fill="#ffffff" font-size="62" font-weight="700">Microphone on</text>
+    <text x="72" y="344" fill="#ffffff" font-size="62" font-weight="700">Windows 10</text>
+    <text x="72" y="410" fill="#b8c4e0" font-size="26">Sound settings · Recording meter</text>
+    <text x="72" y="448" fill="#b8c4e0" font-size="26">Mic not working? 7 fixes in order</text>
+    <rect x="72" y="500" width="300" height="60" rx="30" fill="#4f8cff"/>
+    <text x="222" y="539" fill="#ffffff" font-size="24" font-weight="600" text-anchor="middle">mictestingtool.com</text>
+
+    <rect x="700" y="120" width="440" height="330" rx="8" fill="#f3f5fa"/>
+    <rect x="700" y="120" width="440" height="40" rx="8" fill="#e4e8f2"/><rect x="700" y="146" width="440" height="14" fill="#e4e8f2"/>
+    <text x="720" y="146" fill="#2b3245" font-size="16">Settings</text>
+    <g fill="#5b6478"><rect x="1062" y="138" width="14" height="2"/><rect x="1088" y="132" width="12" height="12" fill="none" stroke="#5b6478" stroke-width="2"/><path d="M1112 132 l12 12 M1124 132 l-12 12" stroke="#5b6478" stroke-width="2"/></g>
+    <text x="724" y="200" fill="#1d2433" font-size="26" font-weight="600">Sound</text>
+    <text x="724" y="238" fill="#1d2433" font-size="19" font-weight="600">Input</text>
+    <text x="724" y="266" fill="#3c4458" font-size="15">Choose your input device</text>
+    <rect x="724" y="278" width="300" height="36" fill="#ffffff" stroke="#9aa4bb" stroke-width="2"/>
+    <text x="736" y="302" fill="#1d2433" font-size="15">Microphone (USB Audio Device)</text>
+    <path d="M1004 292 l6 6 l6 -6" fill="none" stroke="#3c4458" stroke-width="2"/>
+    <text x="724" y="342" fill="#0067c0" font-size="15">Device properties</text>
+    <text x="724" y="378" fill="#3c4458" font-size="15">Test your microphone</text>
+    <rect x="724" y="390" width="300" height="8" fill="#d6dbe8"/>
+    <rect x="724" y="390" width="196" height="8" fill="#0078d4"/>
+    <rect x="980" y="410" width="128" height="30" fill="#e4e8f2"/>
+    <text x="1044" y="430" fill="#1d2433" font-size="14" text-anchor="middle">Troubleshoot</text>
+
+    <rect x="610" y="300" width="64" height="124" rx="32" fill="url(#mic)"/>
+    <g stroke="#0b1020" stroke-opacity="0.35" stroke-width="4"><line x1="626" y1="330" x2="658" y2="330"/><line x1="626" y1="350" x2="658" y2="350"/><line x1="626" y1="370" x2="658" y2="370"/></g>
+    <path d="M592 380 a50 50 0 0 0 100 0" fill="none" stroke="#8db4ff" stroke-width="8" stroke-linecap="round"/>
+    <line x1="642" y1="430" x2="642" y2="490" stroke="#8db4ff" stroke-width="8" stroke-linecap="round"/>
+    <rect x="602" y="486" width="80" height="12" rx="6" fill="#8db4ff"/>
+  </g>
+</svg>

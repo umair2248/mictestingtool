@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="t">
+  <title id="t">Microphone not working on Windows 10: seven fixes in order, from privacy settings and input device to Microphone Boost, exclusive mode, troubleshooter and audio driver</title>
+  <g font-family="Segoe UI, system-ui, -apple-system, Arial, sans-serif">
+    <rect width="1200" height="675" fill="#0f172e"/>
+    <text x="600" y="64" fill="#ffffff" font-size="32" font-weight="700" text-anchor="middle">Windows 10 mic not working? Fix it in this order</text>
+    <text x="600" y="102" fill="#b8c4e0" font-size="20" text-anchor="middle">Test again after each step, and stop as soon as the mic works.</text>
+
+    <g>
+      <rect x="60" y="140" width="340" height="140" rx="16" fill="#16213f" stroke="#34d399" stroke-width="2"/>
+      <circle cx="104" cy="184" r="24" fill="#34d399"/><text x="104" y="193" fill="#0f172e" font-size="24" font-weight="700" text-anchor="middle">1</text>
+      <text x="142" y="192" fill="#ffffff" font-size="22" font-weight="700">Privacy access</text>
+      <text x="84" y="236" fill="#b8c4e0" font-size="17">Settings › Privacy › Microphone</text>
+      <text x="84" y="262" fill="#b8c4e0" font-size="17">Turn all three switches on</text>
+
+      <rect x="430" y="140" width="340" height="140" rx="16" fill="#16213f" stroke="#34d399" stroke-width="2"/>
+      <circle cx="474" cy="184" r="24" fill="#34d399"/><text x="474" y="193" fill="#0f172e" font-size="24" font-weight="700" text-anchor="middle">2</text>
+      <text x="512" y="192" fill="#ffffff" font-size="22" font-weight="700">Right input device</text>
+      <text x="454" y="236" fill="#b8c4e0" font-size="17">Sound › Choose your input</text>
+      <text x="454" y="262" fill="#b8c4e0" font-size="17">Set it as the default device</text>
+
+      <rect x="800" y="140" width="340" height="140" rx="16" fill="#16213f" stroke="#34d399" stroke-width="2"/>
+      <circle cx="844" cy="184" r="24" fill="#34d399"/><text x="844" y="193" fill="#0f172e" font-size="24" font-weight="700" text-anchor="middle">3</text>
+      <text x="882" y="192" fill="#ffffff" font-size="22" font-weight="700">Enable the mic</text>
+      <text x="824" y="236" fill="#b8c4e0" font-size="17">Recording tab › Show Disabled</text>
+      <text x="824" y="262" fill="#b8c4e0" font-size="17">Devices › Enable</text>
+    </g>
+    <g>
+      <rect x="60" y="310" width="340" height="140" rx="16" fill="#16213f" stroke="#fbbf24" stroke-width="2"/>
+      <circle cx="104" cy="354" r="24" fill="#fbbf24"/><text x="104" y="363" fill="#0f172e" font-size="24" font-weight="700" text-anchor="middle">4</text>
+      <text x="142" y="362" fill="#ffffff" font-size="22" font-weight="700">Level and Boost</text>
+      <text x="84" y="406" fill="#b8c4e0" font-size="17">Microphone level 70–90,</text>
+      <text x="84" y="432" fill="#b8c4e0" font-size="17">then Boost +10 dB if quiet</text>
+
+      <rect x="430" y="310" width="340" height="140" rx="16" fill="#16213f" stroke="#fbbf24" stroke-width="2"/>
+      <circle cx="474" cy="354" r="24" fill="#fbbf24"/><text x="474" y="363" fill="#0f172e" font-size="24" font-weight="700" text-anchor="middle">5</text>
+      <text x="512" y="362" fill="#ffffff" font-size="22" font-weight="700">Exclusive mode</text>
+      <text x="454" y="406" fill="#b8c4e0" font-size="17">Advanced tab: untick both</text>
+      <text x="454" y="432" fill="#b8c4e0" font-size="17">boxes, turn off enhancements</text>
+
+      <rect x="800" y="310" width="340" height="140" rx="16" fill="#16213f" stroke="#fbbf24" stroke-width="2"/>
+      <circle cx="844" cy="354" r="24" fill="#fbbf24"/><text x="844" y="363" fill="#0f172e" font-size="24" font-weight="700" text-anchor="middle">6</text>
+      <text x="882" y="362" fill="#ffffff" font-size="22" font-weight="700">Troubleshooter</text>
+      <text x="824" y="406" fill="#b8c4e0" font-size="17">Update &amp; Security › Troubleshoot</text>
+      <text x="824" y="432" fill="#b8c4e0" font-size="17">› Recording Audio</text>
+    </g>
+    <rect x="245" y="480" width="710" height="140" rx="16" fill="#16213f" stroke="#f87171" stroke-width="2"/>
+    <circle cx="289" cy="524" r="24" fill="#f87171"/><text x="289" y="533" fill="#0f172e" font-size="24" font-weight="700" text-anchor="middle">7</text>
+    <text x="327" y="532" fill="#ffffff" font-size="22" font-weight="700">Driver and hardware</text>
+    <text x="269" y="576" fill="#b8c4e0" font-size="17">Device Manager › Audio inputs and outputs › reinstall the driver.</text>
+    <text x="269" y="602" fill="#b8c4e0" font-size="17">Still silent in every app and on another PC? The mic or cable is faulty.</text>
+  </g>
+</svg>

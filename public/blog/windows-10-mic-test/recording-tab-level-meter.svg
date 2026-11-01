@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="t">
+  <title id="t">Windows 10 Sound control panel Recording tab: the microphone level meter turns green when you speak, and Show Disabled Devices reveals a hidden microphone</title>
+  <rect width="1200" height="675" fill="#0f172e"/>
+  <g font-family="Segoe UI, system-ui, -apple-system, Arial, sans-serif">
+    <text x="600" y="58" fill="#b8c4e0" font-size="20" text-anchor="middle">Windows + R  ›  mmsys.cpl  ›  Recording tab</text>
+    <rect x="140" y="86" width="620" height="540" rx="6" fill="#f3f5fa"/>
+    <rect x="140" y="86" width="620" height="42" rx="6" fill="#e4e8f2"/>
+    <rect x="140" y="114" width="620" height="14" fill="#e4e8f2"/>
+    <text x="162" y="114" fill="#1d2433" font-size="17">Sound</text>
+    <g font-size="16" fill="#3c4458">
+      <text x="170" y="164">Playback</text>
+      <rect x="244" y="140" width="92" height="34" fill="#ffffff" stroke="#c5ccdc"/>
+      <text x="290" y="164" text-anchor="middle" font-weight="600" fill="#1d2433">Recording</text>
+      <text x="356" y="164">Sounds</text>
+      <text x="430" y="164">Communications</text>
+    </g>
+    <rect x="162" y="174" width="576" height="370" fill="#ffffff" stroke="#c5ccdc"/>
+    <text x="180" y="204" fill="#3c4458" font-size="15">Select a recording device below to modify its settings:</text>
+    <rect x="176" y="220" width="548" height="84" fill="#dbe8fb" stroke="#0078d4" stroke-width="2"/>
+    <rect x="194" y="236" width="40" height="52" rx="20" fill="#5b6478"/>
+    <circle cx="232" cy="284" r="11" fill="#22a06b"/><path d="M226 284 l4 4 l8 -8" fill="none" stroke="#fff" stroke-width="2.5"/>
+    <text x="256" y="250" fill="#1d2433" font-size="17" font-weight="600">Microphone</text>
+    <text x="256" y="272" fill="#3c4458" font-size="15">USB Audio Device</text>
+    <text x="256" y="292" fill="#3c4458" font-size="15">Default Device</text>
+    <g><rect x="690" y="228" width="16" height="68" fill="#e4e8f2"/>
+      <rect x="692" y="286" width="12" height="7" fill="#22a06b"/><rect x="692" y="277" width="12" height="7" fill="#22a06b"/><rect x="692" y="268" width="12" height="7" fill="#22a06b"/><rect x="692" y="259" width="12" height="7" fill="#22a06b"/><rect x="692" y="250" width="12" height="7" fill="#22a06b"/><rect x="692" y="241" width="12" height="7" fill="#c5ccdc"/><rect x="692" y="232" width="12" height="7" fill="#c5ccdc"/></g>
+    <rect x="194" y="322" width="40" height="52" rx="20" fill="#b3bacb"/>
+    <text x="256" y="336" fill="#8a93a8" font-size="17" font-weight="600">Headset Microphone</text>
+    <text x="256" y="358" fill="#8a93a8" font-size="15">Realtek(R) Audio</text>
+    <text x="256" y="378" fill="#8a93a8" font-size="15">Disabled</text>
+    <rect x="404" y="390" width="250" height="96" fill="#ffffff" stroke="#9aa4bb" stroke-width="2"/>
+    <text x="420" y="418" fill="#1d2433" font-size="15">Enable</text>
+    <rect x="406" y="430" width="246" height="26" fill="#dbe8fb"/>
+    <text x="420" y="449" fill="#1d2433" font-size="15">✓  Show Disabled Devices</text>
+    <text x="420" y="476" fill="#1d2433" font-size="15">✓  Show Disconnected Devices</text>
+    <g font-size="15" text-anchor="middle">
+      <rect x="176" y="560" width="110" height="32" fill="#fff" stroke="#9aa4bb"/><text x="231" y="581" fill="#1d2433">Configure</text>
+      <rect x="470" y="560" width="120" height="32" fill="#fff" stroke="#9aa4bb"/><text x="530" y="581" fill="#1d2433">Set Default ⌄</text>
+      <rect x="604" y="560" width="120" height="32" fill="#fff" stroke="#9aa4bb"/><text x="664" y="581" fill="#1d2433">Properties</text>
+    </g>
+  </g>
+  <g font-family="Segoe UI, system-ui, -apple-system, Arial, sans-serif">
+    <circle cx="740" cy="262" r="22" fill="#ff8a3d"/><text x="740" y="270" fill="#fff" font-size="22" font-weight="700" text-anchor="middle">1</text>
+    <circle cx="676" cy="444" r="22" fill="#ff8a3d"/><text x="676" y="452" fill="#fff" font-size="22" font-weight="700" text-anchor="middle">2</text>
+    <text x="800" y="248" fill="#ffffff" font-size="20" font-weight="600">Speak: green bars</text>
+    <text x="800" y="276" fill="#b8c4e0" font-size="18">should rise and fall</text>
+    <text x="800" y="302" fill="#b8c4e0" font-size="18">with your voice</text>
+    <text x="800" y="430" fill="#ffffff" font-size="20" font-weight="600">Mic missing?</text>
+    <text x="800" y="458" fill="#b8c4e0" font-size="18">Right-click the empty list,</text>
+    <text x="800" y="484" fill="#b8c4e0" font-size="18">show disabled devices,</text>
+    <text x="800" y="510" fill="#b8c4e0" font-size="18">then Enable it</text>
+  </g>
+</svg>
