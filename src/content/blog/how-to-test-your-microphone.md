@@ -5,6 +5,8 @@ excerpt: "Learn how to test your microphone online and on a Windows PC or Mac. R
 date: "2026-07-13"
 modified: "2026-10-26"
 tags: ["Audio", "Testing", "Microphones"]
+image: "/blog/test-your-microphone/cover.jpg"
+imageAlt: "How to test your microphone: online mic test with recording, playback and input level meter"
 author: "Mic Testing Tool"
 ---
 
@@ -17,6 +19,8 @@ Still connecting the hardware? Follow the [PC and Mac microphone setup guide](/b
 ## How to test your microphone online
 
 The browser method lets you check a built-in laptop mic, webcam mic, USB microphone, or headset without installing another app. You need a supported browser, a secure HTTPS connection, and permission to access the microphone.
+
+![Online microphone test in 4 steps: allow microphone access, speak normally, stop and listen back, then adjust and repeat](/blog/test-your-microphone/online-test-steps.svg "Allow access, speak, listen back, then change one setting at a time.")
 
 1. **Connect your microphone.** Check the cable or wireless connection and turn off any physical mute switch. For an external mic, connect it before opening the test.
 2. **Open the [microphone tester](/#microphone-test).** Choose your input from the device selector. If device names are unavailable before permission is granted, start with the system default and check the list after access is allowed.
@@ -44,7 +48,7 @@ The controls vary with your Windows version and audio driver. Microsoft's [micro
 
 ### Windows 10 and permission checks
 
-Open **Settings > System > Sound**, select your input, and look for its microphone test or input-level indicator. If your version provides an indicator without playback, make a short browser recording to hear the result.
+Open **Settings > System > Sound**, select your input, and look for its microphone test or input-level indicator. If your version provides an indicator without playback, make a short browser recording to hear the result. For every Windows 10 menu and fix, see the [Windows 10 microphone test guide](/blog/how-to-test-microphone-windows-10).
 
 If Windows receives sound but your browser does not, check the system's microphone privacy settings as well as the site's permission. Windows 11 places microphone access under **Privacy & security**; Windows 10 uses **Privacy**. Managed work or school devices may require an administrator to change access.
 
@@ -67,6 +71,8 @@ On mobile, both browser-app permissions and website permissions can matter. A sy
 ## What a successful microphone test should sound like
 
 A useful result has understandable speech at a comfortable playback volume, without repeated dropouts or distracting distortion. Listen to the quiet pause too: it can reveal room noise or sound leaking from speakers.
+
+![Microphone input level guide comparing a mic that is too quiet, a good level with headroom, and a level that is too loud and clipping](/blog/test-your-microphone/input-level-guide.svg "A good level peaks clearly but stays below the clipping point.")
 
 If you are unsure whether your headphones or speakers are playing correctly, run the [left/right speaker and headphone test](/speaker-test) before judging the microphone recording.
 

@@ -8,7 +8,7 @@ import { pages } from './data/site';
 import { locales } from './data/locales';
 
 export const routes = () => [...Object.keys(pages), ...locales.map(locale => locale.path), ...getAllBlogPosts().map(post => `/blog/${post.slug}`)];
-export const sitemapRoutes = () => [...locales.map(locale => ({ path: locale.path })), ...Object.entries(pages).filter(([, page]) => !page.noindex).map(([path]) => ({ path })), ...getAllBlogPosts().map(post => ({ path: `/blog/${post.slug}`, modified: post.modified || post.date }))];
+export const sitemapRoutes = () => [...locales.map(locale => ({ path: locale.path })), ...Object.entries(pages).filter(([, page]) => !page.noindex).map(([path, page]) => ({ path, image: page.image })), ...getAllBlogPosts().map(post => ({ path: `/blog/${post.slug}`, modified: post.modified || post.date, image: post.image }))];
 
 export function render(url) {
   return new Promise((resolve, reject) => {

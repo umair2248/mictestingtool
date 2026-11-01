@@ -74,3 +74,7 @@
 .article-hero .lead { color: var(--text-soft); font-size: 1.1rem; margin-bottom: 20px; }
 .article-hero .post-meta a { color: var(--text-soft); }
 .article-body { border-top: 1px solid var(--border); padding-top: 32px; }
+.featured-post__image, .post-card__image { display: block; overflow: hidden; border-radius: 14px; border: 1px solid var(--border); }
+.featured-post__image img, .post-card__image img { display: block; width: 100%; height: auto; aspect-ratio: 1200 / 630; object-fit: cover; transition: transform 0.3s ease; }
+.featured-post__image:hover img, .post-card__image:hover img { transform: scale(1.03); }
+.post-card__image { margin-bottom: 16px; }

@@ -39,12 +39,13 @@ export default function StaticBlogArchive() {
             <div className="post-meta"><span><Calendar size={14} aria-hidden="true" />{featuredPost.date}</span><span><Clock size={14} aria-hidden="true" />{featuredPost.readTime}</span></div>
             <Link to={`/blog/${featuredPost.slug}`} className="btn btn-primary" style={{ marginTop: 22 }}>Read the guide<ArrowRight size={16} aria-hidden="true" /></Link>
           </div>
-          <div className="featured-post__art" aria-hidden="true"><span><Mic size={38} /></span></div>
+          {featuredPost.image ? <Link to={`/blog/${featuredPost.slug}`} className="featured-post__image" tabIndex={-1}><img src={featuredPost.image} alt={featuredPost.imageAlt || featuredPost.title} width="1200" height="630" fetchPriority="high" /></Link> : <div className="featured-post__art" aria-hidden="true"><span><Mic size={38} /></span></div>}
         </article>}
 
         {filteredPosts.length === 0 ? <p className="empty-state">No guides match your search. Try another keyword.</p>
           : gridPosts.length > 0 && <div className="grid grid-3">{gridPosts.map(post => <article key={post.slug} className="card post-card">
             <div>
+              {post.image && <Link to={`/blog/${post.slug}`} className="post-card__image" tabIndex={-1}><img src={post.image} alt={post.imageAlt || post.title} width="1200" height="630" loading="lazy" decoding="async" /></Link>}
               <div className="post-tags">{post.tags.map(tag => <span key={tag}>{tag}</span>)}</div>
               <h2><Link to={`/blog/${post.slug}`}>{post.title}</Link></h2>
               <p>{post.excerpt}</p>

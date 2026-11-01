@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="t">
+  <title id="t">Where is the microphone problem: run the online mic test; if the level meter does not move, check the cable, input device, privacy settings and driver; if it moves but sounds bad, fix echo, low volume or crackling; if it sounds clear, the mic works and the app setting or permission is the problem</title>
+  <g font-family="Segoe UI, system-ui, -apple-system, Arial, sans-serif">
+    <rect width="1200" height="675" fill="#0f172e"/>
+    <text x="600" y="62" fill="#ffffff" font-size="32" font-weight="700" text-anchor="middle">Where is the microphone problem?</text>
+    <rect x="40" y="272" width="220" height="124" rx="16" fill="#4f8cff" stroke="#8db4ff" stroke-width="3"/>
+    <text x="150" y="328" fill="#ffffff" font-size="21" font-weight="700" text-anchor="middle">Run the online</text><text x="150" y="356" fill="#ffffff" font-size="21" font-weight="400" text-anchor="middle">mic test</text>
+    <line x1="260" y1="334" x2="302" y2="334" stroke="#8db4ff" stroke-width="4"/><path d="M312 334 L296.9 326.7 L296.9 341.3 Z" fill="#8db4ff"/>
+    <path d="M440 242 L568 334 L440 426 L312 334 Z" fill="#1d2a50" stroke="#4f8cff" stroke-width="3"/>
+    <text x="440" y="328" fill="#ffffff" font-size="21" font-weight="600" text-anchor="middle">Does the level</text><text x="440" y="356" fill="#ffffff" font-size="21" font-weight="600" text-anchor="middle">meter move?</text>
+    <line x1="568" y1="334" x2="642" y2="334" stroke="#8db4ff" stroke-width="4"/><path d="M652 334 L636.9 326.7 L636.9 341.3 Z" fill="#8db4ff"/><text x="610" y="320" fill="#8db4ff" font-size="20" font-weight="700" text-anchor="middle">Yes</text>
+    <path d="M780 242 L908 334 L780 426 L652 334 Z" fill="#1d2a50" stroke="#4f8cff" stroke-width="3"/>
+    <text x="780" y="328" fill="#ffffff" font-size="21" font-weight="600" text-anchor="middle">Does playback</text><text x="780" y="356" fill="#ffffff" font-size="21" font-weight="600" text-anchor="middle">sound clear?</text>
+    <line x1="908" y1="334" x2="938" y2="334" stroke="#8db4ff" stroke-width="4"/><path d="M948 334 L932.9 326.7 L932.9 341.3 Z" fill="#8db4ff"/><text x="928" y="300" fill="#8db4ff" font-size="20" font-weight="700" text-anchor="middle">Yes</text>
+    <rect x="950" y="250" width="220" height="168" rx="16" fill="#123a33" stroke="#34d399" stroke-width="3"/>
+    <text x="1060" y="314" fill="#ffffff" font-size="21" font-weight="700" text-anchor="middle">Mic works</text><text x="1060" y="342" fill="#ffffff" font-size="21" font-weight="400" text-anchor="middle">Check the app’s</text><text x="1060" y="370" fill="#ffffff" font-size="21" font-weight="400" text-anchor="middle">mic and permission</text>
+    <line x1="440" y1="426" x2="440" y2="476" stroke="#8db4ff" stroke-width="4"/><path d="M440 486 L447.3 470.9 L432.7 470.9 Z" fill="#8db4ff"/><text x="470" y="462" fill="#8db4ff" font-size="20" font-weight="700" text-anchor="middle">No</text>
+    <rect x="310" y="488" width="260" height="132" rx="16" fill="#3a1e26" stroke="#f87171" stroke-width="3"/>
+    <text x="440" y="534" fill="#ffffff" font-size="21" font-weight="700" text-anchor="middle">Not reaching PC</text><text x="440" y="562" fill="#ffffff" font-size="21" font-weight="400" text-anchor="middle">Cable, input device,</text><text x="440" y="590" fill="#ffffff" font-size="21" font-weight="400" text-anchor="middle">privacy and driver</text>
+    <line x1="780" y1="426" x2="780" y2="476" stroke="#8db4ff" stroke-width="4"/><path d="M780 486 L787.3 470.9 L772.7 470.9 Z" fill="#8db4ff"/><text x="810" y="462" fill="#8db4ff" font-size="20" font-weight="700" text-anchor="middle">No</text>
+    <rect x="650" y="488" width="260" height="132" rx="16" fill="#3a3018" stroke="#fbbf24" stroke-width="3"/>
+    <text x="780" y="534" fill="#ffffff" font-size="21" font-weight="700" text-anchor="middle">Needs adjusting</text><text x="780" y="562" fill="#ffffff" font-size="21" font-weight="400" text-anchor="middle">Echo, low volume</text><text x="780" y="590" fill="#ffffff" font-size="21" font-weight="400" text-anchor="middle">or crackling</text>
+    <text x="600" y="120" fill="#b8c4e0" font-size="20" text-anchor="middle">Fails on every device and every port? The mic or its cable is faulty.</text>
+  </g>
+</svg>

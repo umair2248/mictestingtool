@@ -15,7 +15,7 @@ export function getSEO(pathname) {
 export function getSchemas(seo) {
   const schemas = [];
   if (seo.path === '/') {
-    schemas.push({ '@context': 'https://schema.org', '@type': 'Organization', '@id': `${siteUrl}/#organization`, name: siteName, url: `${siteUrl}/`, logo: `${siteUrl}/mic-favicon.svg`, email: 'support@mictestingtool.com' });
+    schemas.push({ '@context': 'https://schema.org', '@type': 'Organization', '@id': `${siteUrl}/#organization`, name: siteName, url: `${siteUrl}/`, logo: `${siteUrl}/favicon-512x512.png`, email: 'support@mictestingtool.com' });
     schemas.push({ '@context': 'https://schema.org', '@type': 'WebSite', '@id': `${siteUrl}/#website`, url: `${siteUrl}/`, name: siteName, inLanguage: 'en', publisher: { '@id': `${siteUrl}/#organization` } });
   }
   if (seo.isTool) schemas.push({ '@context': 'https://schema.org', '@type': 'WebApplication', name: seo.locale?.h1 || 'Online Microphone Tester', url: seo.canonical, inLanguage: seo.language, applicationCategory: 'MultimediaApplication', operatingSystem: 'Web browser', description: seo.description, isAccessibleForFree: true });
@@ -37,8 +37,9 @@ export function getSchemas(seo) {
 export default function SEO() {
   const { pathname } = useLocation();
   const seo = getSEO(pathname);
-  const image = seo.post?.image ? `${siteUrl}${seo.post.image}` : `${siteUrl}/social-card.png`;
-  const imageAlt = seo.post?.imageAlt || seo.locale?.h1 || 'Mic Testing Tool — record, listen, and check your microphone input';
+  const imagePath = seo.post?.image || seo.image;
+  const image = imagePath ? `${siteUrl}${imagePath}` : `${siteUrl}/social-card.png`;
+  const imageAlt = seo.post?.imageAlt || seo.imageAlt || seo.locale?.h1 || 'Mic Testing Tool — record, listen, and check your microphone input';
   useEffect(() => { document.documentElement.lang = seo.language; document.documentElement.dir = 'ltr'; }, [seo.language]);
   return <>
     <title>{seo.title}</title>

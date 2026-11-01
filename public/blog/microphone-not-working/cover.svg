@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="t">
+  <title id="t">Microphone not working: a muted microphone icon beside a fix checklist for mute, microphone access, input device, app permission and drivers</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1020"/><stop offset="1" stop-color="#14224a"/></linearGradient>
+    <radialGradient id="glow" cx="0.78" cy="0.45" r="0.5"><stop offset="0" stop-color="#4f8cff" stop-opacity="0.45"/><stop offset="1" stop-color="#4f8cff" stop-opacity="0"/></radialGradient>
+    <linearGradient id="mic" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8db4ff"/><stop offset="1" stop-color="#3a6fe0"/></linearGradient>
+  </defs>
+  <g font-family="Segoe UI, system-ui, -apple-system, Arial, sans-serif">
+
+    <rect width="1200" height="630" fill="url(#bg)"/>
+    <rect width="1200" height="630" fill="url(#glow)"/>
+    <text x="72" y="118" fill="#8db4ff" font-size="26" font-weight="600" letter-spacing="3">TROUBLESHOOTING GUIDE</text>
+    <text x="72" y="222" fill="#ffffff" font-size="64" font-weight="700">Microphone</text>
+    <text x="72" y="296" fill="#ffffff" font-size="64" font-weight="700">Not Working?</text>
+    <text x="72" y="362" fill="#b8c4e0" font-size="26">Fix PC, laptop, headset</text>
+    <text x="72" y="400" fill="#b8c4e0" font-size="26">and phone mics fast</text>
+    <rect x="72" y="500" width="300" height="60" rx="30" fill="#4f8cff"/>
+    <text x="222" y="539" fill="#ffffff" font-size="24" font-weight="600" text-anchor="middle">mictestingtool.com</text>
+    
+    <rect x="690" y="120" width="440" height="390" rx="22" fill="#f3f5fa"/>
+    <rect x="690" y="120" width="440" height="46" rx="22" fill="#e4e8f2"/><rect x="690" y="144" width="440" height="22" fill="#e4e8f2"/>
+    <circle cx="1060" cy="143" r="6" fill="#9aa4bb"/><circle cx="1082" cy="143" r="6" fill="#9aa4bb"/><circle cx="1104" cy="143" r="6" fill="#9aa4bb"/>
+    <text x="716" y="150" fill="#2b3245" font-size="18" font-weight="600">Mic fix checklist</text>
+    
+    <circle cx="732" cy="210" r="16" fill="#34d399"/><path d="M724 210 l6 6 l10 -12" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="762" y="217" fill="#2b3245" font-size="20" font-weight="600">Not muted on the device</text>
+    <circle cx="732" cy="272" r="16" fill="#34d399"/><path d="M724 272 l6 6 l10 -12" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="762" y="279" fill="#2b3245" font-size="20" font-weight="600">Microphone access on</text>
+    <circle cx="732" cy="334" r="16" fill="#34d399"/><path d="M724 334 l6 6 l10 -12" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="762" y="341" fill="#2b3245" font-size="20" font-weight="600">Correct input selected</text>
+    <circle cx="732" cy="396" r="16" fill="#34d399"/><path d="M724 396 l6 6 l10 -12" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="762" y="403" fill="#2b3245" font-size="20" font-weight="600">App or site allowed</text>
+    <circle cx="732" cy="458" r="16" fill="#d6dbe8"/><path d="M724 458 l6 6 l10 -12" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="762" y="465" fill="#2b3245" font-size="20" font-weight="600">Driver up to date</text>
+    <circle cx="690" cy="128" r="58" fill="#f87171" stroke="#0b1020" stroke-width="8"/>
+    <g transform="translate(690 126) scale(2.3)" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round"><rect x="-6" y="-14" width="12" height="20" rx="6" fill="#ffffff"/><path d="M-11 0 a11 11 0 0 0 22 0"/><line x1="0" y1="11" x2="0" y2="16"/></g>
+    <line x1="656" y1="96" x2="724" y2="164" stroke="#ffffff" stroke-width="8" stroke-linecap="round"/>
+  </g>
+</svg>

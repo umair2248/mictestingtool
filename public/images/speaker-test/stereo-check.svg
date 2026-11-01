@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="t">
+  <title id="t">Headphone and speaker stereo check: the left tone should play in your left ear, the right tone in your right ear, and both channels should sound centred; test a headset microphone separately</title>
+  <g font-family="Segoe UI, system-ui, -apple-system, Arial, sans-serif">
+    <rect width="1200" height="675" fill="#0f172e"/>
+    <text x="600" y="62" fill="#ffffff" font-size="32" font-weight="700" text-anchor="middle">Stereo check: left, right, then both</text>
+    <text x="600" y="150" fill="#e3e9f7" font-size="24" font-weight="600" text-anchor="middle">Both channels → sound in the centre</text>
+    <path d="M430 400 A170 170 0 0 1 770 400" fill="none" stroke="#8db4ff" stroke-width="22" stroke-linecap="round"/>
+    <rect x="384" y="368" width="96" height="164" rx="40" fill="#4f8cff"/><text x="432" y="468" fill="#ffffff" font-size="52" font-weight="700" text-anchor="middle">L</text>
+    <rect x="720" y="368" width="96" height="164" rx="40" fill="#4f8cff"/><text x="768" y="468" fill="#ffffff" font-size="52" font-weight="700" text-anchor="middle">R</text>
+    <path d="M410 528 C420 600 470 612 520 606" fill="none" stroke="#b8c4e0" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="532" cy="605" r="15" fill="#fbbf24"/>
+    <path d="M310 410 A40 40 0 0 0 310 490" fill="none" stroke="#8db4ff" stroke-width="6" stroke-linecap="round" opacity="1"/><path d="M294 378 A72 72 0 0 0 294 522" fill="none" stroke="#8db4ff" stroke-width="6" stroke-linecap="round" opacity="0.72"/><path d="M278 346 A104 104 0 0 0 278 554" fill="none" stroke="#8db4ff" stroke-width="6" stroke-linecap="round" opacity="0.43999999999999995"/><path d="M890 410 A40 40 0 0 1 890 490" fill="none" stroke="#8db4ff" stroke-width="6" stroke-linecap="round" opacity="1"/><path d="M906 378 A72 72 0 0 1 906 522" fill="none" stroke="#8db4ff" stroke-width="6" stroke-linecap="round" opacity="0.72"/><path d="M922 346 A104 104 0 0 1 922 554" fill="none" stroke="#8db4ff" stroke-width="6" stroke-linecap="round" opacity="0.43999999999999995"/>
+    <text x="60" y="250" fill="#ffffff" font-size="28" font-weight="700">Left tone</text><text x="60" y="286" fill="#b8c4e0" font-size="22">should play in</text><text x="60" y="316" fill="#b8c4e0" font-size="22">your left ear</text>
+    <text x="1140" y="250" fill="#ffffff" font-size="28" font-weight="700" text-anchor="end">Right tone</text><text x="1140" y="286" fill="#b8c4e0" font-size="22" text-anchor="end">should play in</text><text x="1140" y="316" fill="#b8c4e0" font-size="22" text-anchor="end">your right ear</text>
+    <text x="566" y="600" fill="#fbbf24" font-size="22" font-weight="600">Headset mic: test the input separately</text>
+    <text x="566" y="630" fill="#b8c4e0" font-size="20">with the microphone test</text>
+  </g>
+</svg>

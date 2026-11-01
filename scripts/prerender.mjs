@@ -40,11 +40,12 @@ for (const path of paths) {
 }
 
 const xmlEscape = text => text.replace(/[<>&"']/g, c => ({ '<': '&lt;', '>': '&gt;', '&': '&amp;', '"': '&quot;', "'": '&apos;' })[c]);
-const entries = sitemapRoutes().map(({ path, modified }) => {
+const entries = sitemapRoutes().map(({ path, modified, image }) => {
   const lastmod = modified && Number.isFinite(Date.parse(modified)) ? `<lastmod>${new Date(modified).toISOString()}</lastmod>` : '';
-  return `  <url><loc>${xmlEscape(`https://mictestingtool.com${path}`)}</loc>${lastmod}</url>`;
+  const imageTag = image ? `<image:image><image:loc>${xmlEscape(`https://mictestingtool.com${image}`)}</image:loc></image:image>` : '';
+  return `  <url><loc>${xmlEscape(`https://mictestingtool.com${path}`)}</loc>${lastmod}${imageTag}</url>`;
 });
-await writeFile(resolve(root, 'dist/sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${entries.join('\n')}\n</urlset>\n`);
+await writeFile(resolve(root, 'dist/sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">\n${entries.join('\n')}\n</urlset>\n`);
 
 // Deterministic per-page hashes help reviewers compare builds without fake dates.
 const checksums = {};

@@ -4,6 +4,8 @@ seoTitle: "Mic Not Working? How to Fix Your Microphone (PC & Phone)"
 excerpt: "Why isn't my mic working? Find the cause in two minutes, then fix a computer, laptop, headset or phone microphone that is silent, muted, too quiet or echoing."
 date: "2026-10-29"
 tags: ["Microphones", "Troubleshooting"]
+image: "/blog/microphone-not-working/cover.jpg"
+imageAlt: "Microphone not working: how to fix a silent, muted or quiet mic on PC, laptop, headset and phone"
 author: "Mic Testing Tool"
 ---
 
@@ -28,6 +30,8 @@ Then [run the mic test](/#microphone-test) again. If the level meter moves and y
 
 Before you fix anything, narrow down the cause. One quick test tells you a lot:
 
+![Microphone not working flowchart: run the online mic test, check whether the level meter moves and whether playback sounds clear](/blog/microphone-not-working/find-the-problem.svg "One test shows whether the problem is the connection, the settings or one app.")
+
 - **The online test hears you, but Zoom, Teams or Discord does not.** The microphone and system are fine. Go to [Mic works in one place but not in an app](#mic-works-in-one-place-but-not-in-an-app).
 - **The online test is silent, and your system sound settings show no input level.** The problem is the connection, the selected device, a privacy setting or the driver. Continue with the computer, laptop or headset sections below.
 - **The test hears you, but the sound is quiet, crackly or echoing.** The microphone works but needs adjusting. Jump to [How to fix microphone echo](#how-to-fix-microphone-echo) or [Mic too quiet, crackling or robotic](#mic-too-quiet-crackling-or-robotic).
@@ -36,7 +40,7 @@ Before you fix anything, narrow down the cause. One quick test tells you a lot:
 
 ## Computer mic not working on Windows 11 or Windows 10
 
-Most Windows microphone problems are caused by privacy settings or the wrong default input. Check these in order.
+Most Windows microphone problems are caused by privacy settings or the wrong default input. Check these in order. For screenshots of each Windows 10 setting, read [how to test and fix a microphone on Windows 10](/blog/how-to-test-microphone-windows-10).
 
 ### 1. Turn on microphone access
 
@@ -135,6 +139,8 @@ If the voice recorder is silent even after a restart and with the case removed, 
 ## Mic works in one place but not in an app
 
 When the online test hears you but a call app does not, the app is using a different microphone, is muted, or has no permission.
+
+![Browser site settings for a meeting website with the Microphone permission switched to Allow before reloading the page](/blog/microphone-not-working/browser-mic-permission.svg "Click the icon left of the address, allow the microphone, then reload.")
 
 - **Zoom:** open **Settings > Audio**, choose your microphone under **Microphone** and click **Test Mic**.
 - **Microsoft Teams:** open **Settings > Devices** and select your microphone. Use **Make a test call** to hear a recording.

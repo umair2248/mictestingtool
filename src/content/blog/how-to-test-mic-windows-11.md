@@ -148,4 +148,4 @@ Open **More sound settings > Recording**, open your microphone's **Properties**,
 
 ### Does the online mic test work on Windows 11?
 
-Yes. It runs in Edge, Chrome or Firefox. Allow microphone access when the browser asks, and make sure **Let desktop apps access your microphone** is on in Windows privacy settings. For other operating systems, see the [general microphone testing guide](/blog/how-to-test-your-microphone).
+Yes. It runs in Edge, Chrome or Firefox. Allow microphone access when the browser asks, and make sure **Let desktop apps access your microphone** is on in Windows privacy settings. Still on Windows 10? Follow the [Windows 10 microphone test guide](/blog/how-to-test-microphone-windows-10). For other operating systems, see the [general microphone testing guide](/blog/how-to-test-your-microphone).

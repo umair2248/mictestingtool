@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="t">
+  <title id="t">Mic works but not in a browser meeting: click the site settings icon left of the address bar and set Microphone to Allow, then reload the page</title>
+  <g font-family="Segoe UI, system-ui, -apple-system, Arial, sans-serif">
+    <rect width="1200" height="675" fill="#0f172e"/>
+    <text x="600" y="54" fill="#ffffff" font-size="28" font-weight="700" text-anchor="middle">Browser meeting can’t hear you? Allow the mic for that site</text>
+    <rect x="120" y="84" width="960" height="530" rx="14" fill="#f3f5fa"/>
+    <path d="M134 84 H1066 A14 14 0 0 1 1080 98 V124 H120 V98 A14 14 0 0 1 134 84 Z" fill="#dfe4ef"/>
+    <rect x="144" y="94" width="220" height="30" rx="8" fill="#f3f5fa"/><text x="164" y="115" fill="#2b3245" font-size="16">Meeting</text>
+    <rect x="140" y="134" width="920" height="44" rx="22" fill="#ffffff" stroke="#c5ccdc"/>
+    <circle cx="168" cy="156" r="17" fill="#eaf1ff" stroke="#4f8cff" stroke-width="3"/>
+    <g stroke="#2b3245" stroke-width="2.5" stroke-linecap="round"><line x1="160" y1="151" x2="176" y2="151"/><line x1="160" y1="161" x2="176" y2="161"/></g>
+    <circle cx="165" cy="151" r="3" fill="#2b3245"/><circle cx="171" cy="161" r="3" fill="#2b3245"/>
+    <text x="196" y="162" fill="#3c4458" font-size="18">meet.example.com/abc-defg-hij</text>
+    <circle cx="214" cy="210" r="18" fill="#4f8cff"/><text x="214" y="217" fill="#ffffff" font-size="20" font-weight="700" text-anchor="middle">1</text>
+    <rect x="560" y="200" width="490" height="390" rx="12" fill="#1d2433"/>
+    <circle cx="805" cy="350" r="70" fill="#3a4a75"/><text x="805" y="368" fill="#d6dbe8" font-size="34" font-weight="600" text-anchor="middle">You</text>
+    <circle cx="805" cy="530" r="28" fill="#f87171"/><g transform="translate(805 528) scale(1.3)" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round"><rect x="-6" y="-14" width="12" height="20" rx="6" fill="#ffffff"/><path d="M-11 0 a11 11 0 0 0 22 0"/><line x1="0" y1="11" x2="0" y2="16"/></g>
+    <text x="805" y="478" fill="#fca5a5" font-size="18" text-anchor="middle">Microphone blocked for this site</text>
+    <rect x="140" y="232" width="390" height="358" rx="12" fill="#ffffff" stroke="#c5ccdc" stroke-width="2"/>
+    <text x="162" y="270" fill="#1d2433" font-size="20" font-weight="700">meet.example.com</text>
+    <text x="162" y="296" fill="#5b6478" font-size="16">Connection is secure</text>
+    <line x1="140" y1="316" x2="530" y2="316" stroke="#e4e8f2" stroke-width="2"/>
+    <g fill="#2b3245"><rect x="164" y="343" width="20" height="18" rx="3"/><path d="M186 349 L194 344 L194 360 L186 355 Z"/></g><text x="206" y="359" fill="#1d2433" font-size="19">Camera</text><rect x="462" y="339" width="46" height="26" rx="13" fill="#4f8cff"/><circle cx="495" cy="352" r="10" fill="#ffffff"/>
+    <rect x="150" y="384" width="370" height="54" rx="8" fill="#eaf1ff" stroke="#4f8cff" stroke-width="3"/>
+    <g transform="translate(178 413) scale(1)" fill="none" stroke="#2b3245" stroke-width="3" stroke-linecap="round"><rect x="-6" y="-14" width="12" height="20" rx="6" fill="#2b3245"/><path d="M-11 0 a11 11 0 0 0 22 0"/><line x1="0" y1="11" x2="0" y2="16"/></g><text x="206" y="418" fill="#1d2433" font-size="19" font-weight="700">Microphone</text><rect x="462" y="398" width="46" height="26" rx="13" fill="#4f8cff"/><circle cx="495" cy="411" r="10" fill="#ffffff"/>
+    <circle cx="546" cy="411" r="18" fill="#4f8cff"/><text x="546" y="418" fill="#ffffff" font-size="20" font-weight="700" text-anchor="middle">2</text>
+    <text x="206" y="477" fill="#1d2433" font-size="19">Notifications</text><rect x="462" y="457" width="46" height="26" rx="13" fill="#c5ccdc"/><circle cx="475" cy="470" r="10" fill="#ffffff"/>
+    <line x1="140" y1="506" x2="530" y2="506" stroke="#e4e8f2" stroke-width="2"/>
+    <rect x="162" y="526" width="150" height="40" rx="20" fill="#4f8cff"/><text x="237" y="552" fill="#ffffff" font-size="17" font-weight="600" text-anchor="middle">Reload</text>
+    <circle cx="334" cy="546" r="18" fill="#4f8cff"/><text x="334" y="553" fill="#ffffff" font-size="20" font-weight="700" text-anchor="middle">3</text>
+    <text x="600" y="650" fill="#b8c4e0" font-size="20" text-anchor="middle">Click the icon left of the address  ›  Microphone: Allow  ›  Reload</text>
+  </g>
+</svg>

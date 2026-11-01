@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="t">
+  <title id="t">How to test your webcam and microphone online: allow camera and microphone access, check the live camera preview and resolution, then speak and watch the mic level</title>
+  <g font-family="Segoe UI, system-ui, -apple-system, Arial, sans-serif">
+    <rect width="1200" height="675" fill="#0f172e"/>
+    <text x="600" y="62" fill="#ffffff" font-size="32" font-weight="700" text-anchor="middle">Webcam and mic test in three checks</text>
+    <rect x="60" y="130" width="440" height="300" rx="14" fill="#f3f5fa"/>
+    <text x="86" y="176" fill="#1d2433" font-size="21" font-weight="700">mictestingtool.com wants to</text>
+    <g fill="#2b3245"><rect x="90" y="219" width="20" height="18" rx="3"/><path d="M112 225 L120 220 L120 236 L112 231 Z"/></g><text x="132" y="235" fill="#2b3245" font-size="20">Use your camera</text>
+    <g transform="translate(104 284) scale(1)" fill="none" stroke="#2b3245" stroke-width="3" stroke-linecap="round"><rect x="-6" y="-14" width="12" height="20" rx="6" fill="#2b3245"/><path d="M-11 0 a11 11 0 0 0 22 0"/><line x1="0" y1="11" x2="0" y2="16"/></g><text x="132" y="291" fill="#2b3245" font-size="20">Use your microphone</text>
+    <rect x="250" y="350" width="110" height="46" rx="8" fill="#ffffff" stroke="#9aa4bb"/><text x="305" y="380" fill="#2b3245" font-size="18" text-anchor="middle">Block</text>
+    <rect x="372" y="350" width="110" height="46" rx="8" fill="#4f8cff"/><text x="427" y="380" fill="#ffffff" font-size="18" font-weight="600" text-anchor="middle">Allow</text>
+    <circle cx="500" cy="130" r="18" fill="#4f8cff"/><text x="500" y="137" fill="#ffffff" font-size="20" font-weight="700" text-anchor="middle">1</text>
+    <text x="60" y="482" fill="#ffffff" font-size="26" font-weight="700">1  Allow access</text>
+    <text x="60" y="516" fill="#b8c4e0" font-size="20">Pick the camera and mic you</text><text x="60" y="544" fill="#b8c4e0" font-size="20">will use on your next call.</text>
+    <rect x="580" y="110" width="560" height="340" rx="16" fill="#1d2433" stroke="#2a3a66" stroke-width="2"/>
+    <circle cx="860" cy="250" r="66" fill="#3a4a75"/>
+    <path d="M730 450 C740 360 800 330 860 330 C920 330 980 360 990 450 Z" fill="#3a4a75"/>
+    <rect x="600" y="130" width="250" height="36" rx="18" fill="#0f172e" opacity="0.8"/>
+    <circle cx="622" cy="148" r="7" fill="#f87171"/><text x="638" y="155" fill="#e3e9f7" font-size="16">Live · 1280×720 · 30 fps</text>
+    <circle cx="1140" cy="110" r="18" fill="#4f8cff"/><text x="1140" y="117" fill="#ffffff" font-size="20" font-weight="700" text-anchor="middle">2</text>
+    <text x="580" y="500" fill="#ffffff" font-size="20" font-weight="600">Mic level</text>
+    <rect x="690" y="484" width="17" height="22" rx="6" fill="#34d399"/><rect x="715" y="484" width="17" height="22" rx="6" fill="#34d399"/><rect x="740" y="484" width="17" height="22" rx="6" fill="#34d399"/><rect x="765" y="484" width="17" height="22" rx="6" fill="#34d399"/><rect x="790" y="484" width="17" height="22" rx="6" fill="#34d399"/><rect x="815" y="484" width="17" height="22" rx="6" fill="#34d399"/><rect x="840" y="484" width="17" height="22" rx="6" fill="#34d399"/><rect x="865" y="484" width="17" height="22" rx="6" fill="#34d399"/><rect x="890" y="484" width="17" height="22" rx="6" fill="#34d399"/><rect x="915" y="484" width="17" height="22" rx="6" fill="#34d399"/><rect x="940" y="484" width="17" height="22" rx="6" fill="#34d399"/><rect x="965" y="484" width="17" height="22" rx="6" fill="#2a3a66"/><rect x="990" y="484" width="17" height="22" rx="6" fill="#2a3a66"/><rect x="1015" y="484" width="17" height="22" rx="6" fill="#2a3a66"/><rect x="1040" y="484" width="17" height="22" rx="6" fill="#2a3a66"/><rect x="1065" y="484" width="17" height="22" rx="6" fill="#2a3a66"/><rect x="1090" y="484" width="17" height="22" rx="6" fill="#2a3a66"/><rect x="1115" y="484" width="17" height="22" rx="6" fill="#2a3a66"/>
+    <circle cx="1140" cy="495" r="18" fill="#4f8cff"/><text x="1140" y="502" fill="#ffffff" font-size="20" font-weight="700" text-anchor="middle">3</text>
+    <text x="580" y="566" fill="#ffffff" font-size="22" font-weight="600">2  Check the picture: framing, focus, light</text>
+    <text x="580" y="604" fill="#ffffff" font-size="22" font-weight="600">3  Speak: the mic level should move</text>
+  </g>
+</svg>

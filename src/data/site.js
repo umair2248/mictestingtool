@@ -1,8 +1,8 @@
 export const siteUrl = 'https://mictestingtool.com';
 export const siteName = 'Mic Testing Tool';
 export const pages = {
-  '/webcam-test': { title: 'Webcam and Mic Test — Test Your Webcam & Microphone Online', description: 'Free webcam and microphone test. See your live camera, check resolution and frame rate, watch your mic level and record a 10-second clip. Nothing is uploaded.' },
-  '/speaker-test': { title: 'Free Speaker & Headphone Test — Left/Right Audio Check', description: 'Test speakers, headphones or a headset online. Play left and right channels, run a stereo sound check, and follow a separate link to test your headset mic.' },
+  '/webcam-test': { title: 'Webcam and Mic Test — Test Your Webcam & Microphone Online', description: 'Free webcam and microphone test. See your live camera, check resolution and frame rate, watch your mic level and record a 10-second clip. Nothing is uploaded.', image: '/images/webcam-test/cover.jpg', imageAlt: 'Webcam and mic test online: live camera preview with resolution, frame rate and microphone level' },
+  '/speaker-test': { title: 'Free Speaker & Headphone Test — Left/Right Audio Check', description: 'Test speakers, headphones or a headset online. Play left and right channels, run a stereo sound check, and follow a separate link to test your headset mic.', image: '/images/speaker-test/cover.jpg', imageAlt: 'Free online speaker and headphone test with left and right channel sound check' },
   '/': { title: 'Mic Test - Free Online Microphone Test & Recorder', description: 'Test your microphone online for free. Check live input, record your voice, listen back, and download an audio clip. No sign-up; recordings stay in your browser.' },
   '/features': { title: 'Microphone Tester Features | Mic Testing Tool', description: 'Explore browser microphone recording, playback, input levels, and sample rate information. Learn what the online tester can and cannot measure.' },
   '/blog': { title: 'Microphone Testing Guides | Mic Testing Tool', description: 'Practical guides to testing microphones, checking input levels, improving recording clarity, and troubleshooting browser audio.' },

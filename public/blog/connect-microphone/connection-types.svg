@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="t">
+  <title id="t">Which microphone connection do you have: USB microphone, 3.5 mm headset with one four-contact TRRS plug, headset with separate pink mic and green headphone plugs, XLR microphone through an audio interface, and Bluetooth or wireless</title>
+  <g font-family="Segoe UI, system-ui, -apple-system, Arial, sans-serif">
+    <rect width="1200" height="675" fill="#0f172e"/>
+    <text x="600" y="62" fill="#ffffff" font-size="32" font-weight="700" text-anchor="middle">Which microphone connection do you have?</text>
+    
+    <rect x="60" y="96" width="340" height="260" rx="18" fill="#16213f" stroke="#2a3a66" stroke-width="2"/>
+    
+    <path d="M100 184 L160 184" stroke="#b8c4e0" stroke-width="7" stroke-linecap="round"/>
+    <rect x="158" y="158" width="92" height="52" rx="10" fill="#8db4ff"/>
+    <rect x="250" y="166" width="58" height="36" rx="3" fill="#d6dbe8"/>
+    <rect x="274" y="174" width="12" height="8" fill="#0f172e"/><rect x="274" y="186" width="12" height="8" fill="#0f172e"/>
+    <text x="230" y="274" fill="#ffffff" font-size="24" font-weight="700" text-anchor="middle">USB microphone</text>
+    <text x="230" y="308" fill="#b8c4e0" font-size="18" text-anchor="middle">Plug in, then pick it as</text>
+    <text x="230" y="334" fill="#b8c4e0" font-size="18" text-anchor="middle">the input device.</text>
+    
+    <rect x="430" y="96" width="340" height="260" rx="18" fill="#16213f" stroke="#2a3a66" stroke-width="2"/>
+    <path d="M470 184 L510 184" stroke="#b8c4e0" stroke-width="7" stroke-linecap="round"/>
+    <rect x="508" y="166" width="72" height="36" rx="9" fill="#8db4ff"/>
+    <path d="M580 174 L676 174 Q692 184 676 194 L580 194 Z" fill="#d6dbe8"/>
+    <rect x="608" y="174" width="5" height="20" fill="#0f172e"/><rect x="634" y="174" width="5" height="20" fill="#0f172e"/><rect x="658" y="174" width="5" height="20" fill="#0f172e"/>
+    <text x="600" y="274" fill="#ffffff" font-size="24" font-weight="700" text-anchor="middle">3.5 mm headset, 1 plug</text>
+    <text x="600" y="308" fill="#b8c4e0" font-size="18" text-anchor="middle">4 contacts carry mic + audio.</text>
+    <text x="600" y="334" fill="#b8c4e0" font-size="18" text-anchor="middle">Two-socket PC? Use a splitter.</text>
+    
+    <rect x="800" y="96" width="340" height="260" rx="18" fill="#16213f" stroke="#2a3a66" stroke-width="2"/>
+    
+    <g transform="translate(0 -26)"><path d="M840 184 L880 184" stroke="#b8c4e0" stroke-width="7" stroke-linecap="round"/>
+    <rect x="878" y="166" width="72" height="36" rx="9" fill="#f472b6"/>
+    <path d="M950 174 L1046 174 Q1062 184 1046 194 L950 194 Z" fill="#d6dbe8"/>
+    <rect x="996" y="174" width="5" height="20" fill="#0f172e"/><rect x="1024" y="174" width="5" height="20" fill="#0f172e"/></g>
+    <g transform="translate(0 26)"><path d="M840 184 L880 184" stroke="#b8c4e0" stroke-width="7" stroke-linecap="round"/>
+    <rect x="878" y="166" width="72" height="36" rx="9" fill="#34d399"/>
+    <path d="M950 174 L1046 174 Q1062 184 1046 194 L950 194 Z" fill="#d6dbe8"/>
+    <rect x="996" y="174" width="5" height="20" fill="#0f172e"/><rect x="1024" y="174" width="5" height="20" fill="#0f172e"/></g>
+    <text x="970" y="274" fill="#ffffff" font-size="24" font-weight="700" text-anchor="middle">Headset with 2 plugs</text>
+    <text x="970" y="308" fill="#b8c4e0" font-size="18" text-anchor="middle">Pink plug = microphone,</text>
+    <text x="970" y="334" fill="#b8c4e0" font-size="18" text-anchor="middle">green plug = headphones.</text>
+    
+    <rect x="245" y="386" width="340" height="260" rx="18" fill="#16213f" stroke="#2a3a66" stroke-width="2"/>
+    
+    <circle cx="315" cy="474" r="36" fill="#16213f" stroke="#8db4ff" stroke-width="6"/>
+    <circle cx="301" cy="466" r="6" fill="#d6dbe8"/><circle cx="329" cy="466" r="6" fill="#d6dbe8"/><circle cx="315" cy="490" r="6" fill="#d6dbe8"/>
+    <path d="M359 474 L401 474" stroke="#b8c4e0" stroke-width="5"/><path d="M397 465 L411 474 L397 483 Z" fill="#b8c4e0"/>
+    <rect x="415" y="440" width="120" height="68" rx="10" fill="#8db4ff"/>
+    <circle cx="447" cy="470" r="14" fill="#1b2a52"/><circle cx="491" cy="470" r="14" fill="#1b2a52"/>
+    <text x="475" y="500" fill="#1b2a52" font-size="13" font-weight="700" text-anchor="middle">INTERFACE</text>
+    <text x="415" y="564" fill="#ffffff" font-size="24" font-weight="700" text-anchor="middle">XLR microphone</text>
+    <text x="415" y="598" fill="#b8c4e0" font-size="18" text-anchor="middle">Needs an audio interface;</text>
+    <text x="415" y="624" fill="#b8c4e0" font-size="18" text-anchor="middle">a plain adapter is not enough.</text>
+    
+    <rect x="615" y="386" width="340" height="260" rx="18" fill="#16213f" stroke="#2a3a66" stroke-width="2"/>
+    
+    <circle cx="785" cy="474" r="48" fill="#4f8cff"/>
+    <path d="M769 456 L801 488 L785 504 L785 444 L801 460 L769 492" fill="none" stroke="#ffffff" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/>
+    <text x="785" y="564" fill="#ffffff" font-size="24" font-weight="700" text-anchor="middle">Bluetooth or wireless</text>
+    <text x="785" y="598" fill="#b8c4e0" font-size="18" text-anchor="middle">Pair first. Using the mic</text>
+    <text x="785" y="624" fill="#b8c4e0" font-size="18" text-anchor="middle">can lower sound quality.</text>
+  </g>
+</svg>

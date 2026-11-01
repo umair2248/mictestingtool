@@ -118,7 +118,7 @@ export default function WebcamTest() {
     <nav className="home-container home-jump-links" aria-label="Webcam test guide"><a href="#how-to-test-webcam">How to test</a><a href="#webcam-checks">What it checks</a><a href="#webcam-not-working">Webcam not working</a><a href="#webcam-mic-test">Webcam mic test</a><a href="#webcam-faq">Questions</a></nav>
 
     <section className="home-section" id="how-to-test-webcam"><div className="home-container">
-      <div className="home-section-intro"><h2>How to test your webcam and microphone online</h2><p>A webcam and mic test takes about 30 seconds. Use the same camera, microphone and lighting you plan to use on your next call so the result reflects real conditions.</p></div>
+      <div className="home-section-intro"><h2>How to test your webcam and microphone online</h2><p>A webcam and mic test takes about 30 seconds. Use the same camera, microphone and lighting you plan to use on your next call so the result reflects real conditions.</p></div><figure className="home-figure"><img src="/images/webcam-test/camera-mic-check.svg" alt="How to test your webcam and microphone online: allow camera and mic access, check the live picture, then speak and watch the mic level" width="1200" height="675" loading="lazy" decoding="async" /><figcaption>Allow access, check the picture, then speak and watch the mic level.</figcaption></figure>
       <ol className="home-steps">{steps.map(([title, text]) => <li key={title}><h3>{title}</h3><p>{text}</p></li>)}</ol>
       <a className="home-button" href="#webcam-test"><Camera size={18} aria-hidden="true" />Start the webcam test</a>
     </div></section>

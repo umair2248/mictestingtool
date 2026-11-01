@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="t">
+  <title id="t">How to set up a microphone on a Mac: System Settings, Sound, Input tab with a USB microphone selected, the input volume slider and the input level meter</title>
+  <g font-family="Segoe UI, system-ui, -apple-system, Arial, sans-serif">
+    <rect width="1200" height="675" fill="#0f172e"/>
+    <text x="600" y="48" fill="#b8c4e0" font-size="22" text-anchor="middle">Apple menu  ›  System Settings  ›  Sound  ›  Input</text>
+    <rect x="140" y="78" width="920" height="566" rx="16" fill="#f3f5fa"/>
+    <path d="M156 78 H400 V644 H156 A16 16 0 0 1 140 628 V94 A16 16 0 0 1 156 78 Z" fill="#e4e8f2"/>
+    <circle cx="170" cy="106" r="8" fill="#f87171"/><circle cx="194" cy="106" r="8" fill="#fbbf24"/><circle cx="218" cy="106" r="8" fill="#34d399"/>
+    <text x="178" y="171" fill="#3c4458" font-size="19">Wi‑Fi</text>
+    <text x="178" y="223" fill="#3c4458" font-size="19">Bluetooth</text>
+    <text x="178" y="275" fill="#3c4458" font-size="19">Network</text>
+    <text x="178" y="327" fill="#3c4458" font-size="19">Notifications</text>
+    <rect x="156" y="352" width="228" height="40" rx="8" fill="#4f8cff"/><text x="178" y="379" fill="#ffffff" font-size="19" font-weight="600">Sound</text>
+    <text x="178" y="431" fill="#3c4458" font-size="19">Focus</text>
+    <text x="178" y="483" fill="#3c4458" font-size="19">Privacy &amp; Security</text>
+    <text x="178" y="535" fill="#3c4458" font-size="19">Displays</text>
+    <text x="430" y="130" fill="#1d2433" font-size="28" font-weight="700">Sound</text>
+    <rect x="600" y="156" width="240" height="40" rx="10" fill="#dfe4ef"/>
+    <rect x="722" y="160" width="114" height="32" rx="8" fill="#ffffff" stroke="#4f8cff" stroke-width="2"/>
+    <text x="661" y="183" fill="#3c4458" font-size="18" text-anchor="middle">Output</text><text x="779" y="183" fill="#1d2433" font-size="18" font-weight="700" text-anchor="middle">Input</text>
+    <circle cx="870" cy="176" r="18" fill="#4f8cff"/><text x="870" y="183" fill="#ffffff" font-size="20" font-weight="700" text-anchor="middle">1</text>
+    <text x="430" y="236" fill="#3c4458" font-size="18">Select a device for sound input:</text>
+    <rect x="430" y="252" width="580" height="160" rx="8" fill="#ffffff" stroke="#c5ccdc"/>
+    <text x="450" y="280" fill="#5b6478" font-size="16" font-weight="600">Name</text><text x="800" y="280" fill="#5b6478" font-size="16" font-weight="600">Type</text>
+    <text x="450" y="322" fill="#1d2433" font-size="19">MacBook Microphone</text><text x="800" y="322" fill="#5b6478" font-size="19">Built-in</text>
+    <rect x="436" y="336" width="568" height="38" rx="6" fill="#4f8cff"/>
+    <text x="450" y="362" fill="#ffffff" font-size="19" font-weight="600">USB Microphone</text><text x="800" y="362" fill="#ffffff" font-size="19">USB</text>
+    <text x="450" y="400" fill="#1d2433" font-size="19">Headset Microphone</text><text x="800" y="400" fill="#5b6478" font-size="19">Bluetooth</text>
+    <circle cx="1034" cy="355" r="18" fill="#4f8cff"/><text x="1034" y="362" fill="#ffffff" font-size="20" font-weight="700" text-anchor="middle">2</text>
+    <text x="430" y="478" fill="#1d2433" font-size="19" font-weight="600">Input volume</text>
+    <rect x="600" y="470" width="380" height="6" rx="3" fill="#d6dbe8"/><rect x="600" y="470" width="270" height="6" rx="3" fill="#4f8cff"/>
+    <circle cx="870" cy="473" r="12" fill="#ffffff" stroke="#4f8cff" stroke-width="5"/>
+    <text x="430" y="548" fill="#1d2433" font-size="19" font-weight="600">Input level</text>
+    <rect x="600" y="532" width="16" height="22" rx="8" fill="#4f8cff"/><rect x="624" y="532" width="16" height="22" rx="8" fill="#4f8cff"/><rect x="648" y="532" width="16" height="22" rx="8" fill="#4f8cff"/><rect x="672" y="532" width="16" height="22" rx="8" fill="#4f8cff"/><rect x="696" y="532" width="16" height="22" rx="8" fill="#4f8cff"/><rect x="720" y="532" width="16" height="22" rx="8" fill="#4f8cff"/><rect x="744" y="532" width="16" height="22" rx="8" fill="#4f8cff"/><rect x="768" y="532" width="16" height="22" rx="8" fill="#4f8cff"/><rect x="792" y="532" width="16" height="22" rx="8" fill="#4f8cff"/><rect x="816" y="532" width="16" height="22" rx="8" fill="#4f8cff"/><rect x="840" y="532" width="16" height="22" rx="8" fill="#d6dbe8"/><rect x="864" y="532" width="16" height="22" rx="8" fill="#d6dbe8"/><rect x="888" y="532" width="16" height="22" rx="8" fill="#d6dbe8"/><rect x="912" y="532" width="16" height="22" rx="8" fill="#d6dbe8"/><rect x="936" y="532" width="16" height="22" rx="8" fill="#d6dbe8"/><rect x="960" y="532" width="16" height="22" rx="8" fill="#d6dbe8"/>
+    <circle cx="1034" cy="543" r="18" fill="#4f8cff"/><text x="1034" y="550" fill="#ffffff" font-size="20" font-weight="700" text-anchor="middle">3</text>
+    <text x="430" y="612" fill="#5b6478" font-size="17">Speak: the level dots should move with your voice.</text>
+  </g>
+</svg>

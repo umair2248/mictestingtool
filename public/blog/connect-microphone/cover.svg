@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="t">
+  <title id="t">How to connect and set up a microphone: a USB microphone plugged into a laptop showing the sound input settings</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1020"/><stop offset="1" stop-color="#14224a"/></linearGradient>
+    <radialGradient id="glow" cx="0.78" cy="0.45" r="0.5"><stop offset="0" stop-color="#4f8cff" stop-opacity="0.45"/><stop offset="1" stop-color="#4f8cff" stop-opacity="0"/></radialGradient>
+    <linearGradient id="mic" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8db4ff"/><stop offset="1" stop-color="#3a6fe0"/></linearGradient>
+  </defs>
+  <g font-family="Segoe UI, system-ui, -apple-system, Arial, sans-serif">
+
+    <rect width="1200" height="630" fill="url(#bg)"/>
+    <rect width="1200" height="630" fill="url(#glow)"/>
+    <text x="72" y="118" fill="#8db4ff" font-size="26" font-weight="600" letter-spacing="3">SETUP GUIDE</text>
+    <text x="72" y="196" fill="#ffffff" font-size="64" font-weight="700">How to Connect</text>
+    <text x="72" y="270" fill="#ffffff" font-size="64" font-weight="700">and Set Up a</text>
+    <text x="72" y="344" fill="#ffffff" font-size="64" font-weight="700">Microphone</text>
+    <text x="72" y="410" fill="#b8c4e0" font-size="26">USB · Headset · XLR · Bluetooth</text>
+    <text x="72" y="448" fill="#b8c4e0" font-size="26">PC · Mac · PS5 · Xbox</text>
+    <rect x="72" y="500" width="300" height="60" rx="30" fill="#4f8cff"/>
+    <text x="222" y="539" fill="#ffffff" font-size="24" font-weight="600" text-anchor="middle">mictestingtool.com</text>
+    
+    <rect x="790" y="150" width="340" height="230" rx="16" fill="#1b2a52" stroke="#8db4ff" stroke-width="5"/>
+    <rect x="812" y="172" width="296" height="186" rx="8" fill="#f3f5fa"/>
+    <text x="830" y="204" fill="#2b3245" font-size="18" font-weight="600">Sound › Input</text>
+    <rect x="830" y="220" width="260" height="38" rx="8" fill="#4f8cff"/><text x="846" y="245" fill="#ffffff" font-size="17" font-weight="600">USB Microphone</text>
+    <text x="830" y="290" fill="#5b6478" font-size="15">Input level</text>
+    <rect x="830" y="302" width="16" height="16" rx="8" fill="#4f8cff"/><rect x="854" y="302" width="16" height="16" rx="8" fill="#4f8cff"/><rect x="878" y="302" width="16" height="16" rx="8" fill="#4f8cff"/><rect x="902" y="302" width="16" height="16" rx="8" fill="#4f8cff"/><rect x="926" y="302" width="16" height="16" rx="8" fill="#4f8cff"/><rect x="950" y="302" width="16" height="16" rx="8" fill="#4f8cff"/><rect x="974" y="302" width="16" height="16" rx="8" fill="#4f8cff"/><rect x="998" y="302" width="16" height="16" rx="8" fill="#d6dbe8"/><rect x="1022" y="302" width="16" height="16" rx="8" fill="#d6dbe8"/><rect x="1046" y="302" width="16" height="16" rx="8" fill="#d6dbe8"/><rect x="1070" y="302" width="16" height="16" rx="8" fill="#d6dbe8"/>
+    <text x="830" y="344" fill="#5b6478" font-size="15">Input volume</text>
+    <path d="M760 380 L1160 380 L1180 410 L740 410 Z" fill="#8db4ff"/><rect x="900" y="380" width="120" height="10" rx="5" fill="#5b7fd0"/>
+    <rect x="652" y="236" width="76" height="150" rx="38" fill="url(#mic)"/>
+    <g stroke="#0b1020" stroke-opacity="0.35" stroke-width="4"><line x1="670" y1="272" x2="710" y2="272"/><line x1="670" y1="296" x2="710" y2="296"/><line x1="670" y1="320" x2="710" y2="320"/></g>
+    <line x1="690" y1="386" x2="690" y2="470" stroke="#8db4ff" stroke-width="10" stroke-linecap="round"/>
+    <rect x="640" y="468" width="100" height="16" rx="8" fill="#8db4ff"/>
+    <path d="M740 476 C800 520 880 520 900 430 L900 412" fill="none" stroke="#b8c4e0" stroke-width="7" stroke-linecap="round"/>
+    <rect x="890" y="404" width="20" height="16" rx="3" fill="#ffffff"/>
+  </g>
+</svg>

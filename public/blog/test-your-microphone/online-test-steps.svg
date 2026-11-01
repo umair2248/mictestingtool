@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="t">
+  <title id="t">How to test your microphone online in four steps: allow microphone access, speak while watching the input meter, stop and play back the recording, then adjust one setting and repeat</title>
+  <g font-family="Segoe UI, system-ui, -apple-system, Arial, sans-serif">
+    <rect width="1200" height="675" fill="#0f172e"/>
+    <text x="600" y="66" fill="#ffffff" font-size="32" font-weight="700" text-anchor="middle">Online mic test in 4 steps</text>
+    
+    <rect x="60" y="110" width="520" height="250" rx="18" fill="#16213f" stroke="#2a3a66" stroke-width="2"/>
+    <circle cx="112" cy="164" r="26" fill="#4f8cff"/><text x="112" y="173" fill="#ffffff" font-size="26" font-weight="700" text-anchor="middle">1</text>
+    <text x="88" y="238" fill="#ffffff" font-size="28" font-weight="700">Allow access</text>
+    <text x="88" y="276" fill="#b8c4e0" font-size="20">Approve the browser’s</text>
+    <text x="88" y="306" fill="#b8c4e0" font-size="20">microphone prompt.</text>
+    
+    <rect x="360" y="170" width="200" height="130" rx="10" fill="#f3f5fa"/>
+    <text x="376" y="202" fill="#2b3245" font-size="17" font-weight="600">Use your</text><text x="376" y="224" fill="#2b3245" font-size="17" font-weight="600">microphone?</text>
+    <rect x="376" y="246" width="80" height="36" rx="6" fill="#ffffff" stroke="#9aa4bb"/><text x="416" y="270" fill="#2b3245" font-size="16" text-anchor="middle">Block</text>
+    <rect x="464" y="246" width="82" height="36" rx="6" fill="#4f8cff"/><text x="505" y="270" fill="#ffffff" font-size="16" font-weight="600" text-anchor="middle">Allow</text>
+    
+    <rect x="620" y="110" width="520" height="250" rx="18" fill="#16213f" stroke="#2a3a66" stroke-width="2"/>
+    <circle cx="672" cy="164" r="26" fill="#4f8cff"/><text x="672" y="173" fill="#ffffff" font-size="26" font-weight="700" text-anchor="middle">2</text>
+    <text x="648" y="238" fill="#ffffff" font-size="28" font-weight="700">Speak normally</text>
+    <text x="648" y="276" fill="#b8c4e0" font-size="20">Say one sentence and</text>
+    <text x="648" y="306" fill="#b8c4e0" font-size="20">watch the meter move.</text>
+    <rect x="930" y="270" width="15" height="30" rx="4" fill="#4f8cff" opacity="0.6209677419354839"/><rect x="952" y="245" width="15" height="55" rx="4" fill="#4f8cff" opacity="0.7217741935483871"/><rect x="974" y="220" width="15" height="80" rx="4" fill="#4f8cff" opacity="0.8225806451612903"/><rect x="996" y="188" width="15" height="112" rx="4" fill="#4f8cff" opacity="0.9516129032258065"/><rect x="1018" y="205" width="15" height="95" rx="4" fill="#4f8cff" opacity="0.8830645161290323"/><rect x="1040" y="230" width="15" height="70" rx="4" fill="#4f8cff" opacity="0.782258064516129"/><rect x="1062" y="176" width="15" height="124" rx="4" fill="#4f8cff" opacity="1"/><rect x="1084" y="240" width="15" height="60" rx="4" fill="#4f8cff" opacity="0.7419354838709677"/><rect x="1106" y="260" width="15" height="40" rx="4" fill="#4f8cff" opacity="0.6612903225806451"/>
+    
+    <rect x="60" y="390" width="520" height="250" rx="18" fill="#16213f" stroke="#2a3a66" stroke-width="2"/>
+    <circle cx="112" cy="444" r="26" fill="#4f8cff"/><text x="112" y="453" fill="#ffffff" font-size="26" font-weight="700" text-anchor="middle">3</text>
+    <text x="88" y="518" fill="#ffffff" font-size="28" font-weight="700">Stop and listen</text>
+    <text x="88" y="556" fill="#b8c4e0" font-size="20">Play the clip back,</text>
+    <text x="88" y="586" fill="#b8c4e0" font-size="20">ideally on headphones.</text>
+    
+    <rect x="356" y="460" width="204" height="110" rx="14" fill="#1d2a50"/>
+    <circle cx="398" cy="515" r="24" fill="#4f8cff"/><path d="M390 503 L410 515 L390 527 Z" fill="#ffffff"/>
+    <rect x="436" y="506" width="5" height="18" rx="2.5" fill="#8db4ff"/><rect x="444" y="501.4" width="5" height="27.2" rx="2.5" fill="#8db4ff"/><rect x="452" y="503.7" width="5" height="22.6" rx="2.5" fill="#8db4ff"/><rect x="460" y="503.9" width="5" height="22.2" rx="2.5" fill="#8db4ff"/><rect x="468" y="503.9" width="5" height="22.3" rx="2.5" fill="#8db4ff"/><rect x="476" y="501.4" width="5" height="27.1" rx="2.5" fill="#8db4ff"/><rect x="484" y="492.3" width="5" height="45.3" rx="2.5" fill="#8db4ff"/><rect x="492" y="488.5" width="5" height="53" rx="2.5" fill="#8db4ff"/><rect x="500" y="494.6" width="5" height="40.7" rx="2.5" fill="#8db4ff"/><rect x="508" y="503.8" width="5" height="22.5" rx="2.5" fill="#8db4ff"/><rect x="516" y="490.9" width="5" height="48.2" rx="2.5" fill="#8db4ff"/><rect x="524" y="486.6" width="5" height="56.8" rx="2.5" fill="#8db4ff"/><rect x="532" y="492.5" width="5" height="44.9" rx="2.5" fill="#8db4ff"/><rect x="540" y="503.3" width="5" height="23.4" rx="2.5" fill="#8db4ff"/>
+    
+    <rect x="620" y="390" width="520" height="250" rx="18" fill="#16213f" stroke="#2a3a66" stroke-width="2"/>
+    <circle cx="672" cy="444" r="26" fill="#4f8cff"/><text x="672" y="453" fill="#ffffff" font-size="26" font-weight="700" text-anchor="middle">4</text>
+    <text x="648" y="518" fill="#ffffff" font-size="28" font-weight="700">Adjust, repeat</text>
+    <text x="648" y="556" fill="#b8c4e0" font-size="20">Change one setting,</text>
+    <text x="648" y="586" fill="#b8c4e0" font-size="20">then record again.</text>
+    
+    <text x="920" y="470" fill="#b8c4e0" font-size="17">Input volume</text>
+    <rect x="920" y="486" width="200" height="6" rx="3" fill="#2a3a66"/><rect x="920" y="486" width="120" height="6" rx="3" fill="#4f8cff"/>
+    <circle cx="1040" cy="489" r="11" fill="#ffffff" stroke="#4f8cff" stroke-width="5"/>
+    <path d="M1020 548 A24 24 0 1 1 999.2 560" fill="none" stroke="#8db4ff" stroke-width="6" stroke-linecap="round"/><path d="M1006.2 547.8 L1005.3 565.5 L991.1 557.5 Z" fill="#8db4ff"/>
+  </g>
+</svg>

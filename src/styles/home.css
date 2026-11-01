@@ -133,3 +133,7 @@
   .mic-home .home-placeholder { min-height: 0; padding: 14px; gap: 8px; font-size: 0.82rem; }
   .mic-home .home-primary-start { margin-top: 12px; }
 }
+.mic-home .home-figure { max-width: 980px; margin: 0 auto 32px; }
+.mic-home .home-figure img { display: block; width: 100%; height: auto; border-radius: 16px; border: 1px solid var(--border, rgba(148, 163, 184, 0.2)); box-shadow: 0 24px 48px -28px rgba(0, 0, 0, 0.7); }
+.mic-home .home-figure figcaption { margin-top: 10px; font-size: 0.9rem; color: var(--muted, #94a3b8); text-align: center; }
+.mic-home .home-figure--wide { grid-column: 1 / -1; margin: 8px 0 0; }

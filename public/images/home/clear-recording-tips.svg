@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="t">
+  <title id="t">Tips for a clearer microphone test recording: keep about a hand-span from the mic, speak across it, wear headphones and record in a quiet room</title>
+  <g font-family="Segoe UI, system-ui, -apple-system, Arial, sans-serif">
+    <rect width="1200" height="675" fill="#0f172e"/>
+    <text x="600" y="62" fill="#ffffff" font-size="32" font-weight="700" text-anchor="middle">Four habits for a clearer mic test</text>
+
+    <rect x="60" y="100" width="520" height="250" rx="20" fill="#16213f" stroke="#26345e" stroke-width="2"/>
+    <circle cx="112" cy="152" r="26" fill="#4f8cff"/><text x="112" y="162" fill="#ffffff" font-size="26" font-weight="700" text-anchor="middle">1</text>
+    <text x="88" y="222" fill="#ffffff" font-size="28" font-weight="700">Keep a steady distance</text>
+    <text x="88" y="260" fill="#b8c4e0" font-size="21">About a hand-span (15–30 cm)</text>
+    <text x="88" y="290" fill="#b8c4e0" font-size="21">for most desk and USB mics.</text>
+    <rect x="410" y="150" width="36" height="76" rx="18" fill="#8db4ff"/><line x1="428" y1="226" x2="428" y2="266" stroke="#8db4ff" stroke-width="6"/><rect x="404" y="264" width="48" height="8" rx="4" fill="#8db4ff"/>
+    <circle cx="530" cy="186" r="26" fill="#3d4f80"/>
+    <g stroke="#fbbf24" stroke-width="3"><line x1="454" y1="300" x2="500" y2="300"/><line x1="454" y1="292" x2="454" y2="308"/><line x1="500" y1="292" x2="500" y2="308"/></g>
+    <text x="477" y="330" fill="#fbbf24" font-size="17" font-weight="600" text-anchor="middle">15–30 cm</text>
+
+    <rect x="620" y="100" width="520" height="250" rx="20" fill="#16213f" stroke="#26345e" stroke-width="2"/>
+    <circle cx="672" cy="152" r="26" fill="#4f8cff"/><text x="672" y="162" fill="#ffffff" font-size="26" font-weight="700" text-anchor="middle">2</text>
+    <text x="648" y="222" fill="#ffffff" font-size="28" font-weight="700">Speak across the mic</text>
+    <text x="648" y="260" fill="#b8c4e0" font-size="21">A slight angle reduces popping</text>
+    <text x="648" y="290" fill="#b8c4e0" font-size="21">on “p” and “b” sounds.</text>
+    <rect x="1040" y="150" width="36" height="76" rx="18" fill="#8db4ff"/><line x1="1058" y1="226" x2="1058" y2="266" stroke="#8db4ff" stroke-width="6"/><rect x="1034" y="264" width="48" height="8" rx="4" fill="#8db4ff"/>
+    <path d="M960 260 Q1000 230 1030 200" fill="none" stroke="#34d399" stroke-width="4" stroke-linecap="round" stroke-dasharray="8 8"/><path d="M1022 196 L1036 194 L1032 208" fill="none" stroke="#34d399" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <rect x="60" y="380" width="520" height="250" rx="20" fill="#16213f" stroke="#26345e" stroke-width="2"/>
+    <circle cx="112" cy="432" r="26" fill="#4f8cff"/><text x="112" y="442" fill="#ffffff" font-size="26" font-weight="700" text-anchor="middle">3</text>
+    <text x="88" y="502" fill="#ffffff" font-size="28" font-weight="700">Listen on headphones</text>
+    <text x="88" y="540" fill="#b8c4e0" font-size="21">Prevents echo and feedback from</text>
+    <text x="88" y="570" fill="#b8c4e0" font-size="21">speakers reaching the mic.</text>
+    <path d="M436 470 A54 54 0 0 1 544 470" fill="none" stroke="#8db4ff" stroke-width="10" stroke-linecap="round"/>
+    <rect x="420" y="462" width="34" height="58" rx="14" fill="#4f8cff"/><rect x="526" y="462" width="34" height="58" rx="14" fill="#4f8cff"/>
+
+    <rect x="620" y="380" width="520" height="250" rx="20" fill="#16213f" stroke="#26345e" stroke-width="2"/>
+    <circle cx="672" cy="432" r="26" fill="#4f8cff"/><text x="672" y="442" fill="#ffffff" font-size="26" font-weight="700" text-anchor="middle">4</text>
+    <text x="648" y="502" fill="#ffffff" font-size="28" font-weight="700">Choose a quiet spot</text>
+    <text x="648" y="540" fill="#b8c4e0" font-size="21">Move away from fans, traffic</text>
+    <text x="648" y="570" fill="#b8c4e0" font-size="21">and keyboard noise.</text>
+    <circle cx="1060" cy="460" r="30" fill="none" stroke="#8db4ff" stroke-width="5"/><g fill="#8db4ff"><path d="M1060 460 l-6 -24 a6 6 0 0 1 12 0 Z"/><path d="M1060 460 l21 12 a6 6 0 0 1 -6 10 Z"/><path d="M1060 460 l-21 12 a6 6 0 0 0 6 10 Z"/></g>
+    <line x1="1022" y1="422" x2="1098" y2="498" stroke="#f87171" stroke-width="6" stroke-linecap="round"/>
+  </g>
+</svg>

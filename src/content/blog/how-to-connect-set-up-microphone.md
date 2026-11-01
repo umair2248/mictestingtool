@@ -5,6 +5,8 @@ excerpt: "Connect a USB mic or headset to your PC or Mac, turn on microphone acc
 date: "2026-10-26"
 modified: "2026-10-26"
 tags: ["Setup", "Microphones", "Windows", "Mac"]
+image: "/blog/connect-microphone/cover.jpg"
+imageAlt: "How to connect and set up a microphone: USB microphone plugged into a laptop showing Sound input settings"
 author: "Mic Testing Tool"
 ---
 
@@ -15,6 +17,8 @@ This guide focuses on **connecting hardware and choosing mic settings**. If your
 ## Choose the right connection for your microphone
 
 Identify the connector before changing software settings. A plug that fits a socket is not enough to establish audio compatibility.
+
+![Microphone connection types: USB microphone, 3.5 mm headset with one plug, headset with two plugs, XLR microphone with audio interface, and Bluetooth](/blog/connect-microphone/connection-types.svg "Identify your connector first: USB, 3.5 mm, two plugs, XLR or Bluetooth.")
 
 - **USB microphone:** sends digital audio through a USB connection. Use the supplied cable or a compatible data cable. A microphone can receive power without establishing a working data connection.
 - **3.5 mm headset:** usually combines headphones and a microphone in a single four-contact TRRS plug. A computer with separate headphone and microphone sockets may need a compatible headset splitter.
@@ -56,6 +60,8 @@ After changing access, reopen the affected app if necessary. Adjust input gain g
 ## How to connect and set up a microphone on a Mac
 
 Connect the USB microphone or audio interface with a compatible cable and adapter. For an analog headset, verify that your Mac's audio port supports the headset's microphone connection. An output-only adapter cannot provide a microphone input.
+
+![Mac System Settings Sound Input tab with a USB microphone selected, input volume slider and moving input level](/blog/connect-microphone/mac-sound-input.svg "On a Mac: Sound > Input, select the microphone, then watch the input level move.")
 
 Open **Apple menu > System Settings > Sound > Input**, choose the intended microphone and check the input response while speaking. Adjust input volume if your device exposes that setting. Some interfaces use their own hardware gain control instead.
 
