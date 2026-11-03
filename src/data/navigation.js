@@ -5,5 +5,6 @@ export const navigation = [
   { label: 'FAQ', to: '/faq' },
   { label: 'Contact', to: '/contact' },
   { label: 'Speaker Test', to: '/speaker-test' },
-  { label: 'Webcam Test', to: '/webcam-test' }
+  { label: 'Webcam Test', to: '/webcam-test' },
+  { label: 'Noise Meter', to: '/noise-meter' }
 ];

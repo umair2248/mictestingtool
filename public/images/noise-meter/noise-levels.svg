@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="t">
+  <title id="t">Class noise meter levels: green for quiet, amber for getting loud, red for too loud above the limit you set</title>
+  <g font-family="Segoe UI, system-ui, -apple-system, Arial, sans-serif">
+    <rect width="1200" height="675" fill="#0f172e"/>
+    <text x="600" y="64" fill="#ffffff" font-size="32" font-weight="700" text-anchor="middle">What the noise meter colours mean</text>
+    <text x="600" y="102" fill="#b8c4e0" font-size="20" text-anchor="middle">Example with the too-loud limit set to 75 (relative level, not calibrated dB)</text>
+
+    <rect x="100" y="170" width="1000" height="56" rx="28" fill="#1c2742"/>
+    <rect x="100" y="170" width="680" height="56" rx="28" fill="#34d399"/>
+    <rect x="750" y="170" width="100" height="56" fill="#fbbf24"/>
+    <path d="M850 170 h222 a28 28 0 0 1 0 56 h-222 z" fill="#f87171"/>
+    <rect x="848" y="152" width="5" height="92" fill="#ffffff"/>
+    <text x="850" y="140" fill="#ffffff" font-size="18" font-weight="700" text-anchor="middle">Limit 75</text>
+    <g fill="#8a97b8" font-size="17" text-anchor="middle">
+      <text x="100" y="270">0</text><text x="750" y="270">65</text><text x="850" y="270">75</text><text x="1100" y="270">100</text>
+    </g>
+
+    <g>
+      <rect x="100" y="320" width="300" height="270" rx="16" fill="#16213f" stroke="#34d399" stroke-width="2"/>
+      <text x="130" y="372" fill="#34d399" font-size="28" font-weight="700">Quiet</text>
+      <text x="130" y="410" fill="#ffffff" font-size="18">Below 65</text>
+      <text x="130" y="456" fill="#b8c4e0" font-size="17">Silent reading, tests</text>
+      <text x="130" y="484" fill="#b8c4e0" font-size="17">and independent work.</text>
+      <text x="130" y="550" fill="#8a97b8" font-size="15">More than 10 under the limit</text>
+
+      <rect x="450" y="320" width="300" height="270" rx="16" fill="#16213f" stroke="#fbbf24" stroke-width="2"/>
+      <text x="480" y="372" fill="#fbbf24" font-size="28" font-weight="700">Getting loud</text>
+      <text x="480" y="410" fill="#ffffff" font-size="18">65 to 74</text>
+      <text x="480" y="456" fill="#b8c4e0" font-size="17">A cue to bring the volume</text>
+      <text x="480" y="484" fill="#b8c4e0" font-size="17">down before it turns red.</text>
+      <text x="480" y="550" fill="#8a97b8" font-size="15">Within 10 of the limit</text>
+
+      <rect x="800" y="320" width="300" height="270" rx="16" fill="#16213f" stroke="#f87171" stroke-width="2"/>
+      <text x="830" y="372" fill="#f87171" font-size="28" font-weight="700">Too loud</text>
+      <text x="830" y="410" fill="#ffffff" font-size="18">75 and above</text>
+      <text x="830" y="456" fill="#b8c4e0" font-size="17">Alert after 1 second above</text>
+      <text x="830" y="484" fill="#b8c4e0" font-size="17">the limit. Count goes up.</text>
+      <text x="830" y="550" fill="#8a97b8" font-size="15">A single clap won't trigger it</text>
+    </g>
+    <text x="600" y="634" fill="#b8c4e0" font-size="18" text-anchor="middle">Move the limit and the zones move with it.</text>
+  </g>
+</svg>

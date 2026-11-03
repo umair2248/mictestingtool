@@ -22,7 +22,7 @@ export default function HomePage() {
       </div>
     </section>
 
-    <div className="home-container home-intro-strip"><p>Checking a headset? <Link to="/speaker-test">Test your speakers and headphones</Link>, then use this microphone tool to check its input. Getting ready for a video call? Run the <Link to="/webcam-test">webcam and mic test</Link> to check your camera and microphone together.</p><LanguageLinks /></div>
+    <div className="home-container home-intro-strip"><p>Checking a headset? <Link to="/speaker-test">Test your speakers and headphones</Link>, then use this microphone tool to check its input. Getting ready for a video call? Run the <Link to="/webcam-test">webcam and mic test</Link> to check your camera and microphone together. Teachers can use the <Link to="/noise-meter">online noise meter for classroom</Link> to show when the room gets too loud.</p><LanguageLinks /></div>
     <nav className="home-container home-jump-links" aria-label="Microphone test guide"><a href="#how-to-test">How to test</a><a href="#test-results">Understand results</a><a href="#microphone-not-working">Fix mic problems</a><a href="#devices">Device help</a><a href="#mic-faq">Questions</a></nav>
 
     <section className="home-section" aria-labelledby="test-record-download"><div className="home-container">

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="t">
+  <title id="t">Free online noise meter for classroom: live level bar, too-loud limit and fullscreen classroom mode</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1020"/><stop offset="1" stop-color="#14224a"/></linearGradient>
+    <radialGradient id="glow" cx="0.76" cy="0.46" r="0.5"><stop offset="0" stop-color="#34d399" stop-opacity="0.28"/><stop offset="1" stop-color="#34d399" stop-opacity="0"/></radialGradient>
+  </defs>
+  <g font-family="Segoe UI, system-ui, -apple-system, Arial, sans-serif">
+    <rect width="1200" height="630" fill="url(#bg)"/>
+    <rect width="1200" height="630" fill="url(#glow)"/>
+    <text x="72" y="118" fill="#8db4ff" font-size="26" font-weight="600" letter-spacing="3">FREE CLASSROOM TOOL</text>
+    <text x="72" y="196" fill="#ffffff" font-size="62" font-weight="700">Online Noise</text>
+    <text x="72" y="270" fill="#ffffff" font-size="62" font-weight="700">Meter for</text>
+    <text x="72" y="344" fill="#ffffff" font-size="62" font-weight="700">Classroom</text>
+    <text x="72" y="410" fill="#b8c4e0" font-size="26">Live level bar · Too-loud alert</text>
+    <text x="72" y="448" fill="#b8c4e0" font-size="26">Fullscreen classroom mode</text>
+    <rect x="72" y="500" width="300" height="60" rx="30" fill="#4f8cff"/>
+    <text x="222" y="539" fill="#ffffff" font-size="24" font-weight="600" text-anchor="middle">mictestingtool.com</text>
+
+    <rect x="640" y="110" width="500" height="400" rx="20" fill="#0a1222" stroke="#2a3a63" stroke-width="2"/>
+    <text x="890" y="250" fill="#34d399" font-size="120" font-weight="700" text-anchor="middle">58</text>
+    <text x="890" y="290" fill="#8a97b8" font-size="20" text-anchor="middle">relative dB</text>
+    <text x="890" y="342" fill="#34d399" font-size="34" font-weight="700" text-anchor="middle">Quiet</text>
+    <rect x="690" y="380" width="400" height="30" rx="15" fill="#1c2742"/>
+    <rect x="690" y="380" width="232" height="30" rx="15" fill="#34d399"/>
+    <rect x="988" y="372" width="4" height="46" fill="#ffffff"/>
+    <text x="890" y="454" fill="#8a97b8" font-size="18" text-anchor="middle">Too-loud limit: 75</text>
+    <g fill="#34d399"><rect x="690" y="474" width="120" height="8" rx="4"/></g>
+    <g fill="#fbbf24"><rect x="830" y="474" width="120" height="8" rx="4"/></g>
+    <g fill="#f87171"><rect x="970" y="474" width="120" height="8" rx="4"/></g>
+  </g>
+</svg>

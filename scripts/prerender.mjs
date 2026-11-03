@@ -8,7 +8,7 @@ import { getLocale, getPageLanguage } from '../src/data/locales.js';
 const root = fileURLToPath(new URL('../', import.meta.url));
 const template = await readFile(resolve(root, 'dist/index.html'), 'utf8');
 const manifest = JSON.parse(await readFile(resolve(root, 'dist/.vite/manifest.json'), 'utf8'));
-const pageModules = { '/': 'HomePage.jsx', '/speaker-test': 'SpeakerTest.jsx', '/webcam-test': 'WebcamTest.jsx', '/features': 'Features.jsx', '/blog': 'blogs.jsx', '/faq': 'faqs.jsx', '/contact': 'Contact.jsx', '/privacy': 'PrivacyPolicy.tsx', '/login': 'AuthPage.jsx', '/signup': 'AuthPage.jsx', '/admin/editor': 'AdminBlogEditor.jsx' };
+const pageModules = { '/': 'HomePage.jsx', '/speaker-test': 'SpeakerTest.jsx', '/webcam-test': 'WebcamTest.jsx', '/noise-meter': 'NoiseMeter.jsx', '/features': 'Features.jsx', '/blog': 'blogs.jsx', '/faq': 'faqs.jsx', '/contact': 'Contact.jsx', '/privacy': 'PrivacyPolicy.tsx', '/login': 'AuthPage.jsx', '/signup': 'AuthPage.jsx', '/admin/editor': 'AdminBlogEditor.jsx' };
 function routeAssets(path) {
   const name = getLocale(path) ? 'LocalizedMicPage.jsx' : path.startsWith('/blog/') ? 'BlogPostPage.jsx' : pageModules[path];
   if (!name) return '';

@@ -1,0 +1,43 @@
+.noise-page { --zone-quiet: #34d399; --zone-warn: #fbbf24; --zone-loud: #f87171; --zone-color: var(--muted); }
+.noise-display--quiet, .noise-classroom--quiet { --zone-color: var(--zone-quiet); }
+.noise-display--warn, .noise-classroom--warn { --zone-color: var(--zone-warn); }
+.noise-display--loud, .noise-classroom--loud { --zone-color: var(--zone-loud); }
+
+.noise-display { margin-top: 18px; padding: 22px 20px 18px; border: 1px solid var(--border); border-radius: 16px; background: rgba(3, 6, 12, 0.5); text-align: center; transition: border-color 0.2s ease, background-color 0.2s ease; }
+.noise-display--loud { border-color: rgba(248, 113, 113, 0.6); background: rgba(248, 113, 113, 0.12); }
+.noise-readout { display: flex; align-items: baseline; justify-content: center; gap: 8px; }
+.noise-readout strong { font: 700 clamp(3rem, 9vw, 4.5rem)/1 var(--font-head); color: var(--zone-color); font-variant-numeric: tabular-nums; transition: color 0.2s ease; }
+.noise-readout span { font-size: 0.85rem; color: var(--muted); }
+.mic-home .noise-label { margin: 6px 0 14px; font: 700 1.1rem/1.3 var(--font-head); color: var(--zone-color); }
+.noise-bar { position: relative; height: 18px; border-radius: 999px; background: rgba(255, 255, 255, 0.08); overflow: hidden; }
+.noise-bar__fill { position: absolute; inset: 0 auto 0 0; border-radius: inherit; background: var(--zone-color); transition: width 0.1s linear, background-color 0.2s ease; }
+.noise-bar__limit { position: absolute; top: -2px; bottom: -2px; width: 3px; margin-left: -1px; background: #fff; box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.4); }
+.mic-home .noise-limit-caption { margin: 10px 0 0; font-size: 0.8rem; color: var(--muted); }
+.noise-sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+.noise-controls { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin: 18px 0 4px; }
+.noise-page .noise-range { display: block; width: 100%; margin: 6px 0; accent-color: var(--accent); min-height: 32px; cursor: pointer; }
+.noise-stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin: 18px 0 8px; }
+.noise-stats div { padding: 10px; border: 1px solid var(--border); border-radius: 12px; text-align: center; }
+.noise-stats dt { font-size: 0.74rem; color: var(--muted); }
+.noise-stats dd { margin: 2px 0 0; font: 700 1.25rem var(--font-head); color: var(--text); font-variant-numeric: tabular-nums; }
+.noise-reset { display: inline-flex; align-items: center; gap: 6px; padding: 6px 0; border: 0; background: none; color: var(--muted); font: inherit; font-size: 0.82rem; cursor: pointer; }
+.noise-reset:hover { color: var(--text); }
+.noise-zone { border-top: 3px solid var(--zone-color) !important; }
+.noise-zone--quiet { --zone-color: var(--zone-quiet); }
+.noise-zone--warn { --zone-color: var(--zone-warn); }
+.noise-zone--loud { --zone-color: var(--zone-loud); }
+
+.noise-classroom { position: fixed; inset: 0; z-index: 2000; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 28px; padding: 72px 24px 32px; background: #070b14; overflow: auto; transition: background-color 0.3s ease; }
+.noise-classroom--warn { background: #2a2108; }
+.noise-classroom--loud { background: #3a0d10; }
+.noise-classroom .noise-display--big { width: min(960px, 100%); margin: 0; padding: clamp(24px, 5vw, 48px); border-width: 2px; }
+.noise-display--big .noise-readout strong { font-size: clamp(6rem, 24vw, 14rem); }
+.noise-display--big .noise-readout span { font-size: 1.2rem; }
+.mic-home .noise-display--big .noise-label { font-size: clamp(1.8rem, 6vw, 3.4rem); margin: 10px 0 28px; }
+.noise-display--big .noise-bar { height: clamp(28px, 5vw, 48px); }
+.mic-home .noise-display--big .noise-limit-caption { font-size: 1rem; }
+.noise-classroom__close { position: absolute; top: 16px; right: 16px; display: inline-flex; align-items: center; gap: 8px; min-height: 44px; padding: 8px 16px; border: 1px solid var(--border-strong); border-radius: 12px; background: rgba(255, 255, 255, 0.06); color: var(--text); font: 600 0.9rem var(--font-body); cursor: pointer; }
+.noise-classroom__limit { display: flex; align-items: center; gap: 16px; color: var(--text-soft); font: 600 1rem var(--font-body); }
+.noise-classroom__limit button { width: 48px; height: 48px; border: 1px solid var(--border-strong); border-radius: 12px; background: rgba(255, 255, 255, 0.06); color: var(--text); font: 700 1.4rem/1 var(--font-body); cursor: pointer; }
+@media (max-width: 400px) { .noise-controls { grid-template-columns: 1fr; } }
+@media (max-width: 600px) { .noise-page .home-tool > .home-card-icon { display: none; } }
