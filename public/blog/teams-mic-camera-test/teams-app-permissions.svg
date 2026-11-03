@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="t">
+  <title id="t">Windows privacy settings for Microsoft Teams: microphone access and camera access on, with Microsoft Teams allowed and desktop app access on</title>
+  <rect width="1200" height="675" fill="#0f172e"/>
+  <g font-family="Segoe UI, system-ui, -apple-system, Arial, sans-serif">
+    <text x="600" y="62" fill="#ffffff" font-size="30" font-weight="700" text-anchor="middle">Allow Teams to use your mic and camera</text>
+    <text x="600" y="98" fill="#b8c4e0" font-size="19" text-anchor="middle">Windows 11: Settings › Privacy &amp; security › Microphone, then › Camera</text>
+    <g>
+      <rect x="60" y="130" width="520" height="500" rx="10" fill="#f3f5fa"/>
+      <text x="90" y="178" fill="#1d2433" font-size="24" font-weight="600">Microphone</text>
+      <g font-size="17" fill="#1d2433">
+        <rect x="84" y="200" width="472" height="62" rx="6" fill="#ffffff"/><text x="104" y="238">Microphone access</text>
+        <rect x="84" y="272" width="472" height="62" rx="6" fill="#ffffff"/><text x="104" y="310">Let apps access your microphone</text>
+        <rect x="84" y="344" width="472" height="62" rx="6" fill="#ffffff" stroke="#5b5fc7" stroke-width="3"/>
+        <rect x="104" y="360" width="30" height="30" rx="6" fill="#5b5fc7"/><text x="119" y="381" fill="#fff" font-size="16" font-weight="700" text-anchor="middle">T</text>
+        <text x="148" y="382" font-weight="600">Microsoft Teams</text>
+        <rect x="84" y="416" width="472" height="62" rx="6" fill="#ffffff"/><text x="104" y="444">Let desktop apps access</text><text x="104" y="466" fill="#5b6478" font-size="15">your microphone</text>
+      </g>
+      <g>
+        <rect x="468" y="218" width="56" height="28" rx="14" fill="#0067c0"/><circle cx="510" cy="232" r="9" fill="#fff"/>
+        <rect x="468" y="290" width="56" height="28" rx="14" fill="#0067c0"/><circle cx="510" cy="304" r="9" fill="#fff"/>
+        <rect x="468" y="362" width="56" height="28" rx="14" fill="#0067c0"/><circle cx="510" cy="376" r="9" fill="#fff"/>
+        <rect x="468" y="434" width="56" height="28" rx="14" fill="#0067c0"/><circle cx="510" cy="448" r="9" fill="#fff"/>
+      </g>
+      <text x="90" y="530" fill="#3c4458" font-size="16">Then quit and reopen Teams.</text>
+      <text x="90" y="560" fill="#3c4458" font-size="16">Mac: System Settings › Privacy &amp; Security</text>
+      <text x="90" y="584" fill="#3c4458" font-size="16">› Microphone and Camera › Microsoft Teams on.</text>
+    </g>
+    <g>
+      <rect x="620" y="130" width="520" height="500" rx="10" fill="#f3f5fa"/>
+      <text x="650" y="178" fill="#1d2433" font-size="24" font-weight="600">Camera</text>
+      <g font-size="17" fill="#1d2433">
+        <rect x="644" y="200" width="472" height="62" rx="6" fill="#ffffff"/><text x="664" y="238">Camera access</text>
+        <rect x="644" y="272" width="472" height="62" rx="6" fill="#ffffff"/><text x="664" y="310">Let apps access your camera</text>
+        <rect x="644" y="344" width="472" height="62" rx="6" fill="#ffffff" stroke="#5b5fc7" stroke-width="3"/>
+        <rect x="664" y="360" width="30" height="30" rx="6" fill="#5b5fc7"/><text x="679" y="381" fill="#fff" font-size="16" font-weight="700" text-anchor="middle">T</text>
+        <text x="708" y="382" font-weight="600">Microsoft Teams</text>
+        <rect x="644" y="416" width="472" height="62" rx="6" fill="#ffffff"/><text x="664" y="444">Let desktop apps access</text><text x="664" y="466" fill="#5b6478" font-size="15">your camera</text>
+      </g>
+      <g>
+        <rect x="1028" y="218" width="56" height="28" rx="14" fill="#0067c0"/><circle cx="1070" cy="232" r="9" fill="#fff"/>
+        <rect x="1028" y="290" width="56" height="28" rx="14" fill="#0067c0"/><circle cx="1070" cy="304" r="9" fill="#fff"/>
+        <rect x="1028" y="362" width="56" height="28" rx="14" fill="#0067c0"/><circle cx="1070" cy="376" r="9" fill="#fff"/>
+        <rect x="1028" y="434" width="56" height="28" rx="14" fill="#0067c0"/><circle cx="1070" cy="448" r="9" fill="#fff"/>
+      </g>
+      <text x="650" y="530" fill="#3c4458" font-size="16">Teams on the web: site settings next to the</text>
+      <text x="650" y="554" fill="#3c4458" font-size="16">address bar › Microphone and Camera › Allow.</text>
+    </g>
+  </g>
+</svg>

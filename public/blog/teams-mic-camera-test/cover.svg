@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="t">
+  <title id="t">How to test mic and camera in Microsoft Teams: Device settings with the microphone level, camera preview and Make a test call</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1020"/><stop offset="1" stop-color="#231c4a"/></linearGradient>
+    <radialGradient id="glow" cx="0.76" cy="0.46" r="0.5"><stop offset="0" stop-color="#7b83eb" stop-opacity="0.45"/><stop offset="1" stop-color="#7b83eb" stop-opacity="0"/></radialGradient>
+  </defs>
+  <g font-family="Segoe UI, system-ui, -apple-system, Arial, sans-serif">
+    <rect width="1200" height="630" fill="url(#bg)"/>
+    <rect width="1200" height="630" fill="url(#glow)"/>
+    <text x="72" y="118" fill="#a9aef5" font-size="26" font-weight="600" letter-spacing="3">MICROSOFT TEAMS GUIDE</text>
+    <text x="72" y="196" fill="#ffffff" font-size="62" font-weight="700">How to Test Your</text>
+    <text x="72" y="270" fill="#ffffff" font-size="62" font-weight="700">Mic &amp; Camera</text>
+    <text x="72" y="344" fill="#ffffff" font-size="62" font-weight="700">in Teams</text>
+    <text x="72" y="410" fill="#c4c8ea" font-size="26">Device settings · Test call · Pre-join</text>
+    <text x="72" y="448" fill="#c4c8ea" font-size="26">Mic or camera not working? Fixes</text>
+    <rect x="72" y="500" width="300" height="60" rx="30" fill="#5b5fc7"/>
+    <text x="222" y="539" fill="#ffffff" font-size="24" font-weight="600" text-anchor="middle">mictestingtool.com</text>
+
+    <rect x="660" y="110" width="480" height="400" rx="10" fill="#f5f5f7"/>
+    <rect x="660" y="110" width="480" height="44" rx="10" fill="#ebebf3"/><rect x="660" y="140" width="480" height="14" fill="#ebebf3"/>
+    <text x="682" y="138" fill="#2b2b40" font-size="16" font-weight="600">Settings</text>
+    <text x="684" y="192" fill="#1d1d2e" font-size="24" font-weight="600">Devices</text>
+    <text x="684" y="226" fill="#1d1d2e" font-size="16" font-weight="600">Microphone</text>
+    <rect x="684" y="238" width="260" height="34" rx="4" fill="#ffffff" stroke="#5b5fc7" stroke-width="2"/>
+    <text x="696" y="261" fill="#1d1d2e" font-size="15">Headset Microphone</text>
+    <path d="M922 251 l6 6 l6 -6" fill="none" stroke="#3c3c50" stroke-width="2"/>
+    <g fill="#5b5fc7"><circle cx="696" cy="290" r="5"/><circle cx="712" cy="290" r="5"/><circle cx="728" cy="290" r="5"/><circle cx="744" cy="290" r="5"/><circle cx="760" cy="290" r="5"/></g>
+    <g fill="#cfd0e6"><circle cx="776" cy="290" r="5"/><circle cx="792" cy="290" r="5"/><circle cx="808" cy="290" r="5"/></g>
+    <rect x="684" y="312" width="160" height="34" rx="4" fill="#5b5fc7"/>
+    <text x="764" y="334" fill="#ffffff" font-size="15" font-weight="600" text-anchor="middle">Make a test call</text>
+    <text x="684" y="378" fill="#1d1d2e" font-size="16" font-weight="600">Camera</text>
+    <rect x="684" y="390" width="200" height="104" rx="6" fill="#2a2d4f"/>
+    <circle cx="784" cy="430" r="20" fill="#a9aef5"/>
+    <path d="M748 494 a36 30 0 0 1 72 0 z" fill="#a9aef5"/>
+    <rect x="964" y="220" width="150" height="240" rx="75" fill="#5b5fc7" opacity="0.2"/>
+    <rect x="1004" y="236" width="70" height="120" rx="35" fill="#7b83eb"/>
+    <path d="M986 330 a53 53 0 0 0 106 0" fill="none" stroke="#a9aef5" stroke-width="8" stroke-linecap="round"/>
+    <line x1="1039" y1="384" x2="1039" y2="440" stroke="#a9aef5" stroke-width="8" stroke-linecap="round"/>
+    <rect x="1000" y="436" width="78" height="12" rx="6" fill="#a9aef5"/>
+  </g>
+</svg>

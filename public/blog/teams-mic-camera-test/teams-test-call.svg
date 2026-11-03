@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="t">
+  <title id="t">Microsoft Teams test call: the test call bot asks you to record a message, plays it back, then shows results for microphone, speaker, camera and network</title>
+  <g font-family="Segoe UI, system-ui, -apple-system, Arial, sans-serif">
+    <rect width="1200" height="675" fill="#0f172e"/>
+    <text x="600" y="64" fill="#ffffff" font-size="32" font-weight="700" text-anchor="middle">How a Teams test call works</text>
+    <text x="600" y="102" fill="#b8c4e0" font-size="20" text-anchor="middle">Settings › Devices › Make a test call. The recording is deleted after the call.</text>
+
+    <rect x="60" y="150" width="330" height="440" rx="16" fill="#16213f" stroke="#7b83eb" stroke-width="2"/>
+    <circle cx="104" cy="194" r="24" fill="#7b83eb"/><text x="104" y="203" fill="#0f172e" font-size="24" font-weight="700" text-anchor="middle">1</text>
+    <text x="142" y="202" fill="#ffffff" font-size="22" font-weight="700">Record</text>
+    <text x="84" y="250" fill="#b8c4e0" font-size="17">The bot asks you to speak</text>
+    <text x="84" y="276" fill="#b8c4e0" font-size="17">a short message after the beep.</text>
+    <rect x="165" y="320" width="120" height="180" rx="60" fill="#5b5fc7"/>
+    <path d="M140 440 a85 85 0 0 0 170 0" fill="none" stroke="#a9aef5" stroke-width="8" stroke-linecap="round"/>
+    <line x1="225" y1="525" x2="225" y2="560" stroke="#a9aef5" stroke-width="8" stroke-linecap="round"/>
+
+    <rect x="435" y="150" width="330" height="440" rx="16" fill="#16213f" stroke="#7b83eb" stroke-width="2"/>
+    <circle cx="479" cy="194" r="24" fill="#7b83eb"/><text x="479" y="203" fill="#0f172e" font-size="24" font-weight="700" text-anchor="middle">2</text>
+    <text x="517" y="202" fill="#ffffff" font-size="22" font-weight="700">Listen back</text>
+    <text x="459" y="250" fill="#b8c4e0" font-size="17">Teams plays your message.</text>
+    <text x="459" y="276" fill="#b8c4e0" font-size="17">Check volume, clarity, noise.</text>
+    <g fill="#a9aef5">
+      <rect x="480" y="410" width="14" height="40" rx="7"/><rect x="506" y="380" width="14" height="100" rx="7"/>
+      <rect x="532" y="350" width="14" height="160" rx="7"/><rect x="558" y="390" width="14" height="80" rx="7"/>
+      <rect x="584" y="340" width="14" height="180" rx="7"/><rect x="610" y="370" width="14" height="120" rx="7"/>
+      <rect x="636" y="400" width="14" height="60" rx="7"/><rect x="662" y="380" width="14" height="100" rx="7"/>
+      <rect x="688" y="415" width="14" height="30" rx="7"/>
+    </g>
+
+    <rect x="810" y="150" width="330" height="440" rx="16" fill="#16213f" stroke="#34d399" stroke-width="2"/>
+    <circle cx="854" cy="194" r="24" fill="#34d399"/><text x="854" y="203" fill="#0f172e" font-size="24" font-weight="700" text-anchor="middle">3</text>
+    <text x="892" y="202" fill="#ffffff" font-size="22" font-weight="700">Read the results</text>
+    <g font-size="19" fill="#ffffff">
+      <rect x="834" y="250" width="282" height="56" rx="10" fill="#1e2b52"/><text x="852" y="285">Microphone</text>
+      <rect x="834" y="318" width="282" height="56" rx="10" fill="#1e2b52"/><text x="852" y="353">Speaker</text>
+      <rect x="834" y="386" width="282" height="56" rx="10" fill="#1e2b52"/><text x="852" y="421">Camera</text>
+      <rect x="834" y="454" width="282" height="56" rx="10" fill="#1e2b52"/><text x="852" y="489">Network</text>
+    </g>
+    <g fill="none" stroke="#34d399" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M1068 278 l9 9 l16 -18"/><path d="M1068 346 l9 9 l16 -18"/><path d="M1068 414 l9 9 l16 -18"/><path d="M1068 482 l9 9 l16 -18"/>
+    </g>
+    <text x="600" y="634" fill="#b8c4e0" font-size="18" text-anchor="middle">No button? Teams on the web and some work accounts don't offer the test call.</text>
+  </g>
+</svg>

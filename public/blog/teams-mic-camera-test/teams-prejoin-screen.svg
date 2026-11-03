@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="t">
+  <title id="t">Teams pre-join screen: camera preview, camera and microphone toggles, Computer audio selected, device settings and Join now button</title>
+  <rect width="1200" height="675" fill="#0f172e"/>
+  <g font-family="Segoe UI, system-ui, -apple-system, Arial, sans-serif">
+    <rect x="60" y="40" width="1080" height="595" rx="8" fill="#f5f5f7"/>
+    <text x="100" y="98" fill="#1d1d2e" font-size="26" font-weight="600">Weekly team sync</text>
+    <text x="100" y="128" fill="#5b6478" font-size="17">Choose your video and audio options</text>
+    <rect x="100" y="160" width="560" height="315" rx="10" fill="#2a2d4f"/>
+    <circle cx="380" cy="280" r="54" fill="#a9aef5"/>
+    <path d="M280 475 a100 86 0 0 1 200 0 z" fill="#a9aef5"/>
+    <rect x="100" y="475" width="560" height="70" fill="#ffffff" stroke="#e1e1ea"/>
+    <g font-size="16" fill="#1d1d2e">
+      <rect x="124" y="497" width="46" height="26" rx="13" fill="#5b5fc7"/><circle cx="157" cy="510" r="9" fill="#ffffff"/>
+      <text x="182" y="516">Camera</text>
+      <rect x="290" y="497" width="46" height="26" rx="13" fill="#5b5fc7"/><circle cx="323" cy="510" r="9" fill="#ffffff"/>
+      <text x="348" y="516">Mic</text>
+      <text x="470" y="516" fill="#5b5fc7">Background filters</text>
+    </g>
+    <rect x="700" y="160" width="400" height="160" rx="10" fill="#ffffff" stroke="#5b5fc7" stroke-width="3"/>
+    <circle cx="730" cy="196" r="10" fill="none" stroke="#5b5fc7" stroke-width="3"/><circle cx="730" cy="196" r="5" fill="#5b5fc7"/>
+    <text x="752" y="202" fill="#1d1d2e" font-size="18" font-weight="600">Computer audio</text>
+    <text x="752" y="236" fill="#3c3c50" font-size="15">Headset Microphone</text>
+    <g fill="#5b5fc7"><circle cx="760" cy="262" r="5"/><circle cx="776" cy="262" r="5"/><circle cx="792" cy="262" r="5"/><circle cx="808" cy="262" r="5"/></g>
+    <g fill="#cfd0e6"><circle cx="824" cy="262" r="5"/><circle cx="840" cy="262" r="5"/></g>
+    <text x="752" y="300" fill="#5b5fc7" font-size="15">Device settings ⚙</text>
+    <rect x="700" y="336" width="400" height="56" rx="10" fill="#ffffff" stroke="#e1e1ea" stroke-width="2"/>
+    <circle cx="730" cy="364" r="10" fill="none" stroke="#9a9aae" stroke-width="3"/>
+    <text x="752" y="370" fill="#5b6478" font-size="17">Phone audio</text>
+    <rect x="700" y="404" width="400" height="56" rx="10" fill="#ffffff" stroke="#e1e1ea" stroke-width="2"/>
+    <circle cx="730" cy="432" r="10" fill="none" stroke="#9a9aae" stroke-width="3"/>
+    <text x="752" y="438" fill="#5b6478" font-size="17">Don't use audio</text>
+    <rect x="940" y="560" width="160" height="46" rx="6" fill="#5b5fc7"/>
+    <text x="1020" y="590" fill="#ffffff" font-size="18" font-weight="600" text-anchor="middle">Join now</text>
+  </g>
+  <g font-family="Segoe UI, system-ui, -apple-system, Arial, sans-serif">
+    <circle cx="240" cy="590" r="22" fill="#ff8a3d"/><text x="240" y="598" fill="#fff" font-size="22" font-weight="700" text-anchor="middle">1</text>
+    <circle cx="1070" cy="196" r="22" fill="#ff8a3d"/><text x="1070" y="204" fill="#fff" font-size="22" font-weight="700" text-anchor="middle">2</text>
+    <circle cx="900" cy="294" r="22" fill="#ff8a3d"/><text x="900" y="302" fill="#fff" font-size="22" font-weight="700" text-anchor="middle">3</text>
+    <text x="276" y="597" fill="#1d1d2e" font-size="17" font-weight="600">Camera and mic on: preview and level move</text>
+    <text x="700" y="510" fill="#1d1d2e" font-size="17" font-weight="600">Not "Don't use audio", or nobody hears you</text>
+  </g>
+</svg>

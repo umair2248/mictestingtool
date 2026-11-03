@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="t">
+  <title id="t">How to test microphone in Teams: Settings and more, Settings, Devices with Speaker, Microphone level indicator, Make a test call and Camera preview</title>
+  <rect width="1200" height="675" fill="#0f172e"/>
+  <g font-family="Segoe UI, system-ui, -apple-system, Arial, sans-serif">
+    <rect x="60" y="40" width="1080" height="595" rx="8" fill="#f5f5f7"/>
+    <rect x="60" y="40" width="1080" height="44" rx="8" fill="#ebebf3"/>
+    <rect x="60" y="70" width="1080" height="14" fill="#ebebf3"/>
+    <text x="86" y="69" fill="#2b2b40" font-size="17" font-weight="600">Settings</text>
+    <rect x="60" y="84" width="250" height="551" fill="#ededf5"/>
+    <g font-size="17" fill="#3c3c50">
+      <text x="88" y="128">General</text>
+      <text x="88" y="172">Accounts and orgs</text>
+      <text x="88" y="216">Privacy</text>
+      <text x="88" y="260">Notifications</text>
+      <rect x="76" y="280" width="218" height="38" rx="4" fill="#dcdcf5"/>
+      <rect x="76" y="286" width="4" height="26" rx="2" fill="#5b5fc7"/>
+      <text x="88" y="305" font-weight="600" fill="#1d1d2e">Devices</text>
+      <text x="88" y="350">Appearance</text>
+      <text x="88" y="394">Calls</text>
+    </g>
+    <text x="350" y="134" fill="#1d1d2e" font-size="30" font-weight="600">Devices</text>
+    <text x="350" y="176" fill="#1d1d2e" font-size="19" font-weight="600">Audio devices</text>
+    <text x="350" y="208" fill="#3c3c50" font-size="16">Speaker</text>
+    <rect x="350" y="218" width="360" height="36" rx="4" fill="#ffffff" stroke="#c9c9d9" stroke-width="2"/>
+    <text x="364" y="242" fill="#3c3c50" font-size="16">Headset Earphone</text>
+    <text x="350" y="284" fill="#3c3c50" font-size="16">Microphone</text>
+    <rect x="350" y="294" width="360" height="38" rx="4" fill="#ffffff" stroke="#5b5fc7" stroke-width="3"/>
+    <text x="364" y="319" fill="#1d1d2e" font-size="16">Headset Microphone</text>
+    <path d="M686 309 l7 7 l7 -7" fill="none" stroke="#3c3c50" stroke-width="2"/>
+    <g fill="#5b5fc7"><circle cx="360" cy="350" r="5"/><circle cx="376" cy="350" r="5"/><circle cx="392" cy="350" r="5"/><circle cx="408" cy="350" r="5"/><circle cx="424" cy="350" r="5"/><circle cx="440" cy="350" r="5"/></g>
+    <g fill="#cfd0e6"><circle cx="456" cy="350" r="5"/><circle cx="472" cy="350" r="5"/><circle cx="488" cy="350" r="5"/><circle cx="504" cy="350" r="5"/></g>
+    <rect x="350" y="374" width="170" height="38" rx="4" fill="#5b5fc7"/>
+    <text x="435" y="399" fill="#ffffff" font-size="16" font-weight="600" text-anchor="middle">Make a test call</text>
+    <text x="350" y="450" fill="#1d1d2e" font-size="19" font-weight="600">Camera</text>
+    <rect x="350" y="462" width="300" height="34" rx="4" fill="#ffffff" stroke="#c9c9d9" stroke-width="2"/>
+    <text x="364" y="485" fill="#3c3c50" font-size="16">Integrated Webcam</text>
+    <rect x="350" y="506" width="220" height="118" rx="6" fill="#2a2d4f"/>
+    <circle cx="460" cy="550" r="22" fill="#a9aef5"/>
+    <path d="M420 624 a40 34 0 0 1 80 0 z" fill="#a9aef5"/>
+  </g>
+  <g font-family="Segoe UI, system-ui, -apple-system, Arial, sans-serif">
+    <circle cx="750" cy="320" r="22" fill="#ff8a3d"/><text x="750" y="328" fill="#fff" font-size="22" font-weight="700" text-anchor="middle">1</text>
+    <circle cx="560" cy="393" r="22" fill="#ff8a3d"/><text x="560" y="401" fill="#fff" font-size="22" font-weight="700" text-anchor="middle">2</text>
+    <circle cx="610" cy="565" r="22" fill="#ff8a3d"/><text x="610" y="573" fill="#fff" font-size="22" font-weight="700" text-anchor="middle">3</text>
+    <g font-size="17">
+      <text x="800" y="314" fill="#1d1d2e" font-weight="600">Pick the mic you speak into</text>
+      <text x="800" y="338" fill="#5b6478">Speak: the dots light up</text>
+      <text x="800" y="400" fill="#1d1d2e" font-weight="600">Record and hear yourself</text>
+      <text x="800" y="424" fill="#5b6478">Desktop app only</text>
+      <text x="800" y="560" fill="#1d1d2e" font-weight="600">Choose the webcam</text>
+      <text x="800" y="584" fill="#5b6478">Black preview = no video</text>
+    </g>
+  </g>
+</svg>

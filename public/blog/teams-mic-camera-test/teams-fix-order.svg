@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="t">
+  <title id="t">Microsoft Teams mic or camera not working: fixes in order, from mute and device choice to app permissions, other apps, Teams cache and updates, and drivers</title>
+  <g font-family="Segoe UI, system-ui, -apple-system, Arial, sans-serif">
+    <rect width="1200" height="675" fill="#0f172e"/>
+    <text x="600" y="64" fill="#ffffff" font-size="32" font-weight="700" text-anchor="middle">Teams mic or camera not working? Fix it in this order</text>
+    <text x="600" y="102" fill="#b8c4e0" font-size="20" text-anchor="middle">Test again after each step, and stop as soon as it works.</text>
+    <g>
+      <rect x="60" y="140" width="340" height="140" rx="16" fill="#16213f" stroke="#34d399" stroke-width="2"/>
+      <circle cx="104" cy="184" r="24" fill="#34d399"/><text x="104" y="193" fill="#0f172e" font-size="24" font-weight="700" text-anchor="middle">1</text>
+      <text x="142" y="192" fill="#ffffff" font-size="22" font-weight="700">Not muted</text>
+      <text x="84" y="236" fill="#b8c4e0" font-size="17">Teams mic button, headset</text>
+      <text x="84" y="262" fill="#b8c4e0" font-size="17">switch, organizer settings</text>
+
+      <rect x="430" y="140" width="340" height="140" rx="16" fill="#16213f" stroke="#34d399" stroke-width="2"/>
+      <circle cx="474" cy="184" r="24" fill="#34d399"/><text x="474" y="193" fill="#0f172e" font-size="24" font-weight="700" text-anchor="middle">2</text>
+      <text x="512" y="192" fill="#ffffff" font-size="22" font-weight="700">Right device</text>
+      <text x="454" y="236" fill="#b8c4e0" font-size="17">Teams › Settings › Devices:</text>
+      <text x="454" y="262" fill="#b8c4e0" font-size="17">mic, speaker and camera</text>
+
+      <rect x="800" y="140" width="340" height="140" rx="16" fill="#16213f" stroke="#34d399" stroke-width="2"/>
+      <circle cx="844" cy="184" r="24" fill="#34d399"/><text x="844" y="193" fill="#0f172e" font-size="24" font-weight="700" text-anchor="middle">3</text>
+      <text x="882" y="192" fill="#ffffff" font-size="22" font-weight="700">App permissions</text>
+      <text x="824" y="236" fill="#b8c4e0" font-size="17">Allow Microsoft Teams in</text>
+      <text x="824" y="262" fill="#b8c4e0" font-size="17">Microphone and Camera privacy</text>
+    </g>
+    <g>
+      <rect x="60" y="310" width="340" height="140" rx="16" fill="#16213f" stroke="#fbbf24" stroke-width="2"/>
+      <circle cx="104" cy="354" r="24" fill="#fbbf24"/><text x="104" y="363" fill="#0f172e" font-size="24" font-weight="700" text-anchor="middle">4</text>
+      <text x="142" y="362" fill="#ffffff" font-size="22" font-weight="700">Input level</text>
+      <text x="84" y="406" fill="#b8c4e0" font-size="17">Raise input volume, set</text>
+      <text x="84" y="432" fill="#b8c4e0" font-size="17">noise suppression to Auto</text>
+
+      <rect x="430" y="310" width="340" height="140" rx="16" fill="#16213f" stroke="#fbbf24" stroke-width="2"/>
+      <circle cx="474" cy="354" r="24" fill="#fbbf24"/><text x="474" y="363" fill="#0f172e" font-size="24" font-weight="700" text-anchor="middle">5</text>
+      <text x="512" y="362" fill="#ffffff" font-size="22" font-weight="700">Other apps</text>
+      <text x="454" y="406" fill="#b8c4e0" font-size="17">Close Zoom, Discord, OBS,</text>
+      <text x="454" y="432" fill="#b8c4e0" font-size="17">Camera app, then restart Teams</text>
+
+      <rect x="800" y="310" width="340" height="140" rx="16" fill="#16213f" stroke="#fbbf24" stroke-width="2"/>
+      <circle cx="844" cy="354" r="24" fill="#fbbf24"/><text x="844" y="363" fill="#0f172e" font-size="24" font-weight="700" text-anchor="middle">6</text>
+      <text x="882" y="362" fill="#ffffff" font-size="22" font-weight="700">Update and reset</text>
+      <text x="824" y="406" fill="#b8c4e0" font-size="17">Update Teams, quit fully,</text>
+      <text x="824" y="432" fill="#b8c4e0" font-size="17">Repair or Reset the app</text>
+    </g>
+    <rect x="245" y="480" width="710" height="140" rx="16" fill="#16213f" stroke="#f87171" stroke-width="2"/>
+    <circle cx="289" cy="524" r="24" fill="#f87171"/><text x="289" y="533" fill="#0f172e" font-size="24" font-weight="700" text-anchor="middle">7</text>
+    <text x="327" y="532" fill="#ffffff" font-size="22" font-weight="700">Drivers and hardware</text>
+    <text x="269" y="576" fill="#b8c4e0" font-size="17">Device Manager › Audio inputs and outputs or Cameras › update driver.</text>
+    <text x="269" y="602" fill="#b8c4e0" font-size="17">Not working in the online mic or webcam test either? Check the device.</text>
+  </g>
+</svg>
