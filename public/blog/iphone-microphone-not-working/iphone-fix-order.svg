@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="t">
+  <title id="t">iPhone microphone not working: fixes in order, from case and mic holes, Bluetooth, app permissions and Mic Mode, to restart, iOS update and Reset All Settings</title>
+  <g font-family="-apple-system, Segoe UI, system-ui, Arial, sans-serif">
+    <rect width="1200" height="675" fill="#0f172e"/>
+    <text x="600" y="64" fill="#ffffff" font-size="32" font-weight="700" text-anchor="middle">iPhone mic not working? Try these in order</text>
+    <text x="600" y="102" fill="#b8c4e0" font-size="20" text-anchor="middle">Record a voice memo after each step. Stop when it sounds right.</text>
+    <g>
+      <rect x="60" y="140" width="340" height="140" rx="16" fill="#16213f" stroke="#34d399" stroke-width="2"/>
+      <circle cx="104" cy="184" r="24" fill="#34d399"/><text x="104" y="193" fill="#0f172e" font-size="24" font-weight="700" text-anchor="middle">1</text>
+      <text x="142" y="192" fill="#ffffff" font-size="22" font-weight="700">Case and mic holes</text>
+      <text x="84" y="236" fill="#b8c4e0" font-size="17">Remove the case and screen</text>
+      <text x="84" y="262" fill="#b8c4e0" font-size="17">protector, brush out the lint</text>
+
+      <rect x="430" y="140" width="340" height="140" rx="16" fill="#16213f" stroke="#34d399" stroke-width="2"/>
+      <circle cx="474" cy="184" r="24" fill="#34d399"/><text x="474" y="193" fill="#0f172e" font-size="24" font-weight="700" text-anchor="middle">2</text>
+      <text x="512" y="192" fill="#ffffff" font-size="22" font-weight="700">Bluetooth off</text>
+      <text x="454" y="236" fill="#b8c4e0" font-size="17">AirPods or the car may be</text>
+      <text x="454" y="262" fill="#b8c4e0" font-size="17">taking the call audio</text>
+
+      <rect x="800" y="140" width="340" height="140" rx="16" fill="#16213f" stroke="#34d399" stroke-width="2"/>
+      <circle cx="844" cy="184" r="24" fill="#34d399"/><text x="844" y="193" fill="#0f172e" font-size="24" font-weight="700" text-anchor="middle">3</text>
+      <text x="882" y="192" fill="#ffffff" font-size="22" font-weight="700">App permission</text>
+      <text x="824" y="236" fill="#b8c4e0" font-size="17">Privacy &amp; Security ›</text>
+      <text x="824" y="262" fill="#b8c4e0" font-size="17">Microphone › turn the app on</text>
+    </g>
+    <g>
+      <rect x="60" y="310" width="340" height="140" rx="16" fill="#16213f" stroke="#fbbf24" stroke-width="2"/>
+      <circle cx="104" cy="354" r="24" fill="#fbbf24"/><text x="104" y="363" fill="#0f172e" font-size="24" font-weight="700" text-anchor="middle">4</text>
+      <text x="142" y="362" fill="#ffffff" font-size="22" font-weight="700">Mic Mode</text>
+      <text x="84" y="406" fill="#b8c4e0" font-size="17">During a call, Control Center ›</text>
+      <text x="84" y="432" fill="#b8c4e0" font-size="17">Mic Mode › Standard</text>
+
+      <rect x="430" y="310" width="340" height="140" rx="16" fill="#16213f" stroke="#fbbf24" stroke-width="2"/>
+      <circle cx="474" cy="354" r="24" fill="#fbbf24"/><text x="474" y="363" fill="#0f172e" font-size="24" font-weight="700" text-anchor="middle">5</text>
+      <text x="512" y="362" fill="#ffffff" font-size="22" font-weight="700">Restart</text>
+      <text x="454" y="406" fill="#b8c4e0" font-size="17">Power off, wait 30 seconds,</text>
+      <text x="454" y="432" fill="#b8c4e0" font-size="17">turn it back on</text>
+
+      <rect x="800" y="310" width="340" height="140" rx="16" fill="#16213f" stroke="#fbbf24" stroke-width="2"/>
+      <circle cx="844" cy="354" r="24" fill="#fbbf24"/><text x="844" y="363" fill="#0f172e" font-size="24" font-weight="700" text-anchor="middle">6</text>
+      <text x="882" y="362" fill="#ffffff" font-size="22" font-weight="700">Update iOS</text>
+      <text x="824" y="406" fill="#b8c4e0" font-size="17">General › Software Update,</text>
+      <text x="824" y="432" fill="#b8c4e0" font-size="17">and update the app too</text>
+    </g>
+    <rect x="245" y="480" width="710" height="140" rx="16" fill="#16213f" stroke="#f87171" stroke-width="2"/>
+    <circle cx="289" cy="524" r="24" fill="#f87171"/><text x="289" y="533" fill="#0f172e" font-size="24" font-weight="700" text-anchor="middle">7</text>
+    <text x="327" y="532" fill="#ffffff" font-size="22" font-weight="700">Reset All Settings, then repair</text>
+    <text x="269" y="576" fill="#b8c4e0" font-size="17">Transfer or Reset iPhone › Reset › Reset All Settings (keeps your data).</text>
+    <text x="269" y="602" fill="#b8c4e0" font-size="17">Still silent in every recording? The mic is likely damaged: book a repair.</text>
+  </g>
+</svg>

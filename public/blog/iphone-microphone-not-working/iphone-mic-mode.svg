@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="t">
+  <title id="t">iPhone Mic Mode in Control Center during a call: Standard, Voice Isolation and Wide Spectrum</title>
+  <g font-family="-apple-system, Segoe UI, system-ui, Arial, sans-serif">
+    <rect width="1200" height="675" fill="#0f172e"/>
+    <text x="600" y="64" fill="#ffffff" font-size="32" font-weight="700" text-anchor="middle">Sound clipped or far away on calls? Check Mic Mode</text>
+    <text x="600" y="102" fill="#b8c4e0" font-size="20" text-anchor="middle">During a call: open Control Center › tap Mic Mode › pick a mode</text>
+
+    <rect x="120" y="150" width="440" height="72" rx="36" fill="#2c2c2e"/>
+    <circle cx="164" cy="186" r="20" fill="#ff9f0a"/>
+    <rect x="157" y="174" width="14" height="18" rx="7" fill="#1c1c1e"/><path d="M152 186 a12 12 0 0 0 24 0" fill="none" stroke="#1c1c1e" stroke-width="2.5"/><line x1="164" y1="198" x2="164" y2="203" stroke="#1c1c1e" stroke-width="2.5"/>
+    <text x="200" y="182" fill="#ffffff" font-size="20" font-weight="600">Mic Mode</text>
+    <text x="200" y="206" fill="#aeaeb2" font-size="16">Voice Isolation</text>
+
+    <g>
+      <rect x="120" y="270" width="300" height="300" rx="24" fill="#16213f" stroke="#34d399" stroke-width="3"/>
+      <text x="270" y="322" fill="#ffffff" font-size="26" font-weight="700" text-anchor="middle">Standard</text>
+      <circle cx="270" cy="400" r="34" fill="#34d399" opacity="0.25"/><circle cx="270" cy="400" r="18" fill="#34d399"/>
+      <text x="270" y="476" fill="#b8c4e0" font-size="17" text-anchor="middle">Normal processing.</text>
+      <text x="270" y="502" fill="#b8c4e0" font-size="17" text-anchor="middle">Try this first if people</text>
+      <text x="270" y="528" fill="#b8c4e0" font-size="17" text-anchor="middle">say you sound odd.</text>
+
+      <rect x="450" y="270" width="300" height="300" rx="24" fill="#16213f" stroke="#334155" stroke-width="2"/>
+      <text x="600" y="322" fill="#ffffff" font-size="26" font-weight="700" text-anchor="middle">Voice Isolation</text>
+      <circle cx="600" cy="400" r="18" fill="#7dd3fc"/>
+      <g fill="#475569"><circle cx="550" cy="370" r="6"/><circle cx="652" cy="380" r="6"/><circle cx="560" cy="432" r="6"/><circle cx="644" cy="430" r="6"/></g>
+      <text x="600" y="476" fill="#b8c4e0" font-size="17" text-anchor="middle">Cuts background noise.</text>
+      <text x="600" y="502" fill="#b8c4e0" font-size="17" text-anchor="middle">Can clip quiet speech</text>
+      <text x="600" y="528" fill="#b8c4e0" font-size="17" text-anchor="middle">or sound robotic.</text>
+
+      <rect x="780" y="270" width="300" height="300" rx="24" fill="#16213f" stroke="#334155" stroke-width="2"/>
+      <text x="930" y="322" fill="#ffffff" font-size="26" font-weight="700" text-anchor="middle">Wide Spectrum</text>
+      <circle cx="930" cy="400" r="18" fill="#f9a8d4"/>
+      <g fill="#f9a8d4" opacity="0.7"><circle cx="880" cy="370" r="6"/><circle cx="982" cy="380" r="6"/><circle cx="890" cy="432" r="6"/><circle cx="974" cy="430" r="6"/></g>
+      <text x="930" y="476" fill="#b8c4e0" font-size="17" text-anchor="middle">Picks up the whole room.</text>
+      <text x="930" y="502" fill="#b8c4e0" font-size="17" text-anchor="middle">Good for music, bad</text>
+      <text x="930" y="528" fill="#b8c4e0" font-size="17" text-anchor="middle">in a noisy café.</text>
+    </g>
+    <text x="600" y="625" fill="#8e8e93" font-size="16" text-anchor="middle">Mic Mode shows up in FaceTime, many calling apps and, on recent iOS versions, normal phone calls.</text>
+  </g>
+</svg>

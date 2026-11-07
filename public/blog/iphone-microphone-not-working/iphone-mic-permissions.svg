@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="t">
+  <title id="t">iPhone microphone permission: Settings, Privacy and Security, Microphone, with app toggles turned on</title>
+  <g font-family="-apple-system, Segoe UI, system-ui, Arial, sans-serif">
+    <rect width="1200" height="675" fill="#0f172e"/>
+    <text x="80" y="110" fill="#ffc46b" font-size="20" font-weight="600" letter-spacing="2">APP CAN'T HEAR YOU?</text>
+    <text x="80" y="160" fill="#ffffff" font-size="36" font-weight="700">Turn on its microphone</text>
+    <text x="80" y="204" fill="#ffffff" font-size="36" font-weight="700">permission</text>
+    <g font-size="21" fill="#b8c4e0">
+      <circle cx="96" cy="270" r="18" fill="#34d399"/><text x="96" y="277" fill="#0f172e" font-weight="700" text-anchor="middle" font-size="18">1</text>
+      <text x="130" y="277">Open Settings</text>
+      <circle cx="96" cy="326" r="18" fill="#34d399"/><text x="96" y="333" fill="#0f172e" font-weight="700" text-anchor="middle" font-size="18">2</text>
+      <text x="130" y="333">Privacy &amp; Security › Microphone</text>
+      <circle cx="96" cy="382" r="18" fill="#34d399"/><text x="96" y="389" fill="#0f172e" font-weight="700" text-anchor="middle" font-size="18">3</text>
+      <text x="130" y="389">Switch the app on</text>
+      <circle cx="96" cy="438" r="18" fill="#34d399"/><text x="96" y="445" fill="#0f172e" font-weight="700" text-anchor="middle" font-size="18">4</text>
+      <text x="130" y="445">Close the app fully and reopen it</text>
+    </g>
+    <text x="80" y="530" fill="#8e8e93" font-size="17">App not listed? Use its voice feature once so it asks,</text>
+    <text x="80" y="556" fill="#8e8e93" font-size="17">or reinstall it.</text>
+
+    <rect x="720" y="60" width="300" height="580" rx="44" fill="#1c1c1e" stroke="#3a3a3c" stroke-width="5"/>
+    <rect x="734" y="74" width="272" height="552" rx="32" fill="#f2f2f7"/>
+    <rect x="826" y="86" width="88" height="24" rx="12" fill="#1c1c1e"/>
+    <text x="752" y="150" fill="#0a84ff" font-size="16">‹ Privacy &amp; Security</text>
+    <text x="752" y="192" fill="#1c1c1e" font-size="26" font-weight="700">Microphone</text>
+    <rect x="750" y="214" width="240" height="320" rx="12" fill="#ffffff"/>
+    <g font-size="17" fill="#1c1c1e">
+      <text x="768" y="252">WhatsApp</text>
+      <rect x="930" y="234" width="46" height="28" rx="14" fill="#34c759"/><circle cx="962" cy="248" r="12" fill="#ffffff"/>
+      <line x1="768" y1="278" x2="990" y2="278" stroke="#e5e5ea"/>
+      <text x="768" y="316">Instagram</text>
+      <rect x="930" y="298" width="46" height="28" rx="14" fill="#34c759"/><circle cx="962" cy="312" r="12" fill="#ffffff"/>
+      <line x1="768" y1="342" x2="990" y2="342" stroke="#e5e5ea"/>
+      <text x="768" y="380">Zoom</text>
+      <rect x="930" y="362" width="46" height="28" rx="14" fill="#e9e9eb"/><circle cx="944" cy="376" r="12" fill="#ffffff" stroke="#d1d1d6"/>
+      <line x1="768" y1="406" x2="990" y2="406" stroke="#e5e5ea"/>
+      <text x="768" y="444">Safari</text>
+      <rect x="930" y="426" width="46" height="28" rx="14" fill="#34c759"/><circle cx="962" cy="440" r="12" fill="#ffffff"/>
+      <line x1="768" y1="470" x2="990" y2="470" stroke="#e5e5ea"/>
+      <text x="768" y="508">Discord</text>
+      <rect x="930" y="490" width="46" height="28" rx="14" fill="#34c759"/><circle cx="962" cy="504" r="12" fill="#ffffff"/>
+    </g>
+    <rect x="752" y="350" width="236" height="52" rx="10" fill="none" stroke="#ff9f0a" stroke-width="3"/>
+    <text x="1040" y="382" fill="#ffc46b" font-size="17" font-weight="600">Off = the app</text>
+    <text x="1040" y="404" fill="#ffc46b" font-size="17" font-weight="600">hears nothing</text>
+  </g>
+</svg>

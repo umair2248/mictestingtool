@@ -17,6 +17,7 @@ try {
     'how-to-test-mic-windows-11': { modified: '2026-10-31', sources: ['support.microsoft.com'] },
     'how-to-test-microphone-windows-10': { modified: '2026-11-01', sources: ['support.microsoft.com'] },
     'microsoft-teams-mic-camera-test': { modified: '2026-11-03', sources: ['support.microsoft.com'] },
+    'iphone-microphone-not-working': { modified: '2026-11-07', sources: ['support.apple.com'] },
   };
   for (const [slug, expected] of Object.entries(articles)) {
   const path = `/blog/${slug}`;

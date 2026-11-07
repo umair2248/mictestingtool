@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="t">
+  <title id="t">iPhone microphone locations: bottom mic next to the charging port, front mic in the earpiece, and rear mic next to the back camera, with the app that tests each one</title>
+  <defs><marker id="a" markerWidth="10" markerHeight="10" refX="6" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#ffc46b"/></marker></defs>
+  <g font-family="-apple-system, Segoe UI, system-ui, Arial, sans-serif">
+    <rect width="1200" height="675" fill="#0f172e"/>
+    <text x="600" y="60" fill="#ffffff" font-size="32" font-weight="700" text-anchor="middle">Your iPhone has 3 microphones. Test each one.</text>
+
+    <!-- front -->
+    <text x="260" y="110" fill="#b8c4e0" font-size="18" text-anchor="middle">Front</text>
+    <rect x="160" y="125" width="200" height="410" rx="34" fill="#1c1c1e" stroke="#3a3a3c" stroke-width="5"/>
+    <rect x="172" y="137" width="176" height="386" rx="24" fill="#2c3e66"/>
+    <rect x="224" y="148" width="72" height="20" rx="10" fill="#1c1c1e"/>
+    <rect x="236" y="140" width="48" height="5" rx="2" fill="#8e8e93"/>
+    <circle cx="260" cy="142" r="14" fill="none" stroke="#ff9f0a" stroke-width="3"/>
+    <g fill="#8e8e93"><circle cx="222" cy="531" r="2.5"/><circle cx="231" cy="531" r="2.5"/><circle cx="240" cy="531" r="2.5"/><circle cx="280" cy="531" r="2.5"/><circle cx="289" cy="531" r="2.5"/><circle cx="298" cy="531" r="2.5"/></g>
+    <rect x="248" y="527" width="24" height="8" rx="4" fill="#48484a"/>
+    <ellipse cx="231" cy="531" rx="20" ry="12" fill="none" stroke="#ff9f0a" stroke-width="3"/>
+
+    <!-- back -->
+    <text x="560" y="110" fill="#b8c4e0" font-size="18" text-anchor="middle">Back</text>
+    <rect x="460" y="125" width="200" height="410" rx="34" fill="#1c1c1e" stroke="#3a3a3c" stroke-width="5"/>
+    <rect x="476" y="141" width="96" height="104" rx="22" fill="#2c2c2e"/>
+    <circle cx="502" cy="168" r="17" fill="#0b0b0d" stroke="#48484a" stroke-width="3"/>
+    <circle cx="502" cy="218" r="17" fill="#0b0b0d" stroke="#48484a" stroke-width="3"/>
+    <circle cx="548" cy="193" r="17" fill="#0b0b0d" stroke="#48484a" stroke-width="3"/>
+    <circle cx="550" cy="160" r="3" fill="#8e8e93"/>
+    <circle cx="550" cy="160" r="12" fill="none" stroke="#ff9f0a" stroke-width="3"/>
+
+    <!-- labels -->
+    <g>
+      <rect x="730" y="130" width="420" height="120" rx="16" fill="#16213f" stroke="#ff9f0a" stroke-width="2"/>
+      <text x="754" y="170" fill="#ffffff" font-size="22" font-weight="700">Bottom mic</text>
+      <text x="754" y="200" fill="#b8c4e0" font-size="17">Next to the charging port. Used on calls.</text>
+      <text x="754" y="228" fill="#ffc46b" font-size="17" font-weight="600">Test: record a Voice Memo</text>
+
+      <rect x="730" y="275" width="420" height="120" rx="16" fill="#16213f" stroke="#ff9f0a" stroke-width="2"/>
+      <text x="754" y="315" fill="#ffffff" font-size="22" font-weight="700">Front mic</text>
+      <text x="754" y="345" fill="#b8c4e0" font-size="17">In the earpiece at the top of the screen.</text>
+      <text x="754" y="373" fill="#ffc46b" font-size="17" font-weight="600">Test: front camera video</text>
+
+      <rect x="730" y="420" width="420" height="120" rx="16" fill="#16213f" stroke="#ff9f0a" stroke-width="2"/>
+      <text x="754" y="460" fill="#ffffff" font-size="22" font-weight="700">Rear mic</text>
+      <text x="754" y="490" fill="#b8c4e0" font-size="17">Small hole beside the back cameras.</text>
+      <text x="754" y="518" fill="#ffc46b" font-size="17" font-weight="600">Test: back camera video</text>
+    </g>
+    <text x="600" y="610" fill="#b8c4e0" font-size="19" text-anchor="middle">Take the case off first. One muffled recording usually means that mic hole is blocked.</text>
+    <text x="600" y="640" fill="#8e8e93" font-size="15" text-anchor="middle">Exact positions vary slightly between iPhone models.</text>
+  </g>
+</svg>

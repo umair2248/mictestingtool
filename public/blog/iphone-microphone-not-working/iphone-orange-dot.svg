@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="t">
+  <title id="t">Orange microphone dot on iPhone: status bar with the orange indicator, and Control Center showing which app is using the microphone</title>
+  <g font-family="-apple-system, Segoe UI, system-ui, Arial, sans-serif">
+    <rect width="1200" height="675" fill="#0f172e"/>
+    <text x="600" y="62" fill="#ffffff" font-size="32" font-weight="700" text-anchor="middle">Orange dot = an app is using your microphone</text>
+    <text x="600" y="100" fill="#b8c4e0" font-size="20" text-anchor="middle">Swipe down from the top-right corner to see which app it is.</text>
+
+    <rect x="110" y="140" width="300" height="480" rx="44" fill="#1c1c1e" stroke="#3a3a3c" stroke-width="5"/>
+    <rect x="124" y="154" width="272" height="452" rx="32" fill="#f2f2f7"/>
+    <rect x="216" y="166" width="88" height="24" rx="12" fill="#1c1c1e"/>
+    <text x="148" y="184" fill="#1c1c1e" font-size="15" font-weight="700">9:41</text>
+    <circle cx="330" cy="178" r="7" fill="#ff9f0a"/>
+    <rect x="344" y="172" width="26" height="12" rx="3" fill="none" stroke="#1c1c1e" stroke-width="2"/><rect x="346" y="174" width="18" height="8" rx="1" fill="#1c1c1e"/>
+    <circle cx="330" cy="178" r="22" fill="none" stroke="#ff9f0a" stroke-width="3"/>
+    <text x="260" y="260" fill="#1c1c1e" font-size="22" font-weight="700" text-anchor="middle">On a WhatsApp call</text>
+    <circle cx="260" cy="350" r="56" fill="#d1d1d6"/>
+    <circle cx="260" cy="334" r="20" fill="#8e8e93"/><path d="M226 384 a34 28 0 0 1 68 0 z" fill="#8e8e93"/>
+    <text x="260" y="440" fill="#3a3a3c" font-size="17" text-anchor="middle">00:42</text>
+    <circle cx="200" cy="530" r="28" fill="#d1d1d6"/><circle cx="260" cy="530" r="28" fill="#ff3b30"/><circle cx="320" cy="530" r="28" fill="#d1d1d6"/>
+    <rect x="251" y="524" width="18" height="12" rx="2" fill="#ffffff"/>
+    <text x="436" y="196" fill="#ffc46b" font-size="18" font-weight="600">1  Orange dot</text><text x="458" y="220" fill="#ffc46b" font-size="18" font-weight="600">in status bar</text>
+
+    <path d="M470 380 L560 380" stroke="#ffc46b" stroke-width="4" marker-end="url(#a)"/>
+    <defs><marker id="a" markerWidth="10" markerHeight="10" refX="6" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#ffc46b"/></marker></defs>
+    <text x="515" y="360" fill="#b8c4e0" font-size="15" text-anchor="middle">swipe down</text>
+
+    <rect x="600" y="140" width="500" height="480" rx="28" fill="#2c2c2e"/>
+    <rect x="626" y="168" width="448" height="54" rx="27" fill="#3a3a3c"/>
+    <circle cx="656" cy="195" r="14" fill="#ff9f0a"/>
+    <rect x="651" y="185" width="10" height="14" rx="5" fill="#1c1c1e"/><path d="M648 194 a8 8 0 0 0 16 0" fill="none" stroke="#1c1c1e" stroke-width="2"/><line x1="656" y1="202" x2="656" y2="206" stroke="#1c1c1e" stroke-width="2"/>
+    <text x="682" y="202" fill="#ffffff" font-size="19" font-weight="600">WhatsApp</text>
+    <text x="1050" y="202" fill="#aeaeb2" font-size="16" text-anchor="end">Microphone</text>
+    <text x="640" y="260" fill="#ffc46b" font-size="18" font-weight="600">2  Control Center names the app</text>
+    <g>
+      <rect x="626" y="290" width="210" height="140" rx="22" fill="#3a3a3c"/>
+      <circle cx="670" cy="330" r="20" fill="#0a84ff"/><circle cx="730" cy="330" r="20" fill="#0a84ff"/>
+      <circle cx="670" cy="390" r="20" fill="#48484a"/><circle cx="730" cy="390" r="20" fill="#0a84ff"/>
+      <rect x="864" y="290" width="210" height="140" rx="22" fill="#3a3a3c"/>
+      <text x="884" y="330" fill="#ffffff" font-size="16" font-weight="600">Not Playing</text>
+      <rect x="626" y="452" width="96" height="96" rx="22" fill="#3a3a3c"/><rect x="740" y="452" width="96" height="96" rx="22" fill="#3a3a3c"/>
+      <rect x="864" y="452" width="96" height="140" rx="22" fill="#48484a"/><rect x="978" y="452" width="96" height="140" rx="22" fill="#48484a"/>
+    </g>
+    <text x="600" y="650" fill="#b8c4e0" font-size="17" text-anchor="middle">Green dot = camera in use. Orange square = same as the dot, with Differentiate Without Color on.</text>
+  </g>
+</svg>
