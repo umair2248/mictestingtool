@@ -11,7 +11,10 @@ export default function Header() {
  const [open, setOpen] = useState(false); const trigger = useRef(null); const location = useLocation();
  const locale = getLocale(location.pathname);
  // Untranslated tool pages keep their short English name, marked with lang="en", so the bar fits.
- const items = navigation.map((item, i) => ({ ...item, label: locale?.nav[i] || item.label, lang: locale && !locale.nav[i] ? 'en' : undefined, to: i === 0 && locale ? locale.path : item.to }));
+ const items = navigation.map((item, i) => {
+  const translated = locale && item.localeIndex !== undefined ? locale.nav[item.localeIndex] : undefined;
+  return { ...item, label: translated || item.label, lang: locale && !translated ? 'en' : undefined, to: i === 0 && locale ? locale.path : item.to };
+ });
  const close = useCallback(() => { setOpen(false); trigger.current?.focus(); }, []);
  useEffect(() => { setReady(true); setOpen(false); }, [location.pathname]);
  useEffect(() => { const mq = window.matchMedia('(min-width: 1200px)'); const change = () => { if (mq.matches) setOpen(false); }; mq.addEventListener('change', change); return () => mq.removeEventListener('change', change); }, []);

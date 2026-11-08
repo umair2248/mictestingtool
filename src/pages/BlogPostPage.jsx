@@ -25,7 +25,9 @@ export default function BlogPostPage() {
 
   if (!post) return <NotFound />;
   const contents = getArticleOutline(post.content).filter(item => item.level === 2);
-  const related = getAllBlogPosts().filter(item => item.slug !== slug).slice(0, 3);
+  // Posts that share the most tags come first; the list is already newest-first, and sort keeps that order on ties.
+  const shared = item => (item.tags || []).filter(tag => post.tags?.includes(tag)).length;
+  const related = getAllBlogPosts().filter(item => item.slug !== slug).sort((a, b) => shared(b) - shared(a)).slice(0, 3);
 
   return <div className="page">
     <div className="reading-progress" aria-hidden="true"><span style={{ width: `${progress}%` }} /></div>

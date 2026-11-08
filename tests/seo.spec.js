@@ -172,8 +172,8 @@ test('public pages fit a mobile viewport and preserve the nested-route logo', as
   await expect(page.getByRole('button', { name: 'Close menu' })).toBeFocused();
   await page.keyboard.press('Shift+Tab'); await expect(page.getByRole('link', { name: 'Test your microphone', exact: true })).toBeFocused();
   await page.keyboard.press('Escape'); await expect(page.getByRole('dialog')).toHaveCount(0); await expect(trigger).toBeFocused();
-  await trigger.click(); await page.getByRole('navigation', { name: 'Mobile navigation' }).getByRole('link', { name: 'FAQ', exact: true }).click();
-  await expect(page).toHaveURL(/\/faq$/); await expect(page.getByRole('dialog')).toHaveCount(0);
+  await trigger.click(); await page.getByRole('navigation', { name: 'Mobile navigation' }).getByRole('link', { name: 'Speaker Test', exact: true }).click();
+  await expect(page).toHaveURL(/\/speaker-test$/); await expect(page.getByRole('dialog')).toHaveCount(0);
   expect(await page.evaluate(() => document.body.style.overflow)).not.toBe('hidden');
   await trigger.click(); await page.setViewportSize({ width: 1200, height: 844 });
   await expect(page.getByRole('dialog')).toHaveCount(0); expect(await page.evaluate(() => document.body.style.overflow)).not.toBe('hidden');
