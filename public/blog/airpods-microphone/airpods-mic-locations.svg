@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="t">
+  <title id="t">Where is the mic on AirPods: voice mic at the bottom tip of the stem, outer mic near the top, and inward-facing mic on AirPods Pro, AirPods 3 and AirPods 4</title>
+  <defs><linearGradient id="pod" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#e6e8ec"/><stop offset="0.5" stop-color="#ffffff"/><stop offset="1" stop-color="#cfd3da"/></linearGradient></defs>
+  <g font-family="-apple-system, Segoe UI, system-ui, Arial, sans-serif">
+    <rect width="1200" height="675" fill="#0f1b2e"/>
+    <text x="600" y="58" fill="#ffffff" font-size="32" font-weight="700" text-anchor="middle">Where the mics are on AirPods</text>
+
+    <!-- AirPods 1 and 2, long stem -->
+    <text x="200" y="112" fill="#b8c8de" font-size="20" font-weight="600" text-anchor="middle">AirPods 1 &amp; 2</text>
+    <ellipse cx="180" cy="190" rx="62" ry="54" fill="url(#pod)"/>
+    <ellipse cx="152" cy="196" rx="22" ry="20" fill="#2b2f36"/>
+    <rect x="206" y="180" width="38" height="270" rx="19" fill="url(#pod)"/>
+    <rect x="216" y="190" width="18" height="18" rx="9" fill="#5a606b"/>
+    <circle cx="225" cy="199" r="18" fill="none" stroke="#a78bfa" stroke-width="3"/>
+    <ellipse cx="225" cy="446" rx="12" ry="5" fill="#3a3f48"/>
+    <circle cx="225" cy="448" r="24" fill="none" stroke="#4cc9f0" stroke-width="4"/>
+
+    <!-- AirPods 3 and 4, short stem -->
+    <text x="600" y="112" fill="#b8c8de" font-size="20" font-weight="600" text-anchor="middle">AirPods 3 &amp; 4</text>
+    <ellipse cx="580" cy="200" rx="66" ry="58" fill="url(#pod)"/>
+    <ellipse cx="550" cy="206" rx="22" ry="20" fill="#2b2f36"/>
+    <circle cx="550" cy="206" r="30" fill="none" stroke="#f5a65b" stroke-width="3"/>
+    <rect x="608" y="186" width="40" height="190" rx="20" fill="url(#pod)"/>
+    <rect x="616" y="200" width="24" height="40" rx="10" fill="#3a3f48"/>
+    <circle cx="628" cy="220" r="28" fill="none" stroke="#a78bfa" stroke-width="3"/>
+    <ellipse cx="628" cy="372" rx="12" ry="5" fill="#3a3f48"/>
+    <circle cx="628" cy="374" r="24" fill="none" stroke="#4cc9f0" stroke-width="4"/>
+
+    <!-- AirPods Pro -->
+    <text x="1000" y="112" fill="#b8c8de" font-size="20" font-weight="600" text-anchor="middle">AirPods Pro</text>
+    <ellipse cx="980" cy="200" rx="64" ry="56" fill="url(#pod)"/>
+    <ellipse cx="934" cy="216" rx="30" ry="24" fill="#c9ccd2"/>
+    <ellipse cx="930" cy="216" rx="14" ry="12" fill="#2b2f36"/>
+    <circle cx="930" cy="216" r="34" fill="none" stroke="#f5a65b" stroke-width="3"/>
+    <rect x="1008" y="186" width="40" height="200" rx="20" fill="url(#pod)"/>
+    <rect x="1016" y="198" width="24" height="44" rx="10" fill="#3a3f48"/>
+    <circle cx="1028" cy="220" r="30" fill="none" stroke="#a78bfa" stroke-width="3"/>
+    <ellipse cx="1028" cy="382" rx="12" ry="5" fill="#3a3f48"/>
+    <circle cx="1028" cy="384" r="24" fill="none" stroke="#4cc9f0" stroke-width="4"/>
+
+    <rect x="80" y="500" width="1040" height="110" rx="16" fill="#16263f"/>
+    <circle cx="120" cy="540" r="12" fill="none" stroke="#4cc9f0" stroke-width="4"/>
+    <text x="142" y="547" fill="#ffffff" font-size="20" font-weight="700">Voice mic</text>
+    <text x="142" y="575" fill="#b8c8de" font-size="16">Bottom tip of the stem.</text>
+    <text x="142" y="597" fill="#b8c8de" font-size="16">This one hears you on calls.</text>
+    <circle cx="470" cy="540" r="12" fill="none" stroke="#a78bfa" stroke-width="3"/>
+    <text x="492" y="547" fill="#ffffff" font-size="20" font-weight="700">Outer mic</text>
+    <text x="492" y="575" fill="#b8c8de" font-size="16">Mesh near the top, outside.</text>
+    <text x="492" y="597" fill="#b8c8de" font-size="16">Filters room noise and wind.</text>
+    <circle cx="810" cy="540" r="12" fill="none" stroke="#f5a65b" stroke-width="3"/>
+    <text x="832" y="547" fill="#ffffff" font-size="20" font-weight="700">Inner mic</text>
+    <text x="832" y="575" fill="#b8c8de" font-size="16">Faces into your ear. Used for</text>
+    <text x="832" y="597" fill="#b8c8de" font-size="16">noise cancelling and EQ.</text>
+    <text x="600" y="648" fill="#8b99ad" font-size="15" text-anchor="middle">AirPods Max: mics are on the ear cups. Exact positions vary a little between models.</text>
+  </g>
+</svg>
