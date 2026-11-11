@@ -4,7 +4,7 @@ import { languageVersions } from '../../data/locales';
 import '../../styles/footer.css';
 
 const columns = [
-  { title: 'Tools', links: [['/', 'Online Mic Test'], ['/webcam-test', 'Webcam & Mic Test'], ['/speaker-test', 'Speaker & Headphone Test'], ['/noise-meter', 'Classroom Noise Meter'], ['/features', 'Tester Features']] },
+  { title: 'Tools', links: [['/', 'Online Mic Test'], ['/webcam-test', 'Webcam & Mic Test'], ['/speaker-test', 'Speaker & Headphone Test'], ['/surround-sound-test', 'Surround Sound Test'], ['/noise-meter', 'Classroom Noise Meter'], ['/features', 'Tester Features']] },
   { title: 'Guides', links: [['/blog/how-to-test-your-microphone', 'How to Test a Microphone'], ['/blog/microphone-not-working', 'Mic Not Working? Fixes'], ['/blog/how-to-connect-set-up-microphone', 'Set Up a Mic on PC or Mac'], ['/blog', 'All Guides'], ['/faq', 'Troubleshooting FAQ']] },
   { title: 'Company', links: [['/contact', 'Contact'], ['/privacy', 'Privacy Policy'], ['/terms', 'Terms of Use'], ['/security', 'Security']] },
 ];

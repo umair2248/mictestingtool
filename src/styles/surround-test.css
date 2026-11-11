@@ -1,0 +1,15 @@
+.surround-layout-switch { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; margin: 16px 0 8px; padding: 4px; border: 1px solid var(--border); border-radius: 999px; background: rgba(3, 6, 12, 0.5); }
+.surround-layout-switch button { min-height: 40px; border: 0; border-radius: 999px; background: transparent; color: var(--text-soft); font: 600 0.9rem var(--font-head); cursor: pointer; }
+.surround-layout-switch button.is-selected { background: var(--gradient); color: #fff; }
+.surround-room { position: relative; height: 250px; margin: 18px 0; border: 1px solid var(--border); border-radius: 16px; background: rgba(3, 6, 12, 0.5); }
+.surround-screen { position: absolute; left: 30%; right: 30%; top: 0; height: 6px; border-radius: 0 0 6px 6px; background: rgba(148, 163, 184, 0.35); }
+.surround-spk { position: absolute; display: grid; place-items: center; width: 44px; height: 44px; transform: translate(-50%, -50%); border: 1px solid var(--border-strong); border-radius: 50%; background: #0b1120; color: var(--muted); font: 700 0.72rem var(--font-head); transition: all 0.2s ease; }
+.surround-spk.is-lfe { border-radius: 10px; }
+.surround-spk.is-playing { background: var(--gradient); border-color: transparent; color: #fff; box-shadow: 0 0 0 8px rgba(79, 140, 255, 0.14), 0 10px 30px -8px rgba(79, 140, 255, 0.8); }
+.surround-listener { position: absolute; left: 50%; top: 58%; transform: translate(-50%, -50%); display: grid; place-items: center; width: 40px; height: 40px; border-radius: 50%; border: 1px dashed var(--border-strong); color: var(--text-soft); }
+.surround-controls { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 10px; }
+.surround-controls .home-button { min-height: 42px; padding: 8px 10px; font-size: 0.85rem; }
+.surround-page .surround-all { width: 100%; margin-bottom: 4px; }
+.surround-channels strong { color: var(--text); }
+.surround-channels.is-low strong { color: #f5a65b; }
+@media (max-width: 400px) { .surround-room { height: 220px; } .surround-spk { width: 38px; height: 38px; } }

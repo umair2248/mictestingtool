@@ -8,6 +8,7 @@ import Information from './pages/Information';
 const LocalizedMicPage = lazy(() => import('./pages/LocalizedMicPage.jsx'));
 const HomePage = lazy(() => import('./pages/HomePage.jsx'));
 const SpeakerTest = lazy(() => import('./pages/SpeakerTest.jsx'));
+const SurroundSoundTest = lazy(() => import('./pages/SurroundSoundTest.jsx'));
 const WebcamTest = lazy(() => import('./pages/WebcamTest.jsx'));
 const NoiseMeter = lazy(() => import('./pages/NoiseMeter.jsx'));
 const FeaturesPage = lazy(() => import('./pages/Features.jsx'));
@@ -30,6 +31,7 @@ export function AppRoutes() {
         <Route path="/" element={<MainLayout />}>
           <Route index element={<HomePage />} />
           <Route path="speaker-test" element={<SpeakerTest />} />
+          <Route path="surround-sound-test" element={<SurroundSoundTest />} />
           <Route path="webcam-test" element={<WebcamTest />} />
           <Route path="noise-meter" element={<NoiseMeter />} />
           {locales.map(locale => <Route key={locale.code} path={locale.path.slice(1)} element={<LocalizedMicPage />} />)}
