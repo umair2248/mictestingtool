@@ -21,6 +21,7 @@ try {
     'airpods-microphone': { modified: '2026-11-08', sources: ['support.apple.com'] },
     'mouse-double-clicking': { modified: '2026-11-11', sources: ['support.microsoft.com','support.logi.com'] },
     'headphones-not-working': { modified: '2026-11-11', sources: ['support.microsoft.com'] },
+    'how-online-mic-test-works': { modified: '2026-11-11', sources: ['developer.mozilla.org','umairsadiq.com'] },
   };
   for (const [slug, expected] of Object.entries(articles)) {
   const path = `/blog/${slug}`;
