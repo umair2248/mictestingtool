@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600" role="img" aria-labelledby="t">
+  <title id="t">Windows Folder Options: Click items as follows, set to Double-click to open an item (single-click to select)</title>
+  <g font-family="Segoe UI, system-ui, Arial, sans-serif">
+    <rect width="1200" height="600" fill="#0f1b2e"/>
+    <rect x="240" y="40" width="720" height="520" rx="10" fill="#f3f3f3"/>
+    <rect x="240" y="40" width="720" height="44" rx="10" fill="#e6e6e6"/>
+    <rect x="240" y="70" width="720" height="14" fill="#e6e6e6"/>
+    <text x="264" y="69" fill="#222" font-size="17">Folder Options</text>
+    <text x="928" y="70" fill="#555" font-size="22">&#215;</text>
+    <rect x="264" y="100" width="90" height="34" fill="#ffffff" stroke="#cfcfcf"/><text x="282" y="123" fill="#222" font-size="16">General</text>
+    <text x="378" y="123" fill="#666" font-size="16">View</text><text x="440" y="123" fill="#666" font-size="16">Search</text>
+    <rect x="264" y="134" width="672" height="360" fill="#ffffff" stroke="#cfcfcf"/>
+    <text x="290" y="176" fill="#222" font-size="16">Browse folders</text>
+    <circle cx="318" cy="200" r="8" fill="none" stroke="#3d7bfd" stroke-width="2"/><circle cx="318" cy="200" r="4" fill="#3d7bfd"/>
+    <text x="336" y="206" fill="#666" font-size="15">Open each folder in the same window</text>
+    <text x="290" y="266" fill="#222" font-size="16" font-weight="700">Click items as follows</text>
+    <circle cx="318" cy="298" r="8" fill="none" stroke="#777" stroke-width="2"/>
+    <text x="336" y="304" fill="#666" font-size="16">Single-click to open an item (point to select)</text>
+    <rect x="290" y="324" width="610" height="44" rx="6" fill="#e8f2ff" stroke="#3d7bfd" stroke-width="3"/>
+    <circle cx="318" cy="346" r="8" fill="none" stroke="#3d7bfd" stroke-width="2"/><circle cx="318" cy="346" r="4" fill="#3d7bfd"/>
+    <text x="336" y="352" fill="#111" font-size="16" font-weight="700">Double-click to open an item (single-click to select)</text>
+    <text x="290" y="418" fill="#222" font-size="16">Privacy</text>
+    <rect x="310" y="436" width="14" height="14" fill="#3d7bfd"/>
+    <text x="336" y="449" fill="#666" font-size="15">Show recently used files</text>
+    <rect x="700" y="510" width="110" height="32" rx="4" fill="#3d7bfd"/><text x="755" y="531" fill="#fff" font-size="15" text-anchor="middle">OK</text>
+    <rect x="822" y="510" width="110" height="32" rx="4" fill="#ffffff" stroke="#bbb"/><text x="877" y="531" fill="#222" font-size="15" text-anchor="middle">Cancel</text>
+  </g>
+</svg>

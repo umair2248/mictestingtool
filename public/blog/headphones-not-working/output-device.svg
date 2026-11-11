@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600" role="img" aria-labelledby="t">
+  <title id="t">Windows 11 sound output list: choosing Headphones instead of Speakers or the monitor</title>
+  <g font-family="Segoe UI, system-ui, Arial, sans-serif">
+    <rect width="1200" height="600" fill="#0f1b2e"/>
+    <text x="600" y="58" fill="#ffffff" font-size="30" font-weight="700" text-anchor="middle">Windows 11: pick where the sound goes</text>
+    <rect x="300" y="90" width="600" height="440" rx="12" fill="#202838"/>
+    <text x="330" y="134" fill="#ffffff" font-size="20" font-weight="600">Sound output</text>
+    <text x="330" y="162" fill="#9aa7bb" font-size="15">Select a sound output device</text>
+    <rect x="320" y="184" width="560" height="56" rx="6" fill="#2a3346"/>
+    <text x="350" y="218" fill="#cfd6e2" font-size="17">Speakers (Realtek(R) Audio)</text>
+    <rect x="320" y="250" width="560" height="56" rx="6" fill="#2a3346"/>
+    <text x="350" y="284" fill="#cfd6e2" font-size="17">DELL S2721 (NVIDIA High Definition Audio)</text>
+    <rect x="320" y="316" width="560" height="56" rx="6" fill="#1e3a5f" stroke="#4cc9f0" stroke-width="3"/>
+    <rect x="320" y="316" width="5" height="56" fill="#4cc9f0"/>
+    <text x="350" y="350" fill="#ffffff" font-size="17" font-weight="700">Headphones (Realtek(R) Audio)</text>
+    <text x="852" y="351" fill="#4cc9f0" font-size="20" text-anchor="end">&#10003;</text>
+    <rect x="320" y="382" width="560" height="56" rx="6" fill="#2a3346"/>
+    <text x="350" y="416" fill="#cfd6e2" font-size="17">Headset (WH-1000XM4 Hands-Free)</text>
+    <text x="330" y="480" fill="#9aa7bb" font-size="15">More volume settings</text>
+    <text x="600" y="570" fill="#8b99ad" font-size="16" text-anchor="middle">Speaker icon &gt; arrow next to the volume slider. Sound going to the monitor is a very common cause.</text>
+  </g>
+</svg>

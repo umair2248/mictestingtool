@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="t">
+  <title id="t">Mouse double clicking: a computer mouse with the left button highlighted and one click turning into two</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1020"/><stop offset="1" stop-color="#1a1f3d"/></linearGradient>
+    <radialGradient id="glow" cx="0.74" cy="0.5" r="0.5"><stop offset="0" stop-color="#f5a65b" stop-opacity="0.25"/><stop offset="1" stop-color="#f5a65b" stop-opacity="0"/></radialGradient>
+    <linearGradient id="body" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2f3542"/><stop offset="0.5" stop-color="#454c5c"/><stop offset="1" stop-color="#2a2f3b"/></linearGradient>
+  </defs>
+  <g font-family="-apple-system, Segoe UI, system-ui, Arial, sans-serif">
+    <rect width="1200" height="630" fill="url(#bg)"/>
+    <rect width="1200" height="630" fill="url(#glow)"/>
+    <text x="72" y="118" fill="#f5c08a" font-size="26" font-weight="600" letter-spacing="3">MOUSE FIX GUIDE</text>
+    <text x="72" y="196" fill="#ffffff" font-size="60" font-weight="700">Mouse Keeps</text>
+    <text x="72" y="268" fill="#ffffff" font-size="60" font-weight="700">Double Clicking?</text>
+    <text x="72" y="340" fill="#ffffff" font-size="60" font-weight="700">How to Fix It</text>
+    <text x="72" y="408" fill="#d9d4e8" font-size="26">Setting or worn switch? Find out</text>
+    <text x="72" y="446" fill="#d9d4e8" font-size="26">Windows · Mac · Gaming mice</text>
+    <rect x="72" y="500" width="300" height="60" rx="30" fill="#f5a65b"/>
+    <text x="222" y="539" fill="#2b1606" font-size="24" font-weight="700" text-anchor="middle">mictestingtool.com</text>
+    <path d="M780 140 Q780 100 840 96 L900 96 Q960 100 960 140 L960 400 Q960 520 870 520 Q780 520 780 400 Z" fill="url(#body)" stroke="#5a6273" stroke-width="3"/>
+    <path d="M780 140 Q780 100 840 96 L868 96 L868 250 L780 250 Z" fill="#f5a65b" opacity="0.9"/>
+    <line x1="870" y1="96" x2="870" y2="250" stroke="#1c2029" stroke-width="4"/>
+    <line x1="780" y1="250" x2="960" y2="250" stroke="#1c2029" stroke-width="4"/>
+    <rect x="860" y="140" width="20" height="50" rx="10" fill="#1c2029"/>
+    <path d="M870 520 Q870 580 940 590" stroke="#5a6273" stroke-width="5" fill="none"/>
+    <g fill="none" stroke="#f5c542" stroke-width="5" stroke-linecap="round">
+      <path d="M760 110 L732 88"/><path d="M752 160 L716 160"/><path d="M760 210 L732 232"/>
+    </g>
+    <rect x="990" y="160" width="170" height="64" rx="14" fill="#16263f" stroke="#2ec27e" stroke-width="2"/>
+    <text x="1075" y="201" fill="#ffffff" font-size="22" font-weight="700" text-anchor="middle">1 click</text>
+    <text x="1075" y="268" fill="#f5c08a" font-size="34" text-anchor="middle">&#8595;</text>
+    <rect x="990" y="290" width="170" height="64" rx="14" fill="#3a1d1d" stroke="#ff6b6b" stroke-width="2"/>
+    <text x="1075" y="331" fill="#ffffff" font-size="22" font-weight="700" text-anchor="middle">2 clicks!</text>
+  </g>
+</svg>

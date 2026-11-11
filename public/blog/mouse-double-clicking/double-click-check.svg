@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-labelledby="t">
+  <title id="t">How to test a mouse for double clicking: try another PC, slow click on a word in Notepad, and drag a file to see if it drops</title>
+  <g font-family="-apple-system, Segoe UI, system-ui, Arial, sans-serif">
+    <rect width="1200" height="560" fill="#0f1b2e"/>
+    <text x="600" y="60" fill="#ffffff" font-size="32" font-weight="700" text-anchor="middle">Is it the mouse or the PC? Three quick checks</text>
+    <rect x="50" y="110" width="350" height="390" rx="16" fill="#16263f" stroke="#4cc9f0" stroke-width="2"/>
+    <text x="225" y="160" fill="#4cc9f0" font-size="24" font-weight="700" text-anchor="middle">1. Another PC</text>
+    <rect x="95" y="200" width="120" height="80" rx="8" fill="#25374d"/><rect x="235" y="200" width="120" height="80" rx="8" fill="#25374d"/>
+    <text x="155" y="248" fill="#ffffff" font-size="18" text-anchor="middle">PC A</text><text x="295" y="248" fill="#ffffff" font-size="18" text-anchor="middle">PC B</text>
+    <text x="225" y="340" fill="#b8c8de" font-size="18" text-anchor="middle">Fault follows the mouse?</text>
+    <text x="225" y="368" fill="#ffffff" font-size="18" font-weight="700" text-anchor="middle">It's the switch.</text>
+    <text x="225" y="420" fill="#b8c8de" font-size="18" text-anchor="middle">Another mouse also fails?</text>
+    <text x="225" y="448" fill="#ffffff" font-size="18" font-weight="700" text-anchor="middle">It's a PC setting.</text>
+    <rect x="425" y="110" width="350" height="390" rx="16" fill="#16263f" stroke="#4cc9f0" stroke-width="2"/>
+    <text x="600" y="160" fill="#4cc9f0" font-size="24" font-weight="700" text-anchor="middle">2. Slow click on a word</text>
+    <rect x="465" y="200" width="270" height="110" rx="8" fill="#f4f6fa"/>
+    <text x="480" y="240" fill="#222" font-size="20">the quick brown</text>
+    <rect x="519" y="261" width="62" height="28" fill="#3d7bfd"/>
+    <text x="480" y="282" fill="#222" font-size="20">fox <tspan fill="#ffffff">jumps</tspan> over</text>
+    <text x="600" y="368" fill="#b8c8de" font-size="18" text-anchor="middle">Click once, slowly, 20 times.</text>
+    <text x="600" y="420" fill="#b8c8de" font-size="18" text-anchor="middle">Word gets highlighted?</text>
+    <text x="600" y="448" fill="#ffffff" font-size="18" font-weight="700" text-anchor="middle">That was a double click.</text>
+    <rect x="800" y="110" width="350" height="390" rx="16" fill="#16263f" stroke="#4cc9f0" stroke-width="2"/>
+    <text x="975" y="160" fill="#4cc9f0" font-size="24" font-weight="700" text-anchor="middle">3. Drag a file</text>
+    <rect x="850" y="210" width="60" height="70" rx="6" fill="#f5c542"/>
+    <path d="M920 245 L1040 245" stroke="#8b99ad" stroke-width="3" stroke-dasharray="8 6"/>
+    <rect x="1050" y="210" width="60" height="70" rx="6" fill="none" stroke="#8b99ad" stroke-width="2" stroke-dasharray="6 5"/>
+    <text x="975" y="330" fill="#ff6b6b" font-size="20" font-weight="700" text-anchor="middle">drops halfway</text>
+    <text x="975" y="420" fill="#b8c8de" font-size="18" text-anchor="middle">Button held, but the file</text>
+    <text x="975" y="448" fill="#ffffff" font-size="18" font-weight="700" text-anchor="middle">lets go by itself.</text>
+  </g>
+</svg>
