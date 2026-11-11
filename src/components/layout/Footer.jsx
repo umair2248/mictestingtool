@@ -27,7 +27,7 @@ export default function Footer() {
       <ul>{languageVersions.filter(item => item.code !== 'en').map(item => <li key={item.code}><Link to={item.path} lang={item.code} hrefLang={item.code}>{item.label}</Link></li>)}</ul>
     </div>
     <div className="site-footer__bottom">
-      <p>© {new Date().getFullYear()} Mic Testing Tool. All rights reserved. Website developed by <a href="https://umairsadiq.com/" className="site-footer__credit">Umair Sadiq</a>.</p>
+      <p>© {new Date().getFullYear()} Mic Testing Tool. All rights reserved.</p>
       <a href="mailto:support@mictestingtool.com"><Mail size={15} aria-hidden="true" />support@mictestingtool.com</a>
     </div>
   </footer>;

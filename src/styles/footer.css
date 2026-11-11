@@ -15,5 +15,3 @@
 @media (max-width: 960px) { .site-footer__inner { grid-template-columns: repeat(3, 1fr); } .site-footer__brand { grid-column: 1 / -1; } }
 @media (max-width: 560px) { .site-footer__inner { grid-template-columns: 1fr 1fr; gap: 32px 20px; } }
 .site-footer__logo { width: 36px; height: 36px; flex-shrink: 0; filter: drop-shadow(0 4px 14px rgba(79, 140, 255, 0.45)); }
-.site-footer__bottom .site-footer__credit { display: inline; color: var(--text-soft); text-decoration: underline; text-underline-offset: 3px; }
-.site-footer__bottom .site-footer__credit:hover { color: var(--text); }
