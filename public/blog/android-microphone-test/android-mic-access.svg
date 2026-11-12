@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="t">
+  <title id="t">Android Quick Settings with the Mic access tile turned on and the green privacy indicator in the corner while an app uses the microphone</title>
+  <g font-family="Roboto, Segoe UI, system-ui, Arial, sans-serif">
+    <rect width="1200" height="675" fill="#0f1a16"/>
+    <text x="80" y="110" fill="#7ff0b0" font-size="20" font-weight="600" letter-spacing="2">EVERY APP HEARS SILENCE?</text>
+    <text x="80" y="160" fill="#ffffff" font-size="36" font-weight="700">Check the Mic access tile</text>
+    <g font-size="21" fill="#b6cbbf">
+      <circle cx="96" cy="232" r="18" fill="#3ddc84"/><text x="96" y="239" fill="#0f1a16" font-weight="700" text-anchor="middle" font-size="18">1</text>
+      <text x="130" y="239">Swipe down twice from the top</text>
+      <circle cx="96" cy="288" r="18" fill="#3ddc84"/><text x="96" y="295" fill="#0f1a16" font-weight="700" text-anchor="middle" font-size="18">2</text>
+      <text x="130" y="295">Find Microphone access or Mic access</text>
+      <circle cx="96" cy="344" r="18" fill="#3ddc84"/><text x="96" y="351" fill="#0f1a16" font-weight="700" text-anchor="middle" font-size="18">3</text>
+      <text x="130" y="351">Greyed out? Tap it to turn it on</text>
+      <circle cx="96" cy="400" r="18" fill="#3ddc84"/><text x="96" y="407" fill="#0f1a16" font-weight="700" text-anchor="middle" font-size="18">4</text>
+      <text x="130" y="407">Not there? Tap the pencil and add it</text>
+    </g>
+    <circle cx="96" cy="488" r="9" fill="#3ddc84"/>
+    <text x="118" y="495" fill="#ffffff" font-size="19">Green icon in the corner = an app is using the mic</text>
+    <text x="80" y="540" fill="#7f9488" font-size="17">Android 12 and newer. When it's off, apps get silence,</text>
+    <text x="80" y="566" fill="#7f9488" font-size="17">not an error message.</text>
+
+    <rect x="720" y="50" width="320" height="580" rx="34" fill="#1f2421" stroke="#3a423d" stroke-width="5"/>
+    <rect x="734" y="64" width="292" height="552" rx="24" fill="#18211d"/>
+    <circle cx="880" cy="82" r="7" fill="#0f1a16"/>
+    <text x="756" y="114" fill="#e6efe9" font-size="16" font-weight="700">10:24</text>
+    <rect x="958" y="98" width="48" height="24" rx="12" fill="#3ddc84"/>
+    <rect x="976" y="102" width="8" height="12" rx="4" fill="#0f1a16"/><path d="M972 111 a8 8 0 0 0 16 0" stroke="#0f1a16" stroke-width="2" fill="none"/>
+    <rect x="752" y="140" width="256" height="10" rx="5" fill="#2b3530"/><rect x="752" y="140" width="170" height="10" rx="5" fill="#a8c7b6"/>
+    <g font-size="15" font-weight="700">
+      <rect x="752" y="172" width="124" height="72" rx="22" fill="#2b3530"/><text x="772" y="214" fill="#d5e0da">Wi-Fi</text>
+      <rect x="884" y="172" width="124" height="72" rx="22" fill="#2b3530"/><text x="904" y="214" fill="#d5e0da">Bluetooth</text>
+      <rect x="752" y="254" width="124" height="72" rx="22" fill="#2b3530"/><text x="772" y="296" fill="#d5e0da">Flashlight</text>
+      <rect x="884" y="254" width="124" height="72" rx="22" fill="#2b3530"/><text x="904" y="296" fill="#d5e0da">Camera</text>
+      <rect x="752" y="336" width="256" height="84" rx="24" fill="#c4eed3" stroke="#3ddc84" stroke-width="3"/>
+      <rect x="776" y="358" width="16" height="26" rx="8" fill="#0c5a2c"/><path d="M770 378 a14 14 0 0 0 28 0" stroke="#0c5a2c" stroke-width="3" fill="none"/><line x1="784" y1="392" x2="784" y2="400" stroke="#0c5a2c" stroke-width="3"/>
+      <text x="814" y="372" fill="#0c3a1d" font-size="18">Microphone access</text>
+      <text x="814" y="396" fill="#1f6b3c" font-size="15" font-weight="400">On</text>
+      <rect x="752" y="430" width="124" height="72" rx="22" fill="#2b3530"/><text x="772" y="472" fill="#d5e0da">Rotate</text>
+      <rect x="884" y="430" width="124" height="72" rx="22" fill="#2b3530"/><text x="898" y="472" fill="#d5e0da">Do not disturb</text>
+    </g>
+    <path d="M1010 110 L1090 110 L1090 378 L1014 378" stroke="#7ff0b0" stroke-width="2" stroke-dasharray="6 6" fill="none"/>
+  </g>
+</svg>

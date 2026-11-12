@@ -136,6 +136,8 @@ If people cannot hear you on calls, voice messages are silent, or one app cannot
 
 If the voice recorder is silent even after a restart and with the case removed, the microphone may be damaged. Contact the manufacturer or a repair service.
 
+For Android-specific steps such as the Mic access tile, safe mode and Samsung's built-in mic test, see our [Android phone mic test and fix guide](/blog/android-microphone-test).
+
 ## Mic works in one place but not in an app
 
 When the online test hears you but a call app does not, the app is using a different microphone, is muted, or has no permission.

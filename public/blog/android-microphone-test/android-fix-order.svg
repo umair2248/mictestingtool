@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="t">
+  <title id="t">Android microphone not working: fixes in order, from the Mic access tile, Bluetooth and mic holes to app permissions, safe mode, updates and a factory reset</title>
+  <g font-family="Roboto, Segoe UI, system-ui, Arial, sans-serif">
+    <rect width="1200" height="675" fill="#0f1a16"/>
+    <text x="600" y="64" fill="#ffffff" font-size="32" font-weight="700" text-anchor="middle">Android mic not working? Try these in order</text>
+    <text x="600" y="102" fill="#b6cbbf" font-size="20" text-anchor="middle">Record a quick voice note after each step. Stop when it sounds right.</text>
+    <g font-size="17">
+      <rect x="40" y="140" width="260" height="150" rx="16" fill="#16241e" stroke="#3ddc84" stroke-width="2"/>
+      <circle cx="80" cy="182" r="22" fill="#3ddc84"/><text x="80" y="190" fill="#0f1a16" font-size="22" font-weight="700" text-anchor="middle">1</text>
+      <text x="114" y="190" fill="#ffffff" font-size="21" font-weight="700">Mic access</text>
+      <text x="62" y="236" fill="#b6cbbf">Quick Settings tile</text>
+      <text x="62" y="262" fill="#b6cbbf">has to be on</text>
+
+      <rect x="330" y="140" width="260" height="150" rx="16" fill="#16241e" stroke="#3ddc84" stroke-width="2"/>
+      <circle cx="370" cy="182" r="22" fill="#3ddc84"/><text x="370" y="190" fill="#0f1a16" font-size="22" font-weight="700" text-anchor="middle">2</text>
+      <text x="404" y="190" fill="#ffffff" font-size="21" font-weight="700">Bluetooth off</text>
+      <text x="352" y="236" fill="#b6cbbf">Earbuds or the car may</text>
+      <text x="352" y="262" fill="#b6cbbf">be taking the audio</text>
+
+      <rect x="620" y="140" width="260" height="150" rx="16" fill="#16241e" stroke="#3ddc84" stroke-width="2"/>
+      <circle cx="660" cy="182" r="22" fill="#3ddc84"/><text x="660" y="190" fill="#0f1a16" font-size="22" font-weight="700" text-anchor="middle">3</text>
+      <text x="694" y="190" fill="#ffffff" font-size="21" font-weight="700">Case and hole</text>
+      <text x="642" y="236" fill="#b6cbbf">Case off, brush the</text>
+      <text x="642" y="262" fill="#b6cbbf">bottom mic gently</text>
+
+      <rect x="910" y="140" width="260" height="150" rx="16" fill="#16241e" stroke="#3ddc84" stroke-width="2"/>
+      <circle cx="950" cy="182" r="22" fill="#3ddc84"/><text x="950" y="190" fill="#0f1a16" font-size="22" font-weight="700" text-anchor="middle">4</text>
+      <text x="984" y="190" fill="#ffffff" font-size="21" font-weight="700">Permission</text>
+      <text x="932" y="236" fill="#b6cbbf">Apps › the app ›</text>
+      <text x="932" y="262" fill="#b6cbbf">Permissions › Microphone</text>
+
+      <rect x="40" y="320" width="260" height="150" rx="16" fill="#16241e" stroke="#fbbf24" stroke-width="2"/>
+      <circle cx="80" cy="362" r="22" fill="#fbbf24"/><text x="80" y="370" fill="#0f1a16" font-size="22" font-weight="700" text-anchor="middle">5</text>
+      <text x="114" y="370" fill="#ffffff" font-size="21" font-weight="700">Mic mode</text>
+      <text x="62" y="416" fill="#b6cbbf">Samsung: Standard,</text>
+      <text x="62" y="442" fill="#b6cbbf">not Voice focus</text>
+
+      <rect x="330" y="320" width="260" height="150" rx="16" fill="#16241e" stroke="#fbbf24" stroke-width="2"/>
+      <circle cx="370" cy="362" r="22" fill="#fbbf24"/><text x="370" y="370" fill="#0f1a16" font-size="22" font-weight="700" text-anchor="middle">6</text>
+      <text x="404" y="370" fill="#ffffff" font-size="21" font-weight="700">Safe mode</text>
+      <text x="352" y="416" fill="#b6cbbf">Works there? Another</text>
+      <text x="352" y="442" fill="#b6cbbf">app is holding the mic</text>
+
+      <rect x="620" y="320" width="260" height="150" rx="16" fill="#16241e" stroke="#fbbf24" stroke-width="2"/>
+      <circle cx="660" cy="362" r="22" fill="#fbbf24"/><text x="660" y="370" fill="#0f1a16" font-size="22" font-weight="700" text-anchor="middle">7</text>
+      <text x="694" y="370" fill="#ffffff" font-size="21" font-weight="700">Updates</text>
+      <text x="642" y="416" fill="#b6cbbf">Android and Play Store</text>
+      <text x="642" y="442" fill="#b6cbbf">apps, then clear cache</text>
+
+      <rect x="910" y="320" width="260" height="150" rx="16" fill="#16241e" stroke="#f87171" stroke-width="2"/>
+      <circle cx="950" cy="362" r="22" fill="#f87171"/><text x="950" y="370" fill="#0f1a16" font-size="22" font-weight="700" text-anchor="middle">8</text>
+      <text x="984" y="370" fill="#ffffff" font-size="21" font-weight="700">Reset or repair</text>
+      <text x="932" y="416" fill="#b6cbbf">Back up first. Silent</text>
+      <text x="932" y="442" fill="#b6cbbf">everywhere = hardware</text>
+    </g>
+    <rect x="40" y="510" width="1130" height="110" rx="16" fill="#16241e"/>
+    <text x="70" y="556" fill="#7ff0b0" font-size="20" font-weight="700">Quick check first</text>
+    <text x="70" y="590" fill="#b6cbbf" font-size="18">Voice note works but one app doesn't? Go straight to step 4. Nothing records at all? Start at step 1.</text>
+  </g>
+</svg>

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="t">
+  <title id="t">Android microphone locations: main mic on the bottom edge next to the USB-C port and a second mic on the top edge near the camera</title>
+  <g font-family="Roboto, Segoe UI, system-ui, Arial, sans-serif">
+    <rect width="1200" height="675" fill="#0f1a16"/>
+    <text x="600" y="58" fill="#ffffff" font-size="32" font-weight="700" text-anchor="middle">Where the microphones are on most Android phones</text>
+    <text x="600" y="94" fill="#b6cbbf" font-size="20" text-anchor="middle">Small pinholes, not the speaker grille. Exact spots vary by model.</text>
+
+    <rect x="160" y="150" width="220" height="440" rx="30" fill="#1f2421" stroke="#3a423d" stroke-width="5"/>
+    <rect x="172" y="162" width="196" height="416" rx="22" fill="#25302b"/>
+    <circle cx="270" cy="182" r="7" fill="#0f1a16"/>
+    <text x="270" y="380" fill="#6f8a7c" font-size="18" text-anchor="middle">Front</text>
+    <circle cx="320" cy="150" r="6" fill="#3ddc84"/>
+    <rect x="250" y="584" width="40" height="12" rx="6" fill="#0f1a16" stroke="#6f8a7c" stroke-width="2"/>
+    <circle cx="214" cy="590" r="6" fill="#3ddc84"/>
+    <g fill="#6f8a7c"><circle cx="310" cy="590" r="2.5"/><circle cx="320" cy="590" r="2.5"/><circle cx="330" cy="590" r="2.5"/><circle cx="340" cy="590" r="2.5"/></g>
+
+    <rect x="460" y="150" width="220" height="440" rx="30" fill="#1f2421" stroke="#3a423d" stroke-width="5"/>
+    <rect x="484" y="176" width="70" height="120" rx="18" fill="#2c3632" stroke="#46524c" stroke-width="2"/>
+    <circle cx="519" cy="208" r="18" fill="#0f1a16" stroke="#46524c" stroke-width="3"/>
+    <circle cx="519" cy="262" r="18" fill="#0f1a16" stroke="#46524c" stroke-width="3"/>
+    <circle cx="574" cy="188" r="6" fill="#3ddc84"/>
+    <text x="570" y="380" fill="#6f8a7c" font-size="18" text-anchor="middle">Back</text>
+
+    <path d="M320 144 L320 124 L740 124 L740 170" stroke="#7ff0b0" stroke-width="2" fill="none" stroke-dasharray="6 6"/>
+    <path d="M580 188 L740 188" stroke="#7ff0b0" stroke-width="2" fill="none" stroke-dasharray="6 6"/>
+    <path d="M214 598 L214 630 L740 630 L740 560" stroke="#7ff0b0" stroke-width="2" fill="none" stroke-dasharray="6 6"/>
+
+    <g font-size="21">
+      <text x="760" y="180" fill="#ffffff" font-weight="700">Top or rear mic</text>
+      <text x="760" y="212" fill="#b6cbbf">Cancels noise on calls and</text>
+      <text x="760" y="240" fill="#b6cbbf">records sound for video</text>
+      <text x="760" y="278" fill="#7ff0b0">Test it: record a video</text>
+
+      <text x="760" y="470" fill="#ffffff" font-weight="700">Bottom mic</text>
+      <text x="760" y="502" fill="#b6cbbf">Next to the USB-C port.</text>
+      <text x="760" y="530" fill="#b6cbbf">This is what people hear on calls</text>
+      <text x="760" y="568" fill="#7ff0b0">Test it: record a voice note</text>
+    </g>
+  </g>
+</svg>
