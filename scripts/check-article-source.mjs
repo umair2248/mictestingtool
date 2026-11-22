@@ -23,6 +23,7 @@ try {
     'headphones-not-working': { modified: '2026-11-11', sources: ['support.microsoft.com'] },
     'how-online-mic-test-works': { modified: '2026-11-11', sources: ['developer.mozilla.org','umairsadiq.com'] },
     'android-microphone-test': { modified: '2026-11-12', sources: ['support.google.com'] },
+    'chromebook-microphone': { modified: '2026-11-22', sources: ['support.google.com'] },
   };
   for (const [slug, expected] of Object.entries(articles)) {
   const path = `/blog/${slug}`;

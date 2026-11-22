@@ -87,6 +87,8 @@ A laptop's built-in microphone usually sits near the webcam or along the keyboar
 - **Manufacturer audio software.** Apps from Realtek, Dolby, MaxxAudio or the laptop maker can have their own mute or noise-reduction settings. Open them and check the microphone section.
 - **Driver after an update.** If the mic stopped after a Windows update, reinstall the audio driver from the laptop manufacturer.
 
+On a Chromebook, the steps are different: see [how to turn on and test the microphone on a Chromebook](/blog/chromebook-microphone).
+
 ## Mac microphone not working
 
 1. Open **Apple menu > System Settings > Privacy & Security > Microphone** and turn on access for your browser or call app. Quit and reopen the app after changing it.

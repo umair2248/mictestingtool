@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="t">
+  <title id="t">ChromeOS Settings, Security and privacy, Privacy controls, with Microphone access switched on</title>
+  <g font-family="Roboto, Segoe UI, system-ui, Arial, sans-serif">
+    <rect width="1200" height="675" fill="#0d1424"/>
+    <text x="600" y="66" fill="#ffffff" font-size="30" font-weight="700" text-anchor="middle">Off = every app and website hears silence</text>
+    <text x="600" y="102" fill="#b9c7de" font-size="19" text-anchor="middle">Settings › Security and privacy › Privacy controls › Microphone access</text>
+
+    <rect x="90" y="140" width="1020" height="490" rx="18" fill="#f6f8fc"/>
+    <rect x="90" y="140" width="1020" height="58" rx="18" fill="#e7edf7"/><rect x="90" y="180" width="1020" height="18" fill="#e7edf7"/>
+    <text x="126" y="177" fill="#1d2433" font-size="20" font-weight="700">Settings</text>
+    <rect x="420" y="156" width="360" height="28" rx="14" fill="#ffffff"/><text x="444" y="176" fill="#8a97b0" font-size="15">Search settings</text>
+
+    <g font-size="17" fill="#3c4659">
+      <text x="126" y="246">Network</text>
+      <text x="126" y="290">Bluetooth</text>
+      <text x="126" y="334">Device</text>
+      <rect x="110" y="356" width="250" height="44" rx="22" fill="#d3e3fd"/>
+      <text x="126" y="384" fill="#0b2a63" font-weight="700">Security and privacy</text>
+      <text x="126" y="434">Apps</text>
+      <text x="126" y="478">Accessibility</text>
+      <text x="126" y="522">System preferences</text>
+      <text x="126" y="566">About ChromeOS</text>
+    </g>
+    <line x1="380" y1="214" x2="380" y2="610" stroke="#dde3ee" stroke-width="2"/>
+
+    <text x="420" y="246" fill="#5f6b80" font-size="16">Security and privacy  ›</text>
+    <text x="420" y="282" fill="#1d2433" font-size="24" font-weight="700">Privacy controls</text>
+
+    <g font-size="18">
+      <rect x="420" y="310" width="650" height="72" rx="12" fill="#ffffff" stroke="#dde3ee" stroke-width="2"/>
+      <text x="446" y="352" fill="#1d2433">Camera access</text>
+      <rect x="990" y="334" width="52" height="26" rx="13" fill="#4c8df6"/><circle cx="1029" cy="347" r="10" fill="#ffffff"/>
+
+      <rect x="414" y="394" width="662" height="96" rx="14" fill="#eaf1fe" stroke="#4c8df6" stroke-width="3"/>
+      <text x="446" y="434" fill="#0b2a63" font-weight="700" font-size="21">Microphone access</text>
+      <text x="446" y="464" fill="#2d5bb5" font-size="16">Allowed for apps and websites with permission</text>
+      <rect x="982" y="424" width="64" height="32" rx="16" fill="#4c8df6"/><circle cx="1030" cy="440" r="12" fill="#ffffff"/>
+
+      <rect x="420" y="502" width="650" height="72" rx="12" fill="#ffffff" stroke="#dde3ee" stroke-width="2"/>
+      <text x="446" y="544" fill="#1d2433">Location access</text>
+      <rect x="990" y="526" width="52" height="26" rx="13" fill="#4c8df6"/><circle cx="1029" cy="539" r="10" fill="#ffffff"/>
+    </g>
+  </g>
+</svg>

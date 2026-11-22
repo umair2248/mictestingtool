@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="t">
+  <title id="t">How to turn on the microphone on a Chromebook: Chromebook with the Quick Settings audio panel open and the microphone unmuted</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0a1020"/><stop offset="1" stop-color="#0c2148"/></linearGradient>
+    <radialGradient id="glow" cx="0.74" cy="0.45" r="0.5"><stop offset="0" stop-color="#4c8df6" stop-opacity="0.32"/><stop offset="1" stop-color="#4c8df6" stop-opacity="0"/></radialGradient>
+  </defs>
+  <g font-family="Roboto, Segoe UI, system-ui, Arial, sans-serif">
+    <rect width="1200" height="630" fill="url(#bg)"/>
+    <rect width="1200" height="630" fill="url(#glow)"/>
+    <text x="72" y="112" fill="#8ab4f8" font-size="26" font-weight="600" letter-spacing="3">CHROMEBOOK MIC GUIDE</text>
+    <text x="72" y="190" fill="#ffffff" font-size="58" font-weight="700">Turn On &amp; Test</text>
+    <text x="72" y="260" fill="#ffffff" font-size="58" font-weight="700">the Mic on</text>
+    <text x="72" y="330" fill="#ffffff" font-size="58" font-weight="700">a Chromebook</text>
+    <text x="72" y="398" fill="#c9d8f2" font-size="25">Unmute input · Microphone access</text>
+    <text x="72" y="436" fill="#c9d8f2" font-size="25">Chrome permission · Fixes in order</text>
+    <rect x="72" y="492" width="300" height="60" rx="30" fill="#4c8df6"/>
+    <text x="222" y="531" fill="#04122b" font-size="24" font-weight="700" text-anchor="middle">mictestingtool.com</text>
+
+    <rect x="610" y="96" width="520" height="340" rx="18" fill="#1d2433" stroke="#39445a" stroke-width="5"/>
+    <rect x="628" y="122" width="484" height="296" rx="6" fill="#e9eef7"/>
+    <circle cx="870" cy="110" r="5" fill="#0a1020"/>
+    <circle cx="854" cy="110" r="2" fill="#8ab4f8"/><circle cx="886" cy="110" r="2" fill="#8ab4f8"/>
+    <path d="M580 436 H1160 L1176 462 Q1178 470 1168 470 H572 Q562 470 564 462 Z" fill="#2a3346"/>
+    <rect x="820" y="440" width="100" height="8" rx="4" fill="#1d2433"/>
+    <rect x="628" y="390" width="484" height="28" fill="#d5ddeb"/>
+    <rect x="1050" y="396" width="52" height="16" rx="8" fill="#b9c5da"/>
+    <rect x="812" y="138" width="286" height="244" rx="16" fill="#ffffff" stroke="#c5d0e3" stroke-width="2"/>
+    <text x="832" y="170" fill="#1d2433" font-size="17" font-weight="700">Audio settings</text>
+    <text x="832" y="204" fill="#5f6b80" font-size="13" font-weight="700" letter-spacing="1">OUTPUT</text>
+    <rect x="832" y="214" width="246" height="8" rx="4" fill="#d5ddeb"/><rect x="832" y="214" width="160" height="8" rx="4" fill="#4c8df6"/>
+    <text x="832" y="254" fill="#5f6b80" font-size="13" font-weight="700" letter-spacing="1">INPUT</text>
+    <rect x="828" y="266" width="254" height="52" rx="26" fill="#d3e3fd" stroke="#4c8df6" stroke-width="2"/>
+    <circle cx="856" cy="292" r="17" fill="#4c8df6"/>
+    <rect x="851" y="281" width="10" height="16" rx="5" fill="#ffffff"/><path d="M847 293 a9 9 0 0 0 18 0" stroke="#ffffff" stroke-width="2.5" fill="none"/><line x1="856" y1="302" x2="856" y2="306" stroke="#ffffff" stroke-width="2.5"/>
+    <text x="884" y="290" fill="#0b2a63" font-size="16" font-weight="700">Internal Mic</text>
+    <text x="884" y="309" fill="#2d5bb5" font-size="13">On · not muted</text>
+    <g fill="#4c8df6"><rect x="836" y="338" width="6" height="14" rx="3"/><rect x="848" y="332" width="6" height="26" rx="3"/><rect x="860" y="326" width="6" height="38" rx="3"/><rect x="872" y="334" width="6" height="22" rx="3"/><rect x="884" y="328" width="6" height="34" rx="3"/><rect x="896" y="336" width="6" height="18" rx="3"/><rect x="908" y="340" width="6" height="10" rx="3"/></g>
+    <rect x="934" y="340" width="144" height="8" rx="4" fill="#d5ddeb"/><rect x="934" y="340" width="104" height="8" rx="4" fill="#4c8df6"/>
+    <text x="934" y="368" fill="#5f6b80" font-size="12">Input gain</text>
+    <rect x="648" y="146" width="140" height="14" rx="7" fill="#c5d0e3"/>
+    <rect x="648" y="172" width="110" height="10" rx="5" fill="#d5ddeb"/>
+    <rect x="648" y="196" width="148" height="90" rx="10" fill="#d5ddeb"/>
+    <rect x="648" y="298" width="148" height="10" rx="5" fill="#d5ddeb"/>
+    <rect x="648" y="318" width="120" height="10" rx="5" fill="#d5ddeb"/>
+  </g>
+</svg>

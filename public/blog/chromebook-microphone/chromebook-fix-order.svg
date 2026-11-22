@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="t">
+  <title id="t">Chromebook mic not working: fixes in order, from unmuting and Microphone access to the right input, Chrome site permission, gain, restart, update and Powerwash</title>
+  <g font-family="Roboto, Segoe UI, system-ui, Arial, sans-serif">
+    <rect width="1200" height="675" fill="#0d1424"/>
+    <text x="600" y="64" fill="#ffffff" font-size="32" font-weight="700" text-anchor="middle">Chromebook mic not working? Try these in order</text>
+    <text x="600" y="102" fill="#b9c7de" font-size="20" text-anchor="middle">Run the mic test after each step. Stop when it works.</text>
+    <g font-size="17">
+      <rect x="40" y="140" width="260" height="150" rx="16" fill="#151f35" stroke="#4c8df6" stroke-width="2"/>
+      <circle cx="80" cy="182" r="22" fill="#4c8df6"/><text x="80" y="190" fill="#0d1424" font-size="22" font-weight="700" text-anchor="middle">1</text>
+      <text x="114" y="190" fill="#ffffff" font-size="21" font-weight="700">Unmute + access</text>
+      <text x="62" y="236" fill="#b9c7de">Quick Settings input and</text>
+      <text x="62" y="262" fill="#b9c7de">Microphone access on</text>
+
+      <rect x="330" y="140" width="260" height="150" rx="16" fill="#151f35" stroke="#4c8df6" stroke-width="2"/>
+      <circle cx="370" cy="182" r="22" fill="#4c8df6"/><text x="370" y="190" fill="#0d1424" font-size="22" font-weight="700" text-anchor="middle">2</text>
+      <text x="404" y="190" fill="#ffffff" font-size="21" font-weight="700">Right input</text>
+      <text x="352" y="236" fill="#b9c7de">Unplug headsets, Bluetooth</text>
+      <text x="352" y="262" fill="#b9c7de">off, pick Internal Mic</text>
+
+      <rect x="620" y="140" width="260" height="150" rx="16" fill="#151f35" stroke="#4c8df6" stroke-width="2"/>
+      <circle cx="660" cy="182" r="22" fill="#4c8df6"/><text x="660" y="190" fill="#0d1424" font-size="22" font-weight="700" text-anchor="middle">3</text>
+      <text x="694" y="190" fill="#ffffff" font-size="21" font-weight="700">Input gain</text>
+      <text x="642" y="236" fill="#b9c7de">Settings › Device › Audio,</text>
+      <text x="642" y="262" fill="#b9c7de">gain to about 70–80%</text>
+
+      <rect x="910" y="140" width="260" height="150" rx="16" fill="#151f35" stroke="#4c8df6" stroke-width="2"/>
+      <circle cx="950" cy="182" r="22" fill="#4c8df6"/><text x="950" y="190" fill="#0d1424" font-size="22" font-weight="700" text-anchor="middle">4</text>
+      <text x="984" y="190" fill="#ffffff" font-size="21" font-weight="700">Site permission</text>
+      <text x="932" y="236" fill="#b9c7de">Allow mic for the site,</text>
+      <text x="932" y="262" fill="#b9c7de">then reload the page</text>
+
+      <rect x="40" y="330" width="260" height="150" rx="16" fill="#151f35" stroke="#39445a" stroke-width="2"/>
+      <circle cx="80" cy="372" r="22" fill="#8ab4f8"/><text x="80" y="380" fill="#0d1424" font-size="22" font-weight="700" text-anchor="middle">5</text>
+      <text x="114" y="380" fill="#ffffff" font-size="21" font-weight="700">Restart</text>
+      <text x="62" y="426" fill="#b9c7de">A full restart, not just</text>
+      <text x="62" y="452" fill="#b9c7de">closing the lid</text>
+
+      <rect x="330" y="330" width="260" height="150" rx="16" fill="#151f35" stroke="#39445a" stroke-width="2"/>
+      <circle cx="370" cy="372" r="22" fill="#8ab4f8"/><text x="370" y="380" fill="#0d1424" font-size="22" font-weight="700" text-anchor="middle">6</text>
+      <text x="404" y="380" fill="#ffffff" font-size="21" font-weight="700">Update</text>
+      <text x="352" y="426" fill="#b9c7de">About ChromeOS ›</text>
+      <text x="352" y="452" fill="#b9c7de">Check for updates</text>
+
+      <rect x="620" y="330" width="260" height="150" rx="16" fill="#151f35" stroke="#39445a" stroke-width="2"/>
+      <circle cx="660" cy="372" r="22" fill="#8ab4f8"/><text x="660" y="380" fill="#0d1424" font-size="22" font-weight="700" text-anchor="middle">7</text>
+      <text x="694" y="380" fill="#ffffff" font-size="21" font-weight="700">Hard reset</text>
+      <text x="642" y="426" fill="#b9c7de">Hold Refresh, tap Power.</text>
+      <text x="642" y="452" fill="#b9c7de">Files are kept</text>
+
+      <rect x="910" y="330" width="260" height="150" rx="16" fill="#2a1a1f" stroke="#f28b82" stroke-width="2"/>
+      <circle cx="950" cy="372" r="22" fill="#f28b82"/><text x="950" y="380" fill="#0d1424" font-size="22" font-weight="700" text-anchor="middle">8</text>
+      <text x="984" y="380" fill="#ffffff" font-size="21" font-weight="700">Powerwash</text>
+      <text x="932" y="426" fill="#e8c3c0">Last resort. Erases local</text>
+      <text x="932" y="452" fill="#e8c3c0">files, back up first</text>
+    </g>
+    <rect x="140" y="530" width="920" height="86" rx="16" fill="#151f35"/>
+    <text x="600" y="566" fill="#ffffff" font-size="19" font-weight="700" text-anchor="middle">Works in the Camera app but not in one website or app?</text>
+    <text x="600" y="596" fill="#b9c7de" font-size="17" text-anchor="middle">That is a permission: Chrome site settings, Android app permissions or Linux mic access.</text>
+  </g>
+</svg>

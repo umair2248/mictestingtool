@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="t">
+  <title id="t">Where the microphone is on a Chromebook: small pinholes in the bezel next to the webcam above the screen</title>
+  <g font-family="Roboto, Segoe UI, system-ui, Arial, sans-serif">
+    <rect width="1200" height="675" fill="#0d1424"/>
+    <text x="600" y="66" fill="#ffffff" font-size="32" font-weight="700" text-anchor="middle">Where is the microphone on a Chromebook?</text>
+    <text x="600" y="104" fill="#b9c7de" font-size="20" text-anchor="middle">Look for one or two tiny pinholes beside the webcam</text>
+
+    <rect x="250" y="150" width="700" height="420" rx="22" fill="#1d2433" stroke="#39445a" stroke-width="5"/>
+    <rect x="276" y="190" width="648" height="356" rx="6" fill="#e9eef7"/>
+    <rect x="276" y="516" width="648" height="30" fill="#d5ddeb"/>
+    <circle cx="600" cy="170" r="8" fill="#0a1020" stroke="#4c5670" stroke-width="2"/>
+    <circle cx="566" cy="170" r="3.5" fill="#8ab4f8"/>
+    <circle cx="634" cy="170" r="3.5" fill="#8ab4f8"/>
+    <path d="M200 570 H1000 L1022 606 Q1024 616 1012 616 H188 Q176 616 178 606 Z" fill="#2a3346"/>
+    <rect x="550" y="576" width="100" height="8" rx="4" fill="#1d2433"/>
+
+    <circle cx="600" cy="170" r="46" fill="none" stroke="#8ab4f8" stroke-width="3" stroke-dasharray="7 6"/>
+    <line x1="562" y1="186" x2="440" y2="236" stroke="#8ab4f8" stroke-width="2"/>
+    <line x1="638" y1="186" x2="760" y2="236" stroke="#8ab4f8" stroke-width="2"/>
+    <rect x="236" y="236" width="268" height="104" rx="14" fill="#0d1424" stroke="#8ab4f8" stroke-width="2"/>
+    <circle cx="270" cy="276" r="9" fill="#8ab4f8"/>
+    <text x="292" y="283" fill="#ffffff" font-size="20" font-weight="700">Microphone</text>
+    <text x="260" y="318" fill="#b9c7de" font-size="16">Pinhole beside the camera</text>
+    <rect x="696" y="236" width="268" height="104" rx="14" fill="#0d1424" stroke="#8ab4f8" stroke-width="2"/>
+    <circle cx="730" cy="276" r="9" fill="#8ab4f8"/>
+    <text x="752" y="283" fill="#ffffff" font-size="20" font-weight="700">2nd microphone</text>
+    <text x="720" y="318" fill="#b9c7de" font-size="16">On many models (stereo)</text>
+    <rect x="400" y="390" width="400" height="96" rx="14" fill="#fde7e7" stroke="#f28b82" stroke-width="2"/>
+    <text x="600" y="428" fill="#8c1d18" font-size="19" font-weight="700" text-anchor="middle">Keep the pinholes uncovered</text>
+    <text x="600" y="460" fill="#8c1d18" font-size="16" text-anchor="middle">Webcam covers, stickers and skins muffle you</text>
+  </g>
+</svg>

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="t">
+  <title id="t">Chromebook Quick Settings audio panel with the Input section, the internal microphone selected and the mute button turned off</title>
+  <g font-family="Roboto, Segoe UI, system-ui, Arial, sans-serif">
+    <rect width="1200" height="675" fill="#0d1424"/>
+    <text x="80" y="110" fill="#8ab4f8" font-size="20" font-weight="600" letter-spacing="2">STEP 1 · QUICK SETTINGS</text>
+    <text x="80" y="160" fill="#ffffff" font-size="36" font-weight="700">Unmute the Chromebook mic</text>
+    <g font-size="21" fill="#b9c7de">
+      <circle cx="96" cy="232" r="18" fill="#4c8df6"/><text x="96" y="239" fill="#0d1424" font-weight="700" text-anchor="middle" font-size="18">1</text>
+      <text x="130" y="239">Click the time, bottom right</text>
+      <circle cx="96" cy="288" r="18" fill="#4c8df6"/><text x="96" y="295" fill="#0d1424" font-weight="700" text-anchor="middle" font-size="18">2</text>
+      <text x="130" y="295">Click the arrow next to volume</text>
+      <circle cx="96" cy="344" r="18" fill="#4c8df6"/><text x="96" y="351" fill="#0d1424" font-weight="700" text-anchor="middle" font-size="18">3</text>
+      <text x="130" y="351">Under Input, unmute the mic</text>
+      <circle cx="96" cy="400" r="18" fill="#4c8df6"/><text x="96" y="407" fill="#0d1424" font-weight="700" text-anchor="middle" font-size="18">4</text>
+      <text x="130" y="407">Select Internal Mic or your headset</text>
+    </g>
+    <g transform="translate(80 470)">
+      <circle cx="16" cy="16" r="16" fill="#3a4355"/><rect x="11" y="6" width="10" height="16" rx="5" fill="#b9c7de"/><line x1="4" y1="4" x2="28" y2="28" stroke="#f28b82" stroke-width="3"/>
+      <text x="44" y="23" fill="#ffffff" font-size="19">Line through the mic icon = muted</text>
+    </g>
+    <text x="80" y="550" fill="#7d8aa3" font-size="17">The panel looks slightly different between ChromeOS</text>
+    <text x="80" y="576" fill="#7d8aa3" font-size="17">versions, but Input is always below the volume slider.</text>
+
+    <rect x="680" y="70" width="440" height="520" rx="22" fill="#1f2738" stroke="#39445a" stroke-width="3"/>
+    <text x="712" y="118" fill="#e6ecf7" font-size="22" font-weight="700">Audio settings</text>
+    <text x="712" y="168" fill="#8a97b0" font-size="14" font-weight="700" letter-spacing="1.5">OUTPUT</text>
+    <rect x="712" y="184" width="376" height="54" rx="14" fill="#283247"/>
+    <text x="736" y="218" fill="#e6ecf7" font-size="17">Speaker (internal)</text>
+    <rect x="712" y="254" width="376" height="10" rx="5" fill="#39445a"/><rect x="712" y="254" width="250" height="10" rx="5" fill="#8ab4f8"/>
+    <text x="712" y="310" fill="#8a97b0" font-size="14" font-weight="700" letter-spacing="1.5">INPUT</text>
+    <rect x="706" y="326" width="388" height="78" rx="20" fill="#d3e3fd" stroke="#4c8df6" stroke-width="3"/>
+    <circle cx="746" cy="365" r="22" fill="#4c8df6"/>
+    <rect x="740" y="351" width="12" height="20" rx="6" fill="#ffffff"/><path d="M735 366 a11 11 0 0 0 22 0" stroke="#ffffff" stroke-width="3" fill="none"/><line x1="746" y1="377" x2="746" y2="382" stroke="#ffffff" stroke-width="3"/>
+    <text x="784" y="360" fill="#0b2a63" font-size="19" font-weight="700">Internal Mic</text>
+    <text x="784" y="384" fill="#2d5bb5" font-size="15">Selected · not muted</text>
+    <circle cx="1060" cy="365" r="9" fill="#4c8df6"/>
+    <rect x="712" y="420" width="376" height="54" rx="14" fill="#283247"/>
+    <text x="736" y="454" fill="#b9c7de" font-size="17">USB Headset</text>
+    <circle cx="1060" cy="447" r="9" fill="none" stroke="#8a97b0" stroke-width="2"/>
+    <text x="712" y="514" fill="#8a97b0" font-size="14">Input level</text>
+    <g fill="#8ab4f8"><rect x="712" y="532" width="8" height="18" rx="4"/><rect x="726" y="524" width="8" height="34" rx="4"/><rect x="740" y="516" width="8" height="50" rx="4"/><rect x="754" y="526" width="8" height="30" rx="4"/><rect x="768" y="520" width="8" height="42" rx="4"/><rect x="782" y="530" width="8" height="22" rx="4"/><rect x="796" y="536" width="8" height="10" rx="4"/></g>
+    <rect x="830" y="536" width="258" height="10" rx="5" fill="#39445a"/><rect x="830" y="536" width="190" height="10" rx="5" fill="#8ab4f8"/>
+    <path d="M1100 365 L1150 365 L1150 640 L626 640" stroke="#8ab4f8" stroke-width="2" stroke-dasharray="6 6" fill="none"/>
+    <rect x="560" y="624" width="64" height="32" rx="16" fill="#283247" stroke="#8ab4f8" stroke-width="2"/>
+    <text x="592" y="646" fill="#e6ecf7" font-size="14" font-weight="700" text-anchor="middle">10:24</text>
+  </g>
+</svg>
