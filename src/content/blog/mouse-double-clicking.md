@@ -41,6 +41,8 @@ This takes two minutes and saves you from changing settings for no reason.
 2. **Try a different USB port**, ideally one on the back of the PC rather than a hub or keyboard pass-through.
 3. **Do a slow click test.** Open Notepad, type a few words, and single-click slowly on one word 20 times. Each click should just move the cursor. If a word gets highlighted (that's what a double click does), the mouse sent two clicks.
 
+   Faster: use our [mouse double click test](/double-click-test). Click slowly in the box and it shows every click with the gap in milliseconds, so a single press that arrives as two is flagged straight away.
+
 You can also hold the left button down and drag a file across the desktop. If it drops by itself before you let go, the switch is losing contact while held, which is the same fault.
 
 ![How to test a mouse for double clicking: try another PC, slow click on a word in Notepad, and drag a file to see if it drops](/blog/mouse-double-clicking/double-click-check.svg "If one slow click highlights a whole word, the mouse sent two clicks.")

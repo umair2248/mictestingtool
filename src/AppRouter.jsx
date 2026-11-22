@@ -11,6 +11,7 @@ const SpeakerTest = lazy(() => import('./pages/SpeakerTest.jsx'));
 const SurroundSoundTest = lazy(() => import('./pages/SurroundSoundTest.jsx'));
 const WebcamTest = lazy(() => import('./pages/WebcamTest.jsx'));
 const NoiseMeter = lazy(() => import('./pages/NoiseMeter.jsx'));
+const DoubleClickTest = lazy(() => import('./pages/DoubleClickTest.jsx'));
 const FeaturesPage = lazy(() => import('./pages/Features.jsx'));
 const FAQPage = lazy(() => import('./pages/faqs.jsx'));
 const BlogPage = lazy(() => import('./pages/blogs.jsx'));
@@ -34,6 +35,7 @@ export function AppRoutes() {
           <Route path="surround-sound-test" element={<SurroundSoundTest />} />
           <Route path="webcam-test" element={<WebcamTest />} />
           <Route path="noise-meter" element={<NoiseMeter />} />
+          <Route path="double-click-test" element={<DoubleClickTest />} />
           {locales.map(locale => <Route key={locale.code} path={locale.path.slice(1)} element={<LocalizedMicPage />} />)}
           <Route path="features" element={<FeaturesPage />} />
           <Route path="blog" element={<BlogPage />} />
