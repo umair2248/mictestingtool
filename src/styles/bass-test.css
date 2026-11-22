@@ -1,0 +1,22 @@
+.bass-warning { display: flex; align-items: flex-start; gap: 10px; margin: 16px 0 12px; padding: 12px 14px; border: 1px solid rgba(245, 166, 91, 0.45); border-radius: 12px; background: rgba(245, 166, 91, 0.1); color: #f5c08b; }
+.bass-warning svg { flex: none; margin-top: 2px; }
+.mic-home .bass-warning p { margin: 0; color: var(--text-soft); font-size: 0.88rem; line-height: 1.55; }
+.bass-warning strong { color: #f5c08b; }
+.bass-cap { color: var(--muted); font-weight: 400; }
+.bass-readout { display: flex; justify-content: center; align-items: baseline; gap: 8px; margin: 14px 0 6px; padding: 18px 0; border: 1px solid var(--border); border-radius: 16px; background: rgba(3, 6, 12, 0.5); color: var(--muted); transition: border-color 0.2s, box-shadow 0.2s; }
+.bass-readout.is-playing { color: var(--text); border-color: transparent; box-shadow: 0 0 0 2px rgba(79, 140, 255, 0.6), 0 10px 30px -8px rgba(79, 140, 255, 0.6); }
+.bass-hz { font: 700 3rem/1 var(--font-head); font-variant-numeric: tabular-nums; }
+.bass-unit { font: 600 1.1rem var(--font-head); }
+.bass-progress { height: 6px; margin-bottom: 8px; border-radius: 999px; background: rgba(148, 163, 184, 0.2); overflow: hidden; }
+.bass-progress span { display: block; height: 100%; background: var(--gradient); transition: width 0.1s linear; }
+.mic-home .bass-range { min-height: 2.6em; margin: 6px 0 12px; text-align: center; }
+.bass-tones { display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px; margin-bottom: 14px; }
+.bass-page .bass-tones .home-button { min-height: 40px; padding: 6px 4px; font-size: 0.82rem; }
+.bass-page .bass-tones .home-button.is-selected { background: var(--gradient); color: #fff; border-color: transparent; }
+.bass-custom { display: grid; gap: 6px; margin-bottom: 14px; }
+.bass-page #bass-custom { width: 100%; min-height: 32px; accent-color: var(--accent); cursor: pointer; }
+.bass-sweeps { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.bass-page .bass-sweeps .home-button { min-height: 44px; padding: 8px 10px; font-size: 0.85rem; }
+.bass-page .bass-mark { width: 100%; margin-top: 8px; }
+.bass-result strong { color: var(--text); }
+@media (max-width: 400px) { .bass-tones { grid-template-columns: repeat(3, 1fr); } .bass-sweeps { grid-template-columns: 1fr; } .bass-hz { font-size: 2.4rem; } }

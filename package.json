@@ -17,6 +17,7 @@
     "test:speaker": "node scripts/check-speaker-source.mjs",
     "test:surround": "node scripts/check-surround-source.mjs",
     "test:noise": "node scripts/check-noise-source.mjs",
+    "test:bass": "node scripts/check-bass-source.mjs",
     "test:doubleclick": "node scripts/check-doubleclick-source.mjs",
     "test:speaker:browser": "playwright test --config playwright.localized.config.js speaker.spec.js",
     "deploy": "node scripts/deploy.mjs"

@@ -1,0 +1,35 @@
+.tools-menu { position: static; }
+.tools-menu__trigger { display: inline-flex; align-items: center; gap: 4px; padding: 8px 12px 8px 14px; border: 0; border-radius: 999px; background: none; color: var(--muted); font: 500 0.875rem/1.4 var(--font-body); white-space: nowrap; cursor: pointer; transition: color 0.15s, background-color 0.15s; }
+.tools-menu__trigger:hover, .tools-menu__trigger[aria-expanded="true"] { color: var(--text); background: rgba(255, 255, 255, 0.05); }
+.tools-menu__trigger.is-current { color: #fff; background: rgba(79, 140, 255, 0.18); box-shadow: inset 0 0 0 1px rgba(79, 140, 255, 0.35); }
+.tools-menu__trigger:focus-visible { outline: 2px solid var(--accent-ring); outline-offset: 2px; }
+.tools-menu__caret { transition: transform 0.15s; }
+.tools-menu__trigger[aria-expanded="true"] .tools-menu__caret { transform: rotate(180deg); }
+.tools-menu__panel { position: absolute; top: calc(100% + 8px); left: 50%; transform: translateX(-50%); width: min(980px, 100vw - 48px); padding: 22px; border: 1px solid var(--border-strong); border-radius: 20px; background: #0b111e; -webkit-backdrop-filter: blur(16px); backdrop-filter: blur(16px); box-shadow: 0 30px 80px rgba(0, 0, 0, 0.6); animation: tools-in 0.18s; }
+.tools-menu__panel[hidden] { display: none; }
+/* Bridges the gap so the menu stays open while the pointer moves down into it. */
+.tools-menu__panel::before { content: ""; position: absolute; top: -28px; left: 0; right: 0; height: 28px; }
+.tools-menu__groups { display: grid; grid-template-columns: 1fr 1.5fr 1fr; gap: 18px; }
+.tools-menu__heading { margin: 0 0 10px 10px; color: var(--muted); font: 600 0.72rem/1.4 var(--font-body); letter-spacing: 0.08em; text-transform: uppercase; }
+.site-nav .tools-menu__panel ul { display: grid; gap: 4px; padding: 0; border: 0; border-radius: 0; background: none; }
+.site-nav .tools-menu__link { display: flex; align-items: flex-start; gap: 12px; padding: 10px; border-radius: 14px; color: var(--text-soft); white-space: normal; }
+.site-nav .tools-menu__link:hover { background: rgba(255, 255, 255, 0.05); }
+.site-nav .tools-menu__link[aria-current="page"] { background: rgba(79, 140, 255, 0.14); box-shadow: inset 0 0 0 1px rgba(79, 140, 255, 0.35); }
+.tools-menu__icon { display: grid; place-items: center; flex: none; width: 38px; height: 38px; border-radius: 11px; background: rgba(79, 140, 255, 0.14); color: #7fb0ff; transition: background-color 0.15s, color 0.15s; }
+.tools-menu__link:hover .tools-menu__icon, .tools-menu__link[aria-current="page"] .tools-menu__icon { background: var(--gradient); color: #fff; }
+.tools-menu__copy { display: grid; gap: 2px; min-width: 0; }
+.tools-menu__name { display: flex; align-items: center; gap: 8px; color: var(--text); font-size: 0.92rem; font-weight: 600; }
+.tools-menu__text { color: var(--muted); font-size: 0.8rem; line-height: 1.45; }
+.tools-menu__badge { padding: 1px 7px; border-radius: 999px; background: rgba(92, 200, 255, 0.16); color: #5cc8ff; font: 700 0.65rem/1.6 var(--font-body); letter-spacing: 0.04em; text-transform: uppercase; }
+.tools-menu__footer { display: flex; justify-content: space-between; align-items: center; gap: 16px; margin-top: 16px; padding: 14px 10px 0; border-top: 1px solid var(--border); color: var(--muted); font-size: 0.82rem; }
+.site-nav .tools-menu__footer a { display: inline-flex; align-items: center; gap: 6px; padding: 6px 12px; color: #7fb0ff; font-weight: 600; }
+.site-nav .tools-menu__footer a:hover { color: #fff; }
+@keyframes tools-in { from { opacity: 0; transform: translate(-50%, -6px); } to { opacity: 1; transform: translateX(-50%); } }
+
+.mobile-menu__tools { padding: 10px 0 6px; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
+.mobile-menu__tools-title { margin: 4px 16px 6px; color: var(--text); font: 700 0.95rem var(--font-head); }
+.mobile-menu__group-title { margin: 12px 16px 4px; color: var(--muted); font: 600 0.7rem/1.4 var(--font-body); letter-spacing: 0.08em; text-transform: uppercase; }
+.mobile-menu nav .mobile-menu__group ul { display: grid; gap: 2px; margin: 0; padding: 0; list-style: none; }
+.mobile-menu nav .mobile-menu__tool { display: flex; align-items: center; gap: 12px; padding: 11px 16px; }
+.mobile-menu__tool svg { flex: none; color: #7fb0ff; }
+.mobile-menu__tool .tools-menu__badge { margin-left: auto; }

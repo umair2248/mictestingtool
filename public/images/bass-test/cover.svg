@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="t">
+  <title id="t">Bass test subwoofer: low-frequency sweep from 20 to 200 Hz with a live frequency readout</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1020"/><stop offset="1" stop-color="#161f44"/></linearGradient>
+    <radialGradient id="glow" cx="0.74" cy="0.5" r="0.5"><stop offset="0" stop-color="#4f8cff" stop-opacity="0.28"/><stop offset="1" stop-color="#4f8cff" stop-opacity="0"/></radialGradient>
+    <linearGradient id="wave" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#7c5cff"/><stop offset="1" stop-color="#5cc8ff"/></linearGradient>
+  </defs>
+  <g font-family="-apple-system, Segoe UI, system-ui, Arial, sans-serif">
+    <rect width="1200" height="630" fill="url(#bg)"/>
+    <rect width="1200" height="630" fill="url(#glow)"/>
+    <text x="72" y="118" fill="#9cc0ff" font-size="26" font-weight="600" letter-spacing="3">FREE ONLINE TOOL</text>
+    <text x="72" y="196" fill="#ffffff" font-size="62" font-weight="700">Bass &amp; Subwoofer</text>
+    <text x="72" y="270" fill="#ffffff" font-size="62" font-weight="700">Test 20-200 Hz</text>
+    <text x="72" y="340" fill="#cfe3ee" font-size="26">Single tones and a slow sweep</text>
+    <text x="72" y="378" fill="#cfe3ee" font-size="26">Find how low your system goes</text>
+    <rect x="72" y="440" width="300" height="60" rx="30" fill="#4f8cff"/>
+    <text x="222" y="479" fill="#ffffff" font-size="24" font-weight="700" text-anchor="middle">mictestingtool.com</text>
+    <rect x="640" y="70" width="500" height="500" rx="24" fill="#0f1830" stroke="#2a3b62" stroke-width="2"/>
+    <text x="890" y="150" fill="#9cc0ff" font-size="22" font-weight="600" text-anchor="middle" letter-spacing="2">NOW PLAYING</text>
+    <text x="870" y="250" fill="#ffffff" font-size="96" font-weight="700" text-anchor="middle">45</text>
+    <text x="985" y="250" fill="#cfe3ee" font-size="34" font-weight="600" text-anchor="middle">Hz</text>
+    <path d="M680 380 C700 320 720 320 740 380 S780 440 800 380 S830 330 845 380 S870 425 885 380 S905 345 915 380 S932 410 942 380 S956 355 963 380 S976 400 983 380 S993 365 998 380 S1007 393 1012 380 S1020 370 1024 380 S1031 389 1035 380 S1041 373 1044 380 S1050 386 1053 380 S1058 376 1061 380 S1066 384 1069 380 S1073 377 1076 380 S1080 383 1083 380 L1100 380" fill="none" stroke="url(#wave)" stroke-width="6" stroke-linecap="round"/>
+    <rect x="690" y="470" width="400" height="10" rx="5" fill="#2a3b62"/>
+    <rect x="690" y="470" width="140" height="10" rx="5" fill="url(#wave)"/>
+    <text x="690" y="515" fill="#9fb3c8" font-size="20">20 Hz</text>
+    <text x="1090" y="515" fill="#9fb3c8" font-size="20" text-anchor="end">200 Hz</text>
+  </g>
+</svg>

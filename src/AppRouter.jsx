@@ -11,6 +11,7 @@ const SpeakerTest = lazy(() => import('./pages/SpeakerTest.jsx'));
 const SurroundSoundTest = lazy(() => import('./pages/SurroundSoundTest.jsx'));
 const WebcamTest = lazy(() => import('./pages/WebcamTest.jsx'));
 const NoiseMeter = lazy(() => import('./pages/NoiseMeter.jsx'));
+const BassTest = lazy(() => import('./pages/BassTest.jsx'));
 const DoubleClickTest = lazy(() => import('./pages/DoubleClickTest.jsx'));
 const FeaturesPage = lazy(() => import('./pages/Features.jsx'));
 const FAQPage = lazy(() => import('./pages/faqs.jsx'));
@@ -33,6 +34,7 @@ export function AppRoutes() {
           <Route index element={<HomePage />} />
           <Route path="speaker-test" element={<SpeakerTest />} />
           <Route path="surround-sound-test" element={<SurroundSoundTest />} />
+          <Route path="bass-test" element={<BassTest />} />
           <Route path="webcam-test" element={<WebcamTest />} />
           <Route path="noise-meter" element={<NoiseMeter />} />
           <Route path="double-click-test" element={<DoubleClickTest />} />

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="t">
+  <title id="t">Bass frequency chart from 20 to 200 Hz showing sub-bass, deep bass, bass and upper bass, and where laptops, bookshelf speakers and subwoofers usually reach</title>
+  <g font-family="-apple-system, Segoe UI, system-ui, Arial, sans-serif">
+    <rect width="1200" height="675" fill="#0f1b2e"/>
+    <text x="600" y="54" fill="#ffffff" font-size="30" font-weight="700" text-anchor="middle">Bass frequency chart: 20 to 200 Hz</text>
+    <rect x="140" y="90" width="295" height="90" fill="#7c5cff" fill-opacity="0.35"/>
+    <rect x="435" y="90" width="173" height="90" fill="#7c5cff" fill-opacity="0.22"/>
+    <rect x="608" y="90" width="295" height="90" fill="#4f8cff" fill-opacity="0.22"/>
+    <rect x="903" y="90" width="217" height="90" fill="#5cc8ff" fill-opacity="0.16"/>
+    <rect x="140" y="90" width="980" height="90" fill="none" stroke="#2a3b62" stroke-width="2"/>
+    <text x="287" y="130" fill="#ffffff" font-size="22" font-weight="700" text-anchor="middle">Sub-bass</text>
+    <text x="287" y="158" fill="#cfe3ee" font-size="17" text-anchor="middle">felt more than heard</text>
+    <text x="521" y="130" fill="#ffffff" font-size="20" font-weight="700" text-anchor="middle">Deep bass</text>
+    <text x="521" y="158" fill="#cfe3ee" font-size="17" text-anchor="middle">rumble, kicks</text>
+    <text x="755" y="130" fill="#ffffff" font-size="22" font-weight="700" text-anchor="middle">Bass</text>
+    <text x="755" y="158" fill="#cfe3ee" font-size="17" text-anchor="middle">punch and warmth</text>
+    <text x="1011" y="130" fill="#ffffff" font-size="22" font-weight="700" text-anchor="middle">Upper bass</text>
+    <text x="1011" y="158" fill="#cfe3ee" font-size="17" text-anchor="middle">laptops start here</text>
+    <g stroke="#2a3b62" stroke-width="1.5" stroke-dasharray="4 6">
+      <line x1="312" y1="200" x2="312" y2="590"/><line x1="435" y1="200" x2="435" y2="590"/><line x1="608" y1="200" x2="608" y2="590"/><line x1="730" y1="200" x2="730" y2="590"/><line x1="903" y1="200" x2="903" y2="590"/><line x1="825" y1="200" x2="825" y2="590"/><line x1="998" y1="200" x2="998" y2="590"/>
+    </g>
+    <g font-size="20" font-weight="600">
+      <text x="40" y="262" fill="#ffffff">Laptop</text><text x="40" y="285" fill="#9fb3c8" font-size="15" font-weight="400">phone</text>
+      <rect x="998" y="240" width="122" height="40" rx="10" fill="#5cc8ff" fill-opacity="0.8"/>
+      <text x="40" y="352" fill="#ffffff">Bookshelf</text><text x="40" y="375" fill="#9fb3c8" font-size="15" font-weight="400">speakers</text>
+      <rect x="608" y="330" width="512" height="40" rx="10" fill="#4f8cff" fill-opacity="0.85"/>
+      <text x="40" y="442" fill="#ffffff">Small sub</text><text x="40" y="465" fill="#9fb3c8" font-size="15" font-weight="400">8-10 inch</text>
+      <rect x="378" y="420" width="742" height="40" rx="10" fill="#6d6cff" fill-opacity="0.85"/>
+      <text x="40" y="532" fill="#ffffff">Large sub</text><text x="40" y="555" fill="#9fb3c8" font-size="15" font-weight="400">12 inch +</text>
+      <rect x="181" y="510" width="939" height="40" rx="10" fill="#7c5cff" fill-opacity="0.9"/>
+      <text x="1012" y="267" fill="#06101f" font-size="17">~150 Hz</text>
+      <text x="622" y="357" fill="#ffffff" font-size="17">~60 Hz</text>
+      <text x="392" y="447" fill="#ffffff" font-size="17">~35 Hz</text>
+      <text x="195" y="537" fill="#ffffff" font-size="17">~22 Hz</text>
+    </g>
+    <line x1="140" y1="600" x2="1120" y2="600" stroke="#3b4d68" stroke-width="2"/>
+    <g fill="#cfe3ee" font-size="18" text-anchor="middle">
+      <text x="140" y="630">20</text><text x="312" y="630">30</text><text x="435" y="630">40</text><text x="608" y="630">60</text><text x="730" y="630">80</text><text x="825" y="630">100</text><text x="903" y="630">120</text><text x="998" y="630">150</text><text x="1120" y="630">200 Hz</text>
+    </g>
+    <text x="600" y="662" fill="#9fb3c8" font-size="16" text-anchor="middle">Typical lowest usable note. Room placement can move these by 10 Hz or more.</text>
+  </g>
+</svg>
