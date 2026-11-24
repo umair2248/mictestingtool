@@ -121,7 +121,7 @@ Headsets with a single plug usually have a 4-pole (TRRS) connector carrying both
 - If the mic still does not appear, remove the headset from Bluetooth settings, pair it again, and reconnect.
 - Some earbuds use the microphone only on one side or turn it off when an earbud is in its case. Wear both earbuds while testing.
 
-For more about connectors, splitters and USB microphones, read our guide to [connecting and setting up a microphone on PC or Mac](/blog/how-to-connect-set-up-microphone).
+For more about connectors, splitters and USB microphones, read our guide to [connecting and setting up a microphone on PC or Mac](/blog/how-to-connect-set-up-microphone). If your headset mic isn't working on a console, see [how to test your mic on Xbox](/blog/xbox-mic-test).
 
 ## Phone microphone not working
 

@@ -101,6 +101,8 @@ Do not assume that a USB microphone working on Windows will work when plugged in
 
 For example, the official [Xbox Stereo Headset](https://www.xbox.com/en-US/accessories/headsets/xbox-stereo-headset/) connects through a controller's 3.5 mm jack. That documented connection is not a blanket compatibility promise for other microphones or adapters.
 
+Once it's connected, follow our guide on [how to test your mic on Xbox](/blog/xbox-mic-test) to check that party chat hears you.
+
 When using a capture or streaming PC, selecting a microphone in the PC's streaming software does not automatically route it into console party chat. Decide whether you need stream commentary, in-game chat or party chat, then follow a supported connection method for that use.
 
 ### Other consoles and adapters

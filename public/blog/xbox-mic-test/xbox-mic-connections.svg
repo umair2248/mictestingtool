@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="t">
+  <title id="t">How to connect a mic to Xbox: a wired headset in the controller's 3.5 mm jack, an Xbox Wireless Headset paired to the console, or a USB headset with its own Xbox dongle</title>
+  <g font-family="Roboto, Segoe UI, system-ui, Arial, sans-serif">
+    <rect width="1200" height="675" fill="#0d1424"/>
+    <text x="600" y="64" fill="#ffffff" font-size="32" font-weight="700" text-anchor="middle">How to connect a mic to Xbox</text>
+    <text x="600" y="102" fill="#b9c7de" font-size="20" text-anchor="middle">Series X|S and Xbox One support these three. Bluetooth does not work.</text>
+
+    <rect x="40" y="140" width="360" height="380" rx="18" fill="#151f35" stroke="#5cc15c" stroke-width="2"/>
+    <text x="220" y="186" fill="#ffffff" font-size="23" font-weight="700" text-anchor="middle">Wired, via controller</text>
+    <path d="M150 260 q-40 0 -50 50 q-8 46 30 50 q28 2 50 -30 h80 q22 32 50 30 q38 -4 30 -50 q-10 -50 -50 -50 Z" fill="#2a3346" stroke="#5f6b80" stroke-width="3"/>
+    <circle cx="180" cy="298" r="12" fill="#3b4a66"/><circle cx="262" cy="298" r="12" fill="#3b4a66"/>
+    <rect x="208" y="324" width="24" height="14" rx="4" fill="#0d1424" stroke="#5cc15c" stroke-width="2"/>
+    <path d="M220 338 v44 q0 26 -40 26 h-40" stroke="#b9c7de" stroke-width="5" fill="none"/>
+    <text x="220" y="468" fill="#b9c7de" font-size="17" text-anchor="middle">3.5 mm jack on the bottom.</text>
+    <text x="220" y="494" fill="#b9c7de" font-size="17" text-anchor="middle">Use a 4-pole plug.</text>
+
+    <rect x="420" y="140" width="360" height="380" rx="18" fill="#151f35" stroke="#5cc15c" stroke-width="2"/>
+    <text x="600" y="186" fill="#ffffff" font-size="23" font-weight="700" text-anchor="middle">Wireless, paired</text>
+    <path d="M540 320 a60 60 0 0 1 120 0" stroke="#b9c7de" stroke-width="10" fill="none"/>
+    <rect x="522" y="310" width="34" height="62" rx="14" fill="#2a3346" stroke="#5f6b80" stroke-width="3"/>
+    <rect x="644" y="310" width="34" height="62" rx="14" fill="#2a3346" stroke="#5f6b80" stroke-width="3"/>
+    <path d="M540 372 q10 34 50 34" stroke="#5f6b80" stroke-width="5" fill="none"/>
+    <path d="M700 240 a24 24 0 0 1 0 34 M712 228 a40 40 0 0 1 0 58" stroke="#5cc15c" stroke-width="4" fill="none"/>
+    <text x="600" y="468" fill="#b9c7de" font-size="17" text-anchor="middle">Press pair on the console,</text>
+    <text x="600" y="494" fill="#b9c7de" font-size="17" text-anchor="middle">then on the headset.</text>
+
+    <rect x="800" y="140" width="360" height="380" rx="18" fill="#151f35" stroke="#5cc15c" stroke-width="2"/>
+    <text x="980" y="186" fill="#ffffff" font-size="23" font-weight="700" text-anchor="middle">USB dongle for Xbox</text>
+    <rect x="870" y="280" width="180" height="90" rx="12" fill="#2a3346" stroke="#5f6b80" stroke-width="3"/>
+    <rect x="1050" y="310" width="36" height="30" rx="4" fill="#0d1424" stroke="#5cc15c" stroke-width="2"/>
+    <rect x="1080" y="314" width="40" height="22" rx="4" fill="#5cc15c"/>
+    <text x="960" y="332" fill="#b9c7de" font-size="17" text-anchor="middle">console</text>
+    <text x="980" y="468" fill="#b9c7de" font-size="17" text-anchor="middle">Only dongles made for Xbox.</text>
+    <text x="980" y="494" fill="#b9c7de" font-size="17" text-anchor="middle">Plain USB desk mics won’t chat.</text>
+
+    <rect x="140" y="560" width="920" height="70" rx="16" fill="#2a1a1f" stroke="#f28b82" stroke-width="2"/>
+    <text x="600" y="603" fill="#e8c3c0" font-size="19" text-anchor="middle">Won’t work for chat: AirPods and other Bluetooth headsets, most USB desk mics, the TV.</text>
+  </g>
+</svg>

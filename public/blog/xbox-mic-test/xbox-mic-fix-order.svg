@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="t">
+  <title id="t">Xbox mic not working: fixes in order, from mute switches and the plug to another controller, firmware, chat volume, power cycle, privacy and a different headset</title>
+  <g font-family="Roboto, Segoe UI, system-ui, Arial, sans-serif">
+    <rect width="1200" height="675" fill="#0d1424"/>
+    <text x="600" y="64" fill="#ffffff" font-size="32" font-weight="700" text-anchor="middle">Xbox mic not working? Try these in order</text>
+    <text x="600" y="102" fill="#b9c7de" font-size="20" text-anchor="middle">Start an empty party after each step. Stop when the ring lights up.</text>
+    <g font-size="17">
+      <rect x="40" y="140" width="260" height="150" rx="16" fill="#151f35" stroke="#5cc15c" stroke-width="2"/>
+      <circle cx="80" cy="182" r="22" fill="#5cc15c"/><text x="80" y="190" fill="#0d1424" font-size="22" font-weight="700" text-anchor="middle">1</text>
+      <text x="114" y="190" fill="#ffffff" font-size="21" font-weight="700">Mute switches</text>
+      <text x="62" y="236" fill="#b9c7de">Headset button, adapter</text>
+      <text x="62" y="262" fill="#b9c7de">and mute in the party</text>
+
+      <rect x="330" y="140" width="260" height="150" rx="16" fill="#151f35" stroke="#5cc15c" stroke-width="2"/>
+      <circle cx="370" cy="182" r="22" fill="#5cc15c"/><text x="370" y="190" fill="#0d1424" font-size="22" font-weight="700" text-anchor="middle">2</text>
+      <text x="404" y="190" fill="#ffffff" font-size="21" font-weight="700">Reconnect</text>
+      <text x="352" y="236" fill="#b9c7de">Push the plug fully in,</text>
+      <text x="352" y="262" fill="#b9c7de">or re-pair a wireless set</text>
+
+      <rect x="620" y="140" width="260" height="150" rx="16" fill="#151f35" stroke="#5cc15c" stroke-width="2"/>
+      <circle cx="660" cy="182" r="22" fill="#5cc15c"/><text x="660" y="190" fill="#0d1424" font-size="22" font-weight="700" text-anchor="middle">3</text>
+      <text x="694" y="190" fill="#ffffff" font-size="21" font-weight="700">Other controller</text>
+      <text x="642" y="236" fill="#b9c7de">A worn 3.5 mm jack is</text>
+      <text x="642" y="262" fill="#b9c7de">a very common cause</text>
+
+      <rect x="910" y="140" width="260" height="150" rx="16" fill="#151f35" stroke="#5cc15c" stroke-width="2"/>
+      <circle cx="950" cy="182" r="22" fill="#5cc15c"/><text x="950" y="190" fill="#0d1424" font-size="22" font-weight="700" text-anchor="middle">4</text>
+      <text x="984" y="190" fill="#ffffff" font-size="21" font-weight="700">Firmware</text>
+      <text x="932" y="236" fill="#b9c7de">Accessories › controller ›</text>
+      <text x="932" y="262" fill="#b9c7de">Firmware version</text>
+
+      <rect x="40" y="330" width="260" height="150" rx="16" fill="#151f35" stroke="#39445a" stroke-width="2"/>
+      <circle cx="80" cy="372" r="22" fill="#a6e3a1"/><text x="80" y="380" fill="#0d1424" font-size="22" font-weight="700" text-anchor="middle">5</text>
+      <text x="114" y="380" fill="#ffffff" font-size="21" font-weight="700">Chat volume</text>
+      <text x="62" y="426" fill="#b9c7de">Chat mixer: move it</text>
+      <text x="62" y="452" fill="#b9c7de">toward chat</text>
+
+      <rect x="330" y="330" width="260" height="150" rx="16" fill="#151f35" stroke="#39445a" stroke-width="2"/>
+      <circle cx="370" cy="372" r="22" fill="#a6e3a1"/><text x="370" y="380" fill="#0d1424" font-size="22" font-weight="700" text-anchor="middle">6</text>
+      <text x="404" y="380" fill="#ffffff" font-size="21" font-weight="700">Power cycle</text>
+      <text x="352" y="426" fill="#b9c7de">Hold the console button</text>
+      <text x="352" y="452" fill="#b9c7de">about 10 seconds</text>
+
+      <rect x="620" y="330" width="260" height="150" rx="16" fill="#151f35" stroke="#39445a" stroke-width="2"/>
+      <circle cx="660" cy="372" r="22" fill="#a6e3a1"/><text x="660" y="380" fill="#0d1424" font-size="22" font-weight="700" text-anchor="middle">7</text>
+      <text x="694" y="380" fill="#ffffff" font-size="21" font-weight="700">Privacy</text>
+      <text x="642" y="426" fill="#b9c7de">Communication &amp;</text>
+      <text x="642" y="452" fill="#b9c7de">multiplayer: allow voice</text>
+
+      <rect x="910" y="330" width="260" height="150" rx="16" fill="#2a1a1f" stroke="#f28b82" stroke-width="2"/>
+      <circle cx="950" cy="372" r="22" fill="#f28b82"/><text x="950" y="380" fill="#0d1424" font-size="22" font-weight="700" text-anchor="middle">8</text>
+      <text x="984" y="380" fill="#ffffff" font-size="21" font-weight="700">New headset</text>
+      <text x="932" y="426" fill="#e8c3c0">Last step, only if it also</text>
+      <text x="932" y="452" fill="#e8c3c0">fails on a phone or PC</text>
+    </g>
+    <rect x="140" y="530" width="920" height="86" rx="16" fill="#151f35"/>
+    <text x="600" y="566" fill="#ffffff" font-size="19" font-weight="700" text-anchor="middle">Ring lights up but friends still can’t hear you?</text>
+    <text x="600" y="596" fill="#b9c7de" font-size="17" text-anchor="middle">The mic works. Check privacy, game chat versus party chat, and your network.</text>
+  </g>
+</svg>
