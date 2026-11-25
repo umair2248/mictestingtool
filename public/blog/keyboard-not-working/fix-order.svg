@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="t">
+  <title id="t">Laptop keyboard not working fixes in order: restart, Filter Keys and Sticky Keys, layout and Fn lock, driver, keyboard app and updates, cleaning, BIOS check, then repair</title>
+  <g font-family="-apple-system, Segoe UI, system-ui, Arial, sans-serif">
+    <rect width="1200" height="675" fill="#0f1b2e"/>
+    <text x="600" y="58" fill="#ffffff" font-size="32" font-weight="700" text-anchor="middle">Keyboard not working? Go in this order</text>
+    <text x="600" y="92" fill="#8b99ad" font-size="17" text-anchor="middle">Settings first, hardware last. Type a sentence in Notepad after each step.</text>
+    <g font-size="21">
+      <rect x="100" y="120" width="480" height="104" rx="14" fill="#16263f" stroke="#2ec27e" stroke-width="2"/>
+      <text x="128" y="164" fill="#2ec27e" font-weight="700">1</text><text x="160" y="164" fill="#ffffff" font-weight="700">Restart properly</text>
+      <text x="160" y="196" fill="#b8c8de" font-size="16">Start &gt; Power &gt; Restart, not just the lid</text>
+      <rect x="620" y="120" width="480" height="104" rx="14" fill="#16263f" stroke="#2ec27e" stroke-width="2"/>
+      <text x="648" y="164" fill="#2ec27e" font-weight="700">2</text><text x="680" y="164" fill="#ffffff" font-weight="700">Filter Keys and Sticky Keys off</text>
+      <text x="680" y="196" fill="#b8c8de" font-size="16">Settings &gt; Accessibility &gt; Keyboard</text>
+      <rect x="100" y="244" width="480" height="104" rx="14" fill="#16263f" stroke="#2ec27e" stroke-width="2"/>
+      <text x="128" y="288" fill="#2ec27e" font-weight="700">3</text><text x="160" y="288" fill="#ffffff" font-weight="700">Layout, Num Lock, Fn lock</text>
+      <text x="160" y="320" fill="#b8c8de" font-size="16">Windows + Space, Fn + Esc</text>
+      <rect x="620" y="244" width="480" height="104" rx="14" fill="#16263f" stroke="#f5c542" stroke-width="2"/>
+      <text x="648" y="288" fill="#f5c542" font-weight="700">4</text><text x="680" y="288" fill="#ffffff" font-weight="700">Reinstall the driver</text>
+      <text x="680" y="320" fill="#b8c8de" font-size="16">Device Manager &gt; Keyboards &gt; Uninstall</text>
+      <rect x="100" y="368" width="480" height="104" rx="14" fill="#16263f" stroke="#f5c542" stroke-width="2"/>
+      <text x="128" y="412" fill="#f5c542" font-weight="700">5</text><text x="160" y="412" fill="#ffffff" font-weight="700">Keyboard app and updates</text>
+      <text x="160" y="444" fill="#b8c8de" font-size="16">Close remapping apps, undo a bad update</text>
+      <rect x="620" y="368" width="480" height="104" rx="14" fill="#16263f" stroke="#f5c542" stroke-width="2"/>
+      <text x="648" y="412" fill="#f5c542" font-weight="700">6</text><text x="680" y="412" fill="#ffffff" font-weight="700">Clean under the keys</text>
+      <text x="680" y="444" fill="#b8c8de" font-size="16">Power off, short bursts of compressed air</text>
+      <rect x="100" y="492" width="480" height="104" rx="14" fill="#16263f" stroke="#f5a65b" stroke-width="2"/>
+      <text x="128" y="536" fill="#f5a65b" font-weight="700">7</text><text x="160" y="536" fill="#ffffff" font-weight="700">Test in the BIOS</text>
+      <text x="160" y="568" fill="#b8c8de" font-size="16">Works there? It's Windows, not the keys</text>
+      <rect x="620" y="492" width="480" height="104" rx="14" fill="#16263f" stroke="#f5a65b" stroke-width="2"/>
+      <text x="648" y="536" fill="#f5a65b" font-weight="700">8</text><text x="680" y="536" fill="#ffffff" font-weight="700">Warranty or repair</text>
+      <text x="680" y="568" fill="#b8c8de" font-size="16">Use a USB keyboard in the meantime</text>
+    </g>
+    <text x="600" y="640" fill="#8b99ad" font-size="16" text-anchor="middle">Dead in the BIOS and on every port too? Skip straight to 8.</text>
+  </g>
+</svg>

@@ -129,4 +129,6 @@ It stops slow clicks being read as a double click. It won't stop a failing switc
 
 ## While you're testing your gear
 
+Keyboard playing up as well? See our guide to [fixing a keyboard that's not working](/blog/keyboard-not-working) on Windows, Mac and wireless keyboards.
+
 If you're sorting out a whole desk setup, you can check your other bits here too: the [online microphone test](/#microphone-test) for your mic, the [speaker and headphone test](/speaker-test) for left and right audio, and the [webcam test](/webcam-test) before your next call.
