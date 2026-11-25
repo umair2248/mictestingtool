@@ -3,6 +3,8 @@ import { useNavigate } from 'react-router-dom';
 import { Mail, Lock, User, Eye, EyeOff, ShieldCheck, ArrowRight } from 'lucide-react';
 import { supabase } from '../utils/supabaseClient';
 
+const googleAuthEnabled = import.meta.env?.VITE_GOOGLE_AUTH === 'true';
+
 const initialForm = {
   name: '',
   email: '',
@@ -19,6 +21,22 @@ export default function AuthPage({ initialMode = 'login' }) {
   const [showConfirm, setShowConfirm] = useState(false);
   const [statusMessage, setStatusMessage] = useState('');
   const [loading, setLoading] = useState(false);
+  const [user, setUser] = useState(null);
+
+  useEffect(() => {
+    if (!supabase) return undefined;
+    supabase.auth.getSession().then(({ data }) => setUser(data.session?.user ?? null));
+    const { data: listener } = supabase.auth.onAuthStateChange((_event, session) => setUser(session?.user ?? null));
+    return () => listener.subscription.unsubscribe();
+  }, []);
+
+  const handleSignOut = async () => {
+    setLoading(true);
+    await supabase.auth.signOut();
+    setUser(null);
+    setStatusMessage('You have signed out.');
+    setLoading(false);
+  };
 
   useEffect(() => {
     setMode(initialMode);
@@ -80,8 +98,7 @@ export default function AuthPage({ initialMode = 'login' }) {
       if (error) throw error;
 
       setStatusMessage('Logged in successfully!');
-      console.info('Login success', data);
-      setTimeout(() => navigate('/'), 1200);
+      setUser(data.user);
     } catch (error) {
       setStatusMessage(error.message);
     } finally {
@@ -96,6 +113,7 @@ export default function AuthPage({ initialMode = 'login' }) {
         email: formData.email,
         password: formData.password,
         options: {
+          emailRedirectTo: `${window.location.origin}/login`,
           data: {
             full_name: formData.name,
           },
@@ -104,8 +122,8 @@ export default function AuthPage({ initialMode = 'login' }) {
 
       if (error) throw error;
 
-      setStatusMessage('Registration successful! Check your email if confirmation is required.');
-      console.info('Register success', data);
+      if (data.session) setUser(data.user);
+      setStatusMessage(data.session ? 'Account created. You are signed in.' : 'Account created! Check your email and click the confirmation link, then sign in.');
     } catch (error) {
       setStatusMessage(error.message);
     } finally {
@@ -161,6 +179,13 @@ export default function AuthPage({ initialMode = 'login' }) {
       ? 'Create your secure workspace and begin testing with calm precision.'
       : 'Welcome back. Continue your testing workflow in a private, distraction-free space.'
   ), [isRegister]);
+
+  if (user) return <div className="page"><header className="page-hero"><div className="container">
+    <span className="eyebrow">Account</span>
+    <h1>You are signed in</h1>
+    <p className="lead">Signed in as <strong>{user.email}</strong>.</p>
+  </div></header>
+  <div className="content-page"><div className="page-links"><button type="button" className="btn btn-ghost" onClick={handleSignOut} disabled={loading}>Sign out</button><a href="/" className="btn btn-primary">Open the microphone tester</a></div></div></div>;
 
   if (!supabase) return <section className="content-page"><h1>{isRegister ? 'Account registration unavailable' : 'Account sign-in unavailable'}</h1><p>Accounts are currently disabled. You can use the microphone tester and read all guides without signing in.</p><a href="/">Open the microphone tester</a></section>;
 
@@ -219,7 +244,7 @@ export default function AuthPage({ initialMode = 'login' }) {
               <p style={styles.formSubtitle}>{isRegister ? 'Start your high-performance testing experience.' : 'Sign in securely to continue your session.'}</p>
             </div>
 
-            {/* Google Quick Social Auth Button */}
+            {googleAuthEnabled && <>
             <button 
               type="button" 
               onClick={handleGoogleLogin} 
@@ -238,6 +263,7 @@ export default function AuthPage({ initialMode = 'login' }) {
             <div className="auth-divider">
               <span>or email</span>
             </div>
+            </>}
 
             {isRegister && (
               <div style={styles.fieldWrap}>

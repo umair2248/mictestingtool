@@ -42,6 +42,8 @@ const PrivacyPolicy: React.FC = () => {
 
           <h2>Advertising</h2>
           <p>We may display advertisements provided by third-party advertising networks. These advertising providers may use cookies or similar technologies to provide, measure, or personalize advertisements.</p>
+          <p>We use Google AdSense to show ads. Third-party vendors, including Google, use cookies to serve ads based on your prior visits to this website or other websites. Google's use of advertising cookies enables it and its partners to serve ads to you based on your visits to this site and/or other sites on the Internet.</p>
+          <p>You may opt out of personalized advertising by visiting <a href="https://www.google.com/settings/ads" target="_blank" rel="noopener noreferrer">Google Ads Settings</a>, or opt out of some third-party vendors' use of cookies for personalized advertising at <a href="https://www.aboutads.info/choices/" target="_blank" rel="noopener noreferrer">www.aboutads.info</a>. Learn more about <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener noreferrer">how Google uses information from sites that use its services</a>.</p>
           <p>Third-party advertising providers operate under their own privacy policies. We recommend reviewing the applicable privacy policies of those providers for more information about their practices.</p>
 
           <h2>Third-Party Services</h2>

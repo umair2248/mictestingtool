@@ -27,5 +27,6 @@ export default function MobileMenu({ open, onClose, locale, items = navigation, 
    <ul>{group.tools.map(tool => <li key={tool.to}><NavLink to={tool.to} end onClick={onClose} lang={item.lang} className="mobile-menu__tool"><ToolIcon name={tool.icon} size={18}/>{tool.label}{tool.isNew && <span className="tools-menu__badge">New</span>}</NavLink></li>)}</ul></div>)}
  </li> : <li key={item.to}><NavLink to={item.to} end onClick={onClose} lang={item.lang}>{item.label}</NavLink></li>)}</ul></nav>
  <div onClick={event => { if (event.target.closest('a')) onClose(); }}><LanguageLinks /></div>
+ {!locale && <Link to="/login" onClick={onClose} className="mobile-menu__login">Log in / Sign up</Link>}
  <Link to={locale?.path || '/'} onClick={onClose} className="mobile-menu__cta">{locale?.tool.title || 'Test your microphone'}</Link></div><div className="mobile-menu__backdrop" aria-hidden="true" onClick={onClose}/></div>;
 }

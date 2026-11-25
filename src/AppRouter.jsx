@@ -52,6 +52,9 @@ export function AppRoutes() {
           <Route path="privacy" element={<PrivacyPolicy />} />
           <Route path="terms" element={<Information />} />
           <Route path="security" element={<Information />} />
+          <Route path="about" element={<Information />} />
+          <Route path="disclaimer" element={<Information />} />
+          <Route path="cookie-policy" element={<Information />} />
           <Route path="*" element={<NotFound />} />
         </Route>
 

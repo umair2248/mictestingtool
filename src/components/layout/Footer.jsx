@@ -6,7 +6,7 @@ import '../../styles/footer.css';
 const columns = [
   { title: 'Tools', links: [['/', 'Online Mic Test'], ['/webcam-test', 'Webcam & Mic Test'], ['/speaker-test', 'Speaker & Headphone Test'], ['/surround-sound-test', 'Surround Sound Test'], ['/bass-test', 'Bass & Subwoofer Test'], ['/noise-meter', 'Classroom Noise Meter'], ['/double-click-test', 'Mouse Double Click Test'], ['/features', 'Tester Features']] },
   { title: 'Guides', links: [['/blog/how-to-test-your-microphone', 'How to Test a Microphone'], ['/blog/microphone-not-working', 'Mic Not Working? Fixes'], ['/blog/how-to-connect-set-up-microphone', 'Set Up a Mic on PC or Mac'], ['/blog', 'All Guides'], ['/faq', 'Troubleshooting FAQ']] },
-  { title: 'Company', links: [['/contact', 'Contact'], ['/privacy', 'Privacy Policy'], ['/terms', 'Terms of Use'], ['/security', 'Security']] },
+  { title: 'Company', links: [['/about', 'About Us'], ['/contact', 'Contact'], ['/privacy', 'Privacy Policy'], ['/terms', 'Terms of Use'], ['/cookie-policy', 'Cookie Policy'], ['/disclaimer', 'Disclaimer'], ['/security', 'Security']] },
 ];
 
 export default function Footer() {

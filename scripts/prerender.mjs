@@ -26,13 +26,16 @@ function routeAssets(path) {
   return [...tags].join('\n');
 }
 const paths = [...routes(), '/404'];
+const noAdPaths = new Set(['/login', '/signup', '/admin/editor', '/404']);
 for (const path of paths) {
   const markup = await render(path);
   // React 19 hoists metadata during server rendering. Place it in the document
   // head, where hydrateRoot can reuse it on first load and update it on navigation.
   const tags = [];
   const body = markup.replace(/<title>[\s\S]*?<\/title>|<meta\b[^>]*\/?>|<link\b[^>]*\/?>/g, tag => { tags.push(tag); return ''; });
-  const html = template.replace(/<html\b[^>]*>/, `<html lang="${getPageLanguage(path)}" dir="ltr">`).replace('<!--seo-head-->', `${tags.join('\n')}\n${routeAssets(path)}`).replace('<div id="root"></div>', `<div id="root" data-prerendered="true">${body}</div>`);
+  // AdSense policy: no ads on login, admin or error pages.
+  const pageTemplate = noAdPaths.has(path) ? template.replace(/\s*<script\b[^>]*adsbygoogle\.js[^>]*><\/script>/g, '') : template;
+  const html = pageTemplate.replace(/<html\b[^>]*>/, `<html lang="${getPageLanguage(path)}" dir="ltr">`).replace('<!--seo-head-->', `${tags.join('\n')}\n${routeAssets(path)}`).replace('<div id="root"></div>', `<div id="root" data-prerendered="true">${body}</div>`);
   if (!html.includes('<h1') || html.includes('<!--seo-head-->')) throw new Error(`Incomplete prerender: ${path}`);
   const file = path === '/404' ? resolve(root, 'dist/404.html') : resolve(root, 'dist', path.slice(1), 'index.html');
   await mkdir(dirname(file), { recursive: true });
