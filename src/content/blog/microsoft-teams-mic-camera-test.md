@@ -124,6 +124,7 @@ If your mic works but the camera is black, frozen or missing in Teams, check the
 - **Camera works elsewhere?** Open the [webcam test](/webcam-test) or the Windows **Camera** app. If you see video there, the camera is fine and Teams permissions or settings are the cause.
 - **Black or dark preview:** turn off background effects in the pre-join screen and try again, and check your room lighting.
 - **Camera disabled in Windows:** in **Device Manager > Cameras**, right-click the webcam and choose **Enable device** if it shows a down arrow.
+- **Camera not working outside Teams too?** See our guide to [fixing a camera that's not working](/blog/camera-not-working) on Windows, ASUS laptops, Mac and iPhone.
 - **Video turned off by the organizer:** in some meetings attendees cannot share video. The **Camera** button is greyed out.
 
 ## Teams mic and camera on iPhone, iPad and Android

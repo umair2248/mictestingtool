@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="t">
+  <title id="t">Camera not working check: works in other apps, works nowhere, or only the front camera fails, and what each result points to</title>
+  <g font-family="-apple-system, Segoe UI, system-ui, Arial, sans-serif">
+    <rect width="1200" height="675" fill="#0f1b2e"/>
+    <text x="600" y="62" fill="#ffffff" font-size="32" font-weight="700" text-anchor="middle">Where the camera fails tells you where to look</text>
+    <text x="600" y="98" fill="#8b99ad" font-size="18" text-anchor="middle">Try the webcam test, Photo Booth or the Camera app, then match the result.</text>
+
+    <rect x="40" y="136" width="360" height="430" rx="18" fill="#16263f" stroke="#2ec27e" stroke-width="2"/>
+    <text x="220" y="184" fill="#ffffff" font-size="24" font-weight="700" text-anchor="middle">Works in other apps</text>
+    <rect x="150" y="210" width="140" height="100" rx="10" fill="#2ec27e33" stroke="#2ec27e" stroke-width="3"/>
+    <circle cx="220" cy="248" r="18" fill="#2ec27e"/><path d="M188 304 q32 -44 64 0 z" fill="#2ec27e"/>
+    <g fill="#b8c8de" font-size="18" text-anchor="middle">
+      <text x="220" y="374">The camera is fine</text>
+      <text x="220" y="404">App permission or setting</text>
+      <text x="220" y="434">Restart or update the app</text>
+      <text x="220" y="494" fill="#2ec27e">FaceTime only? Check</text>
+      <text x="220" y="522" fill="#2ec27e">Screen Time restrictions</text>
+    </g>
+
+    <rect x="420" y="136" width="360" height="430" rx="18" fill="#16263f" stroke="#f26d6d" stroke-width="2"/>
+    <text x="600" y="184" fill="#ffffff" font-size="24" font-weight="700" text-anchor="middle">Black everywhere</text>
+    <rect x="530" y="210" width="140" height="100" rx="10" fill="#05080f" stroke="#f26d6d" stroke-width="3"/>
+    <path d="M580 240 l40 40 M620 240 l-40 40" stroke="#f26d6d" stroke-width="5" stroke-linecap="round"/>
+    <g fill="#b8c8de" font-size="18" text-anchor="middle">
+      <text x="600" y="374">Privacy shutter or lens cover</text>
+      <text x="600" y="404">Camera hotkey (F10 on ASUS)</text>
+      <text x="600" y="434">Another app holding it</text>
+      <text x="600" y="494" fill="#f5a65b">Missing from Device Manager?</text>
+      <text x="600" y="522" fill="#f5a65b">Driver or hardware</text>
+    </g>
+
+    <rect x="800" y="136" width="360" height="430" rx="18" fill="#16263f" stroke="#f5c542" stroke-width="2"/>
+    <text x="980" y="184" fill="#ffffff" font-size="24" font-weight="700" text-anchor="middle">Only front camera fails</text>
+    <rect x="935" y="206" width="90" height="140" rx="16" fill="#1a2336" stroke="#f5c542" stroke-width="3"/>
+    <rect x="962" y="214" width="36" height="10" rx="5" fill="#f5c542"/>
+    <g fill="#b8c8de" font-size="18" text-anchor="middle">
+      <text x="980" y="384">Case or screen protector</text>
+      <text x="980" y="414">Dirty lens, stuck Camera app</text>
+      <text x="980" y="444">Restart and update iOS</text>
+      <text x="980" y="494" fill="#f5a65b">After a drop or repair?</text>
+      <text x="980" y="522" fill="#f5a65b">Likely hardware</text>
+    </g>
+    <text x="600" y="620" fill="#8b99ad" font-size="17" text-anchor="middle">Failing in one app only is almost never a broken camera.</text>
+  </g>
+</svg>

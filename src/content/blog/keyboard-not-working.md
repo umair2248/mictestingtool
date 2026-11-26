@@ -177,4 +177,4 @@ Yes. Plug in any USB or Bluetooth keyboard and it works straight away. For signi
 
 ## Check the rest of your setup
 
-If your mouse is acting up too, see [why a mouse keeps double clicking](/blog/mouse-double-clicking) or run the [mouse double click test](/double-click-test). And while you're sorting out your desk, the [online microphone test](/#microphone-test), the [speaker and headphone test](/speaker-test) and the [webcam test](/webcam-test) check the rest of your gear in a few seconds, right in your browser.
+If your mouse is acting up too, see [why a mouse keeps double clicking](/blog/mouse-double-clicking) or run the [mouse double click test](/double-click-test). And while you're sorting out your desk, the [online microphone test](/#microphone-test), the [speaker and headphone test](/speaker-test) and the [webcam test](/webcam-test) check the rest of your gear in a few seconds, right in your browser. If the webcam test shows a black screen, see [how to fix a camera that's not working](/blog/camera-not-working).

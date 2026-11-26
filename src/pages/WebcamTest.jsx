@@ -162,7 +162,7 @@ export default function WebcamTest() {
     <section className="home-section home-section-alt" id="webcam-faq"><div className="home-container">
       <div className="home-section-intro"><h2>Webcam and mic test: frequently asked questions</h2></div>
       <div className="home-faq-list">{faqs.map(([q, a]) => <details className="home-faq" key={q}><summary>{q}</summary><p>{a}</p></details>)}</div>
-      <p className="home-more">More help: <Link to="/blog/microphone-not-working">microphone not working fixes</Link>, <Link to="/blog/how-to-test-your-microphone">how to test your microphone</Link>, <Link to="/blog/how-to-connect-set-up-microphone">set up a microphone on PC or Mac</Link>, or the <Link to="/faq">troubleshooting FAQ</Link>.</p>
+      <p className="home-more">More help: <Link to="/blog/camera-not-working">camera not working fixes</Link> (FaceTime, iPhone, ASUS laptops), <Link to="/blog/microphone-not-working">microphone not working fixes</Link>, <Link to="/blog/how-to-test-your-microphone">how to test your microphone</Link>, <Link to="/blog/how-to-connect-set-up-microphone">set up a microphone on PC or Mac</Link>, or the <Link to="/faq">troubleshooting FAQ</Link>.</p>
     </div></section>
 
     <section className="home-section"><div className="home-container"><div className="home-bottom">
