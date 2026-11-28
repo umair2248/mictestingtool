@@ -148,3 +148,21 @@ select.input, .content-page select { appearance: none; -webkit-appearance: none;
 .toolbar .field { flex: 1 1 220px; margin: 0; }
 
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; } }
+
+/* Page navigation feedback (see components/NavigationProgress.jsx) */
+.nav-progress { position: fixed; top: 0; left: 0; right: 0; z-index: 1300; height: 3px; pointer-events: none; opacity: 0; transition: opacity 0.3s ease 0.15s; }
+.nav-progress span { display: block; height: 100%; background: var(--gradient); box-shadow: 0 0 10px var(--accent), 0 0 4px var(--accent); transform-origin: left; transform: scaleX(0); }
+.nav-progress--loading { opacity: 1; transition: none; }
+.nav-progress--loading span { animation: nav-progress-trickle 12s cubic-bezier(0.1, 0.7, 0.3, 1) forwards; }
+.nav-progress--done span { transform: scaleX(1); transition: transform 0.2s ease-out; }
+@keyframes nav-progress-trickle { 0% { transform: scaleX(0); } 5% { transform: scaleX(0.3); } 30% { transform: scaleX(0.65); } 100% { transform: scaleX(0.92); } }
+html.is-navigating, html.is-navigating a { cursor: progress; }
+html.is-navigating .site-main { opacity: 0.55; transition: opacity 0.2s ease 0.25s; }
+.site-main { transition: opacity 0.15s ease; }
+.page-loading { display: flex; align-items: center; justify-content: center; gap: 12px; min-height: 60vh; color: var(--muted); font-size: 0.95rem; }
+.page-loading__spinner { width: 22px; height: 22px; border-radius: 50%; border: 2px solid var(--border-strong); border-top-color: var(--accent); animation: page-loading-spin 0.7s linear infinite; }
+@keyframes page-loading-spin { to { transform: rotate(360deg); } }
+@media (prefers-reduced-motion: reduce) {
+  .nav-progress--loading span { animation: none; transform: scaleX(0.6); }
+  .page-loading__spinner { animation-duration: 1.6s; }
+}

@@ -2,6 +2,7 @@ import React, { lazy, Suspense } from 'react';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import MainLayout from './layouts/MainLayout';
 import SEO from './components/SEO';
+import { NavigationProgress, NavigationDone } from './components/NavigationProgress';
 import NotFound from './pages/NotFound';
 import { locales } from './data/locales';
 import Information from './pages/Information';
@@ -27,7 +28,8 @@ const AdminBlogEditor = lazy(() => import('./pages/AdminBlogEditor.jsx'));
 
 export function AppRoutes() {
   return (
-    <><SEO /><Suspense fallback={<p className="content-page" role="status">Loading page…</p>}>
+    <><SEO /><NavigationProgress /><Suspense fallback={<div className="page-loading" role="status"><span className="page-loading__spinner" aria-hidden="true" />Loading page…</div>}>
+      <NavigationDone />
       <Routes>
         {/* Main Layout ke andar ke standard pages */}
         <Route path="/" element={<MainLayout />}>
