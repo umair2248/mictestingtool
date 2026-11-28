@@ -58,7 +58,7 @@ Open **Apple menu > System Settings > Sound > Input** and select your microphone
 
 Then make a short browser recording so you can hear the signal. If access is blocked, check **System Settings > Privacy & Security > Microphone** and allow the browser. Follow any prompt to quit and reopen it after changing permission.
 
-Apple's [sound input settings guide](https://support.apple.com/guide/mac-help/change-the-sound-input-settings-mchlp2567/mac) explains input selection and volume controls. Menu names can differ on older macOS versions.
+Apple's [sound input settings guide](https://support.apple.com/guide/mac-help/change-the-sound-input-settings-mchlp2567/mac) explains input selection and volume controls. Menu names can differ on older macOS versions. For Voice Memos recordings, the closed-lid catch and MacBook fixes, see [how to test your mic on a Mac or MacBook](/blog/mac-microphone-test).
 
 ## How to test your mic on a phone or tablet
 

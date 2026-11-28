@@ -95,7 +95,7 @@ On a Chromebook, the steps are different: see [how to turn on and test the micro
 2. Open **System Settings > Sound > Input** and choose the right microphone. Speak and watch the input level; drag the **Input volume** slider up if the bar barely moves.
 3. If the input list is empty, disconnect accessories, restart the Mac, and connect one microphone at a time.
 
-Apple's guide to [changing sound input settings on Mac](https://support.apple.com/guide/mac-help/change-the-sound-input-settings-mchlp2567/mac) shows the input screen for your macOS version.
+Apple's guide to [changing sound input settings on Mac](https://support.apple.com/guide/mac-help/change-the-sound-input-settings-mchlp2567/mac) shows the input screen for your macOS version. For the full list of MacBook fixes, including Mic Mode and restarting Core Audio, see [how to test and fix the microphone on a Mac](/blog/mac-microphone-test).
 
 ## Headset microphone not working
 

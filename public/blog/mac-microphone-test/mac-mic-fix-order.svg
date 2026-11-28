@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="t">
+  <title id="t">MacBook microphone not working: fixes in order from input selection and volume to permissions, closed lid, restarting Core Audio, macOS update and repair</title>
+  <g font-family="-apple-system, Segoe UI, system-ui, Arial, sans-serif">
+    <rect width="1200" height="675" fill="#0f1b2e"/>
+    <text x="600" y="62" fill="#ffffff" font-size="32" font-weight="700" text-anchor="middle">Fix a MacBook mic in this order</text>
+    <text x="600" y="98" fill="#8b99ad" font-size="18" text-anchor="middle">Test again after each step. Most problems are solved in the first row.</text>
+    <g font-size="19" text-anchor="middle">
+      <rect x="60" y="140" width="250" height="150" rx="16" fill="#16263f" stroke="#2ec27e" stroke-width="2"/>
+      <circle cx="185" cy="184" r="22" fill="#2ec27e"/><text x="185" y="191" fill="#04182b" font-weight="700">1</text>
+      <text x="185" y="236" fill="#ffffff" font-weight="700">Right input</text><text x="185" y="264" fill="#b8c8de" font-size="16">Sound &gt; Input</text>
+      <rect x="340" y="140" width="250" height="150" rx="16" fill="#16263f" stroke="#2ec27e" stroke-width="2"/>
+      <circle cx="465" cy="184" r="22" fill="#2ec27e"/><text x="465" y="191" fill="#04182b" font-weight="700">2</text>
+      <text x="465" y="236" fill="#ffffff" font-weight="700">Input volume up</text><text x="465" y="264" fill="#b8c8de" font-size="16">Drag the slider right</text>
+      <rect x="620" y="140" width="250" height="150" rx="16" fill="#16263f" stroke="#2ec27e" stroke-width="2"/>
+      <circle cx="745" cy="184" r="22" fill="#2ec27e"/><text x="745" y="191" fill="#04182b" font-weight="700">3</text>
+      <text x="745" y="236" fill="#ffffff" font-weight="700">App settings</text><text x="745" y="264" fill="#b8c8de" font-size="16">Same mic, not muted</text>
+      <rect x="900" y="140" width="250" height="150" rx="16" fill="#16263f" stroke="#2ec27e" stroke-width="2"/>
+      <circle cx="1025" cy="184" r="22" fill="#2ec27e"/><text x="1025" y="191" fill="#04182b" font-weight="700">4</text>
+      <text x="1025" y="236" fill="#ffffff" font-weight="700">Allow access</text><text x="1025" y="264" fill="#b8c8de" font-size="16">Privacy &amp; Security</text>
+
+      <rect x="60" y="330" width="250" height="150" rx="16" fill="#16263f" stroke="#f5c542" stroke-width="2"/>
+      <circle cx="185" cy="374" r="22" fill="#f5c542"/><text x="185" y="381" fill="#04182b" font-weight="700">5</text>
+      <text x="185" y="426" fill="#ffffff" font-weight="700">Lid open</text><text x="185" y="454" fill="#b8c8de" font-size="16">Closed lid = mic off</text>
+      <rect x="340" y="330" width="250" height="150" rx="16" fill="#16263f" stroke="#f5c542" stroke-width="2"/>
+      <circle cx="465" cy="374" r="22" fill="#f5c542"/><text x="465" y="381" fill="#04182b" font-weight="700">6</text>
+      <text x="465" y="426" fill="#ffffff" font-weight="700">Unplug extras</text><text x="465" y="454" fill="#b8c8de" font-size="16">Hubs, docks, headsets</text>
+      <rect x="620" y="330" width="250" height="150" rx="16" fill="#16263f" stroke="#f5c542" stroke-width="2"/>
+      <circle cx="745" cy="374" r="22" fill="#f5c542"/><text x="745" y="381" fill="#04182b" font-weight="700">7</text>
+      <text x="745" y="426" fill="#ffffff" font-weight="700">Mic Mode</text><text x="745" y="454" fill="#b8c8de" font-size="16">Try Standard</text>
+      <rect x="900" y="330" width="250" height="150" rx="16" fill="#16263f" stroke="#f5c542" stroke-width="2"/>
+      <circle cx="1025" cy="374" r="22" fill="#f5c542"/><text x="1025" y="381" fill="#04182b" font-weight="700">8</text>
+      <text x="1025" y="426" fill="#ffffff" font-weight="700">Restart the Mac</text><text x="1025" y="454" fill="#b8c8de" font-size="16">Clears stuck audio</text>
+
+      <rect x="200" y="520" width="250" height="110" rx="16" fill="#16263f" stroke="#f5a65b" stroke-width="2"/>
+      <text x="325" y="562" fill="#ffffff" font-weight="700">9. Restart Core Audio</text><text x="325" y="594" fill="#b8c8de" font-size="15">sudo killall coreaudiod</text>
+      <rect x="475" y="520" width="250" height="110" rx="16" fill="#16263f" stroke="#f5a65b" stroke-width="2"/>
+      <text x="600" y="562" fill="#ffffff" font-weight="700">10. Update macOS</text><text x="600" y="594" fill="#b8c8de" font-size="15">Software Update</text>
+      <rect x="750" y="520" width="250" height="110" rx="16" fill="#16263f" stroke="#f26d6d" stroke-width="2"/>
+      <text x="875" y="562" fill="#ffffff" font-weight="700">Still no input level?</text><text x="875" y="594" fill="#b8c8de" font-size="15">Contact Apple for repair</text>
+    </g>
+  </g>
+</svg>

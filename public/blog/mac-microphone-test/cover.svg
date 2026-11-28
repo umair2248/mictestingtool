@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="t">
+  <title id="t">Mac microphone test: a MacBook showing the Sound Input settings with a moving input level meter</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1020"/><stop offset="1" stop-color="#10233d"/></linearGradient>
+    <radialGradient id="glow" cx="0.75" cy="0.5" r="0.5"><stop offset="0" stop-color="#4fb6ff" stop-opacity="0.25"/><stop offset="1" stop-color="#4fb6ff" stop-opacity="0"/></radialGradient>
+  </defs>
+  <g font-family="-apple-system, Segoe UI, system-ui, Arial, sans-serif">
+    <rect width="1200" height="630" fill="url(#bg)"/>
+    <rect width="1200" height="630" fill="url(#glow)"/>
+    <text x="72" y="118" fill="#8fd0ff" font-size="26" font-weight="600" letter-spacing="3">MAC MIC TEST</text>
+    <text x="72" y="196" fill="#ffffff" font-size="56" font-weight="700">How to Test</text>
+    <text x="72" y="264" fill="#ffffff" font-size="56" font-weight="700">Your Mic on a</text>
+    <text x="72" y="332" fill="#ffffff" font-size="56" font-weight="700">Mac or MacBook</text>
+    <text x="72" y="404" fill="#d3deee" font-size="24">Sound settings · Voice Memos · Online test</text>
+    <text x="72" y="442" fill="#d3deee" font-size="24">Plus fixes when it can't hear you</text>
+    <rect x="72" y="496" width="300" height="60" rx="30" fill="#4fb6ff"/>
+    <text x="222" y="535" fill="#04182b" font-size="24" font-weight="700" text-anchor="middle">mictestingtool.com</text>
+    <rect x="660" y="150" width="480" height="300" rx="18" fill="#1a2336" stroke="#8b99ad" stroke-width="4"/>
+    <rect x="682" y="172" width="436" height="256" rx="8" fill="#0f1b2e"/>
+    <rect x="890" y="156" width="20" height="10" rx="5" fill="#05080f"/>
+    <text x="704" y="210" fill="#ffffff" font-size="20" font-weight="700">Sound</text>
+    <rect x="790" y="192" width="80" height="26" rx="13" fill="#2a3346"/><text x="830" y="211" fill="#b8c8de" font-size="15" text-anchor="middle">Output</text>
+    <rect x="876" y="192" width="80" height="26" rx="13" fill="#4fb6ff"/><text x="916" y="211" fill="#04182b" font-size="15" font-weight="700" text-anchor="middle">Input</text>
+    <rect x="704" y="238" width="392" height="44" rx="8" fill="#16263f" stroke="#4fb6ff" stroke-width="2"/>
+    <text x="722" y="266" fill="#ffffff" font-size="17">MacBook Pro Microphone</text>
+    <path d="M1070 254 l-10 12 l-6 -6" stroke="#4fb6ff" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <text x="704" y="318" fill="#b8c8de" font-size="16">Input level</text>
+    <g fill="#2ec27e"><rect x="810" y="304" width="16" height="18" rx="3"/><rect x="832" y="304" width="16" height="18" rx="3"/><rect x="854" y="304" width="16" height="18" rx="3"/><rect x="876" y="304" width="16" height="18" rx="3"/><rect x="898" y="304" width="16" height="18" rx="3"/><rect x="920" y="304" width="16" height="18" rx="3"/></g>
+    <g fill="#2a3346"><rect x="942" y="304" width="16" height="18" rx="3"/><rect x="964" y="304" width="16" height="18" rx="3"/><rect x="986" y="304" width="16" height="18" rx="3"/><rect x="1008" y="304" width="16" height="18" rx="3"/><rect x="1030" y="304" width="16" height="18" rx="3"/></g>
+    <text x="704" y="368" fill="#b8c8de" font-size="16">Input volume</text>
+    <rect x="810" y="358" width="236" height="6" rx="3" fill="#2a3346"/><rect x="810" y="358" width="170" height="6" rx="3" fill="#4fb6ff"/><circle cx="980" cy="361" r="11" fill="#ffffff"/>
+    <path d="M620 450 h560 l-30 34 h-500 z" fill="#2a3346" stroke="#8b99ad" stroke-width="3"/>
+    <circle cx="1080" cy="110" r="38" fill="#2ec27e"/><path d="M1062 110 l12 12 l24 -26" stroke="#fff" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

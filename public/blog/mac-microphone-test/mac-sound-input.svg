@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="t">
+  <title id="t">Mac System Settings Sound Input tab with the MacBook microphone selected, the input level meter moving and the input volume slider</title>
+  <g font-family="-apple-system, Segoe UI, system-ui, Arial, sans-serif">
+    <rect width="1200" height="675" fill="#0f1b2e"/>
+    <text x="600" y="62" fill="#ffffff" font-size="32" font-weight="700" text-anchor="middle">System Settings &gt; Sound &gt; Input</text>
+    <text x="600" y="98" fill="#8b99ad" font-size="18" text-anchor="middle">Select the microphone, speak, and watch the input level move.</text>
+    <rect x="100" y="130" width="1000" height="470" rx="18" fill="#16263f" stroke="#2a3346" stroke-width="2"/>
+    <rect x="100" y="130" width="250" height="470" rx="18" fill="#122036"/>
+    <circle cx="130" cy="160" r="7" fill="#f26d6d"/><circle cx="152" cy="160" r="7" fill="#f5c542"/><circle cx="174" cy="160" r="7" fill="#2ec27e"/>
+    <g font-size="18" fill="#b8c8de">
+      <text x="134" y="220">Wi-Fi</text><text x="134" y="262">Bluetooth</text><text x="134" y="304">Notifications</text>
+      <rect x="120" y="322" width="210" height="36" rx="8" fill="#4fb6ff"/><text x="134" y="346" fill="#04182b" font-weight="700">Sound</text>
+      <text x="134" y="388">Privacy &amp; Security</text><text x="134" y="430">Displays</text>
+    </g>
+    <text x="390" y="190" fill="#ffffff" font-size="26" font-weight="700">Sound</text>
+    <rect x="560" y="166" width="120" height="34" rx="17" fill="#2a3346"/><text x="620" y="189" fill="#b8c8de" font-size="17" text-anchor="middle">Output</text>
+    <rect x="690" y="166" width="120" height="34" rx="17" fill="#4fb6ff"/><text x="750" y="189" fill="#04182b" font-size="17" font-weight="700" text-anchor="middle">Input</text>
+    <g font-size="18">
+      <rect x="390" y="226" width="670" height="52" rx="10" fill="#1d3150" stroke="#4fb6ff" stroke-width="2"/>
+      <text x="412" y="258" fill="#ffffff">MacBook Pro Microphone</text><text x="900" y="258" fill="#8b99ad">Built-in</text>
+      <path d="M1032 246 l-12 14 l-7 -7" stroke="#4fb6ff" stroke-width="3" fill="none" stroke-linecap="round"/>
+      <rect x="390" y="286" width="670" height="52" rx="10" fill="#16263f" stroke="#2a3346" stroke-width="2"/>
+      <text x="412" y="318" fill="#b8c8de">USB Microphone</text><text x="900" y="318" fill="#8b99ad">USB</text>
+      <rect x="390" y="346" width="670" height="52" rx="10" fill="#16263f" stroke="#2a3346" stroke-width="2"/>
+      <text x="412" y="378" fill="#b8c8de">AirPods</text><text x="900" y="378" fill="#8b99ad">Bluetooth</text>
+    </g>
+    <text x="390" y="452" fill="#ffffff" font-size="19">Input level</text>
+    <g fill="#2ec27e"><rect x="540" y="434" width="26" height="24" rx="4"/><rect x="574" y="434" width="26" height="24" rx="4"/><rect x="608" y="434" width="26" height="24" rx="4"/><rect x="642" y="434" width="26" height="24" rx="4"/><rect x="676" y="434" width="26" height="24" rx="4"/><rect x="710" y="434" width="26" height="24" rx="4"/><rect x="744" y="434" width="26" height="24" rx="4"/></g>
+    <g fill="#2a3346"><rect x="778" y="434" width="26" height="24" rx="4"/><rect x="812" y="434" width="26" height="24" rx="4"/><rect x="846" y="434" width="26" height="24" rx="4"/><rect x="880" y="434" width="26" height="24" rx="4"/><rect x="914" y="434" width="26" height="24" rx="4"/></g>
+    <text x="956" y="452" fill="#2ec27e" font-size="17">Moves as you talk</text>
+    <text x="390" y="522" fill="#ffffff" font-size="19">Input volume</text>
+    <rect x="540" y="512" width="380" height="8" rx="4" fill="#2a3346"/><rect x="540" y="512" width="280" height="8" rx="4" fill="#4fb6ff"/><circle cx="820" cy="516" r="14" fill="#ffffff"/>
+    <text x="940" y="522" fill="#f5c542" font-size="17">Too low = no sound</text>
+    <text x="600" y="640" fill="#8b99ad" font-size="17" text-anchor="middle">On macOS Monterey and earlier: System Preferences &gt; Sound &gt; Input.</text>
+  </g>
+</svg>
